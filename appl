@@ -1,0 +1,38 @@
+spring.datasource.url=jdbc:sqlserver://172.23.120.21\\SQLEXPRESS:4961;databaseName=MSALESUAT
+spring.datasource.username=ENC(bzQAsiVD61CQVI63Yw7wl6w46p5pWTzx)
+spring.datasource.password=ENC(tspig8/XputshbUWvaobLlmg/7XV+COW)
+
+spring.datasource.hikari.minimum-idle=10
+spring.datasource.hikari.maximum-pool-size=50
+
+spring.jpa.database-platform=org.hibernate.dialect.SQLServer2012Dialect
+spring.jpa.generate-ddl=false
+spring.jpa.hibernate.ddl-auto = update
+
+jasypt.encryptor.algorithm=PBEWithMD5AndDES
+jasypt.encryptor.iv-generator-classname=org.jasypt.iv.NoIvGenerator
+jasypt.encryptor.password=msalesaxis
+
+
+batch.archieveLogTable.enable=true
+batch.archieveLogTable.duration= -30
+batch.archieveLogTable.cron= 0 0 0 * * *
+
+app.encrption.key=pE5nm9GhrRFNRjCanEitQtMV4lyHhNrgD/6GvlZloHE=
+app.solutionProducts=132,154,133,74,101,168,173,78,502,34
+app.convertSolutionProducts=78,502,100,34
+
+app.rest.mProProxyEnable=false
+app.rest.mProConnectTimeout=5000
+app.rest.mProReadTimeout=75000
+app.rest.proxyUrl=proxy.cognizant.com
+app.rest.proxyPort=6050
+
+app.interfaces.tokenAuthorizationUrl=https://gatewaycloudnonprod.maxlifeinsurance.com/uat/uat-mpro-oauth-validation
+app.interfaces.tokenAuthorizationKey=AFaFpwoBAqa5Bdepg8rSE1n01Fa3pTS9uuxn1hP4
+app.interfaces.tokenAuthorizationXApiGwId=ker843wjf9
+
+app.token.secretKey=mAxisSecret
+app.token.expiryDuration=30000000
+
+thanos.encrption.key=pE5nm9GhrRFNRjCanEitQtMV4lyHhNrgD/6GvlZl
