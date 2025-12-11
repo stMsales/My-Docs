@@ -68,3 +68,20 @@ Exception occurred in get proposal java.lang.NullPointerException: Cannot invoke
 
 
 @timestamp:Dec 11, 2025 @ 14:12:22.145 container_id:acfc16a8edca4834a2ce61f867a2942e-0723589486 container_name:matrix-dev-proposal-fargate-container source:stdout log:com.mli.mpro.proposal.exception.UserHandledException: null ecs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://devsecops.maxlifeinsurance.com/master
