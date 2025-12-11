@@ -1,4 +1,356 @@
-
-
-
-@timestamp:Dec 11, 2025 @ 16:42:56.340 container_id:8a1a21af638f49e0847974e899ab76ee-0723589486 container_name:matrix-dev-proposal-fargate-container source:stdout ecs_cluster:matrix-dev-microservices-cluster ecs_task_arn:arn:aws:ecs:ap-south-1:777706696655:task/matrix-dev-microservices-cluster/8a1a21af638f49e0847974e899ab76ee ecs_task_definition:matrix-dev-proposal-ms-fargate-td:7855 log:2025-12-11 11:12:56 1f409f6b-83b2-4bd5-bda5-0f772415bb3e 2000110567 matrix-dev-proposal-fargate-container [http-nio-8080-exec-3]ERROR c.m.mpro.proposal.util.LoggerUtility - {"timestamp":"2025-12-11 11:12:56","containerName":"matrix-dev-proposal-fargate-container","threadRequestId":"416773ac-63c6-44a9-8bac-8d63f0825ff2","transactionId":"2000110567","agentId":"655393","sno":"49","methodName":"saveProposalForm","origin":"com.mli.mpro.proposal.service.impl.ProposalServiceImpl:846","message":"existingProposalDetails1: ProposalDetails[id='693aa6c89bc1017b91bddaf4, transactionId=2000110567, version='null, sourceType='null, applicationDetails=ApplicationDetails [createdTime=null, applicationStatus=null, updatedTime=null, stage=1, spStage=1, policyNumber=null, formType=self, backendHandlerType=null, posvJourneyStatus=null, posvJourneyFlag=null, policyProcessingJourneyStatus=null, underwritingJourneyFlag=null, underwritingJourneyStatus=null, axisTelesalesPosvJourneyStatus=null, underwritingStatus=null, quoteId=null, posvType=null, isCKYCAvailable=null, ckycNumber=null, dolphinPushTime=null, bIGeneratedDateOriginal=null, dolphinPushDate=null, posvTriggerDate=null, sellerConsentCompletionDate=null, leadCreationDate=null, leadExpiryDate=null, ampJourneyStatus=null, isParallelJourney=null, physicalJourneyEnabled =null, rePolicyNumbernull, schemeType=null, corporateCustomerId =null], sourcingDetails=SourcingDetails{isAgentValidated=false, agentId='655393', partnerAgentId='null', agentName='', agencyName='null', agentLocation='null', agentRole='', agentLevel='null', agentMobileNumber=0, agentJoiningDate=null, agentStatus='null', agentSignDate=null, agentCode='null', agentEmail='', goCABrokerCode='null', agentLicenseStartdate='null', agentlicenseExpiryDate=null, licenceExpiryDateForAgent=null, reportingManagerCode='null', reportingManagerName='null', spStatus='null', ssnCode='null', specifiedPersonName='null', specifiedPersonCode='', persistency='null', specifiedPersonDetails=SpeicifiedPersonDetails [spName=null, spCode=SP0069520143, amlStatus=null, amlTrainingExpirationDate=null, ulipStatus=null, ulipTrainingExpirationDate=null, spLicenseStartDate=null, spLicenseExpiryDate=null, spCertificateNumber=null, spSSNCode=655393, spGoCABrokerCode=null, spLocation=null, spMobileNumber=null, mSpaceRaid=null, spAgentId=null], regionalAdvisorId='null', salesRegionalManager='null', serviceRegionalManager='null', assetRegionalManager='null', designation='null', categoryDesc='null', agentBranchData='null', sourcingBranchCode='null', agentId2='null', agentId3='null', regionalAdvisorName='null', regionalAdvisorIdType='null', branchBusinessCode='null', isPosSeller=null, isSpJourneyCompleted=null, initialSolId='null', selectedSolId='null', teleSalesBranchId='null', agentAadhaar='null', agentPAN='null', regionalAdvisorMobile='null', regionalAdvisorEmail='null', specifiedPersonMobile='null', specifiedPersonEmail='null', agentBranchPincode='null', agentDob=null, agentGender='null', agentSegmentDesc='null', referralCode='null', campaignId='null', campaignLocationOption='null', campaignIdOption='null', campaignLocation='null', referenceID='null', partnerCustId='null', branchMailId='null', mappedAgentId='null', relationshipManagerSupport='null', relationshipManagerCode='null', licenceNum='null', alphaNumericSolId='null', uwAgentJoiningDt='null',rAJourneyApplicable='null', spValidated='null',isCkycWipCase='null',lgRole='null',agentSegment='null',raDocumentSharingId='',raDocumentSharingEmail='',raDocumentSharingMobile='',avcRAID='null',utmCode='null'}, channelDetails=ChannelDetails [branchCode=0012, partnerChannel=null, branchName=null, channel=X, channelId=null, specifiedPersonChannel=SpecifiedPersonChannel [spBranchCode=0012, spBranchName=null, spChannel=null, spChannelId=null], originalChannel=null, deoChannel=null, channelTypenull], partyInformation=[PartyInformation [partyType=Proposer, basicDetails=BasicDetails [firstName=UDIT, middleName= , lastName=Kumar, gender=M, dob=Fri May 09 00:00:00 UTC 1986, fatherName=null, motherName=null, residentialStatus=null, nationalityDetails=null, marriageDetails=null, education=Graduate, occupation=Salaried, annualIncome=null, areBothAddressSame=false, address=[Address [proofType=, proofNumber=null, proofExpiryDate=null, addressType=Current, addressDetails=AddressDetails [houseNo=11/6,NETHAJI NAGAR,KULATHUPALA, area=YAM,COIMBATORE -, landmark=, city=Coimbatore , state=TAMIL NADU, pinCode=641109, country=, village=,permanentVoterIdOcrStatus=null,permanentAadhaarOcrStatus=null,communicationVoterIdOcrStatus=null,communicationAadhaarOcrStatus=null, voterIdOcrStatus=null, aadhaarOcrStatus=null]], Address [proofType=, proofNumber=null, proofExpiryDate=null, addressType=Permanent, addressDetails=AddressDetails [houseNo=90 a AH Street, area=, landmark=, city=Jalandhar , state=, pinCode=144001, country=, village=,permanentVoterIdOcrStatus=null,permanentAadhaarOcrStatus=null,communicationVoterIdOcrStatus=null,communicationAadhaarOcrStatus=null, voterIdOcrStatus=null, aadhaarOcrStatus=null]]], qualification=null, dobProofType=null, relationshipWithProposer=null, relationshipWithProposerWhenOther=null, preferredLanguageOfCommunication=null, PreferredMailingAddress='null, personalIdentification=PersonalIdentification [phone=[Phone [phoneNumber=9650989475, stdIsdCode=, phoneType=mobileNumber countryName=null], Phone [phoneNumber=, stdIsdCode=, phoneType=alternateMobileNo countryName=null], Phone [phoneNumber=, stdIsdCode=, phoneType=alternateLandlineNo countryName=null], Phone [phoneNumber=, stdIsdCode=, phoneType=communicationAlternateLandlineNo countryName=null]], aadhaarDetails=null, enrollment=null, pan=PanDetails{panNumber='AJFPV8829C', isPANExist=false, isPanValidated=false, isDobValidated=false, creditScore='null', incomeRange='null', panOcrFlag=false, panOcrStatus='null', payorPanOcrStatus='null', panValidationService='null', panDobVerificationCounter='null', panAadhaarLinkStatus='null', panAadhaarResponseTime=null, ekycByPan='null'}, email=uditkumar@gmail.com, ckycNumber=null, pranNumber=null, abhaId=null, insurerAbhaId=null, subscribersWithdrawalType=null], nachOcrStatus=null, dateOfIncorporation=null, businessType=null, bdmId=null, enrollerId=null, finderId=null, companyName=null, ageOfLifeInsured=null,companyType=null ,organizationType=null,relationshipWithCompany=null ,relationshipWithCompanyWhenOther=null ,directorIdentificationNumber=null ,sourceOfFunds=null ,isNPSCustomer=null ,isGovtEmployee=null ,age=null, hasLastName=false], personalIdentification=null, partyDetails=null, bankDetails=null, BSE500Company=null], PartyInformation [partyType=Insured, basicDetails=BasicDetails [firstName=UDIT, middleName= , lastName=Kumar, gender=M, dob=Fri May 09 00:00:00 UTC 1986, fatherName=null, motherName=null, residentialStatus=null, nationalityDetails=null, marriageDetails=null, education=Graduate, occupation=Salaried, annualIncome=null, areBothAddressSame=false, address=[Address [proofType=, proofNumber=null, proofExpiryDate=null, addressType=Current, addressDetails=AddressDetails [houseNo=11/6,NETHAJI NAGAR,KULATHUPALA, area=YAM,COIMBATORE -, landmark=, city=Coimbatore , state=TAMIL NADU, pinCode=641109, country=, village=,permanentVoterIdOcrStatus=null,permanentAadhaarOcrStatus=null,communicationVoterIdOcrStatus=null,communicationAadhaarOcrStatus=null, voterIdOcrStatus=null, aadhaarOcrStatus=null]], Address [proofType=, proofNumber=null, proofExpiryDate=null, addressType=Permanent, addressDetails=AddressDetails [houseNo=90 a AH Street, area=, landmark=, city=Jalandhar , state=, pinCode=144001, country=, village=,permanentVoterIdOcrStatus=null,permanentAadhaarOcrStatus=null,communicationVoterIdOcrStatus=null,communicationAadhaarOcrStatus=null, voterIdOcrStatus=null, aadhaarOcrStatus=null]]], qualification=null, dobProofType=null, relationshipWithProposer=null, relationshipWithProposerWhenOther=null, preferredLanguageOfCommunication=null, PreferredMailingAddress='null, personalIdentification=PersonalIdentification [phone=[Phone [phoneNumber=9650989475, stdIsdCode=, phoneType=mobileNumber countryName=null], Phone [phoneNumber=, stdIsdCode=, phoneType=alternateMobileNo countryName=null], Phone [phoneNumber=, stdIsdCode=, phoneType=alternateLandlineNo countryName=null], Phone [phoneNumber=, stdIsdCode=, phoneType=communicationAlternateLandlineNo countryName=null]], aadhaarDetails=null, enrollment=null, pan=PanDetails{panNumber='AJFPV8829C', isPANExist=false, isPanValidated=false, isDobValidated=false, creditScore='null', incomeRange='null', panOcrFlag=false, panOcrStatus='null', payorPanOcrStatus='null', panValidationService='null', panDobVerificationCounter='null', panAadhaarLinkStatus='null', panAadhaarResponseTime=null, ekycByPan='null'}, email=uditkumar@gmail.com, ckycNumber=null, pranNumber=null, abhaId=null, insurerAbhaId=null, subscribersWithdrawalType=null], nachOcrStatus=null, dateOfIncorporation=null, businessType=null, bdmId=null, enrollerId=null, finderId=null, companyName=null, ageOfLifeInsured=null,companyType=null ,organizationType=null,relationshipWithCompany=null ,relationshipWithCompanyWhenOther=null ,directorIdentificationNumber=null ,sourceOfFunds=null ,isNPSCustomer=null ,isGovtEmployee=null ,age=null, hasLastName=false], personalIdentification=null, partyDetails=null, bankDetails=null, BSE500Company=null], PartyInformation [partyType=Payor, basicDetails=BasicDetails [firstName=UDIT, middleName= , lastName=Kumar, gender=M, dob=Fri May 09 00:00:00 UTC 1986, fatherName=null, motherName=null, residentialStatus=null, nationalityDetails=null, marriageDetails=null, education=Graduate, occupation=Salaried, annualIncome=null, areBothAddressSame=false, address=[Address [proofType=, proofNumber=null, proofExpiryDate=null, addressType=Current, addressDetails=AddressDetails [houseNo=11/6,NETHAJI NAGAR,KULATHUPALA, area=YAM,COIMBATORE -, landmark=, city=Coimbatore , state=TAMIL NADU, pinCode=641109, country=, village=,permanentVoterIdOcrStatus=null,permanentAadhaarOcrStatus=null,communicationVoterIdOcrStatus=null,communicationAadhaarOcrStatus=null, voterIdOcrStatus=null, aadhaarOcrStatus=null]], Address [proofType=, proofNumber=null, proofExpiryDate=null, addressType=Permanent, addressDetails=AddressDetails [houseNo=90 a AH Street, area=, landmark=, city=Jalandhar , state=, pinCode=144001, country=, village=,permanentVoterIdOcrStatus=null,permanentAadhaarOcrStatus=null,communicationVoterIdOcrStatus=null,communicationAadhaarOcrStatus=null, voterIdOcrStatus=null, aadhaarOcrStatus=null]]], qualification=null, dobProofType=null, relationshipWithProposer=null, relationshipWithProposerWhenOther=null, preferredLanguageOfCommunication=null, PreferredMailingAddress='null, personalIdentification=PersonalIdentification [phone=[Phone [phoneNumber=9650989475, stdIsdCode=, phoneType=mobileNumber countryName=null], Phone [phoneNumber=, stdIsdCode=, phoneType=alternateMobileNo countryName=null], Phone [phoneNumber=, stdIsdCode=, phoneType=alternateLandlineNo countryName=null], Phone [phoneNumber=, stdIsdCode=, phoneType=communicationAlternateLandlineNo countryName=null]], aadhaarDetails=null, enrollment=null, pan=PanDetails{panNumber='AJFPV8829C', isPANExist=false, isPanValidated=false, isDobValidated=false, creditScore='null', incomeRange='null', panOcrFlag=false, panOcrStatus='null', payorPanOcrStatus='null', panValidationService='null', panDobVerificationCounter='null', panAadhaarLinkStatus='null', panAadhaarResponseTime=null, ekycByPan='null'}, email=uditkumar@gmail.com, ckycNumber=null, pranNumber=null, abhaId=null, insurerAbhaId=null, subscribersWithdrawalType=null], nachOcrStatus=null, dateOfIncorporation=null, businessType=null, bdmId=null, enrollerId=null, finderId=null, companyName=null, ageOfLifeInsured=null,companyType=null ,organizationType=null,relationshipWithCompany=null ,relationshipWithCompanyWhenOther=null ,directorIdentificationNumber=null ,sourceOfFunds=null ,isNPSCustomer=null ,isGovtEmployee=null ,age=null, hasLastName=false], personalIdentification=null, partyDetails=null, bankDetails=null, BSE500Company=null]], productDetails=[ProductDetails{needOfInsurance='protection', lifeStage='1', objectiveOfInsurance='null', productType='Non-POS', nomineeUnderSection='null', productInfo=ProductInfo{productId='133', productName='Max Life Smart Wealth Pla', sumAssuredOption='null', sumAssured='null', sumAssuredAvailable='null', isSmoker=false, maturityAge='null', policyTerm='null', premiumType='null', premiumPaymentTerm='null', premiumCommitment='null', dividendOption='null', dividendAdjustment='null', modeOfPayment='null', effectiveDateOfCoverage='null', annualIncome=1000000, desiredAnnualIncome=0, childDob=null, gstEffectiveDate='null', vestingAge='null', isSaveTommorow=false, initialPremium='null', riskClass='null', riskProfile='null', planCode='null', planCodeSecondary='null', riderDetails=null, fundSelection=null, productIllustrationResponse=null, existingProductType='null', planCodeTPP='null', planCodePOSV='null', planCodeMFSA='null', secondAnnuitantDob='null', secondAnnuitantTitle='null', secondAnnuitantName='null', secondAnnuitantSex='null', annuityOption='null', deathBenefitForAnnuity='null', deathBenefit='null', incomePeriod='null', premiumBackOption='null', premiumBreakOption='null', firstPremiumBreakOption='null', secondPremiumBreakOption='null', lifeStageEventBenefit='null', customerDiscount='null', isDiabetic='', smokingHabits='null', variant='null', incomeCategory='null', coverMultiple='null', incomePayoutFrequency='null', revisedCoverMultiple='null', approvedSmokerClass='null', revisedDeathBenefitOption='null', revisedPremiumBackOption='null', approvedIncomePeriod='null', approvedPremiumPaymentTerm='null', approvedPolicyTerm='null', revisedLifeStage='null', revisedSumAssured='null', revisedTotalPremium='null', annuityType='null', defermentPeriod='null', secondAnnuitantRelationship='null', secondAnnuitantRelationshipWhenOthers='null', isSecondAnnuitantPANExist='null', secondAnnuitantPanNumber='null', annuityAmount='null', isSecondAnnuitantPanValidated='null', isSecondAnnuitantDobValidated='null', isPurchasePrice=false, secondAnnuitantPanAadhaarStatus='null', secondAnnuitantPanAadhaarCounter='null', secondAnnuitantPanAadhaarResponseTime='null', solutionName='null', smartWithdrawalPayoutPercentage='null', waiverofPremiumBenefit='null', smartWithdrawalPlan='null', smartWithdrawalPayoutMode='null', smartWithdrawalPayoutStartYear=0, pcb='null', cashBonus='null', isAnnuityProduct='null', familyIncomeOption='null', SSESReturnOfPremium='null', isSSESProduct='null', SSESSolveOption='null', SSESNatureOfDuties='null', coverageOption=null, incomeStartYear='null', premiumOffset='null', desiredDateOfIncomePayout='null', desiredDate='null', posProductSelection='null', solveOption='null', isPosp='null', deathBenefitMultiple='null', internalRateOfReturn='null', WPVoucher='null', isWellnessProgram='null', isEarlyWealthPlus='null', earlyROPPercentage='null', guaranteeAnnuityPeriod='null', milestoneAge='null', increasingAnnuityPercentage='null', increasingAnnuityFrequency='null', returnOfPremium='null', returnOfPremiumPercentage='null', proportionOfAnnuityLastSurvivor='null', returnOfPremium1stDeath='null', returnOfPremium2ndDeath='null', defermentPeriodMonth='null', deferredPeriod='null', estimatedIncome='null', survivalBenefitPeriod='null', customerReminderConsent='null', incomePayoutOption='null',customerAwareConsent='null',incomeCover='null',discountSalaried='null',discountChannel='null',sumAssuredBooster='null',applicableDiscount='null',existingCustomerDiscount='null',stafforSellerDiscount='null'}, ceip=null, axisBiGenerationDate=null,gstInNumber=null}], medicalInfo=null, employmentDetails=null, nomineeDetails=null, bank=Bank{sameAsBankDetails='null', chequeDetails=null, paymentRenewedBy='null', bankDetails=[BankDetails[bankInfoType=null, bankAccountNumber=13132434554, accountHolderName=null, micr=null, ifsc=UTIB0000404, bankName=HADAPSAR PUNE, bankBranch=null, typeOfAccount=Savings, bankAccOpeningDate=null, secondAnnuitantbankAccountNo=null, secondAnnuitantbankAccountHolderName=null, secondAnnuitantbankAccountIFSC=null, secondAnnuitantbankAccountMICR=null, secondAnnuitantbankName=null, secondAnnuitantbankBranch=null, secondAnnuitanttypeofAccount=null, secondAnnuitantbankAccOpeningDate=null, gstWaiverAccountType=null]], accountForBankDetails='null', enachDetails=null, secondBankDetails=null}, form60Details=null, ckycDetails=null, lifeStyleDetails=null, irp=null, s3Upload=null, paymentDetails=null, additionalFlags=AdditionalFlags{currentActiveScreen=0, isIllustrationGenerated=false, isEmailSent=false, isifscMicrValidated=false, isDedupeValidated='null', screen1='null', screen2='null', screen3='null', screen4='null', screen5='null', screen6='null', isNewAxisApplication=null, isPayorDiffFromPropser=null, isIllustrationGeneratedOnScreen2=false, isPaymentDone=false, preIssuanceVerificationNumber='null', requestSource='null', agentKnowsProposerSince='null', agentKnowsProposerUnitType='null', emailBIStatus='null', eBCCDocStatus='null', journeyFieldsModificationStatus=null, eBCCDocGenerationStatus='null', isAgentSelf='null', isMaxEmp='null', proposerPreviousPolicyNumber='null', stpCounterStatus='null', isPersonalInfoEdited=false, isPermAddressEdited=false, isCommAddressEdited=false, isAddressProofTypeEdited='null', proposalFormDocStage='null', yblNEFTModifiedUi='null', issuerConfirmCertificateStatus='null', isdedupeadressEdited=false, isRenewelPaymentDone=false, isteleMERStatus='null', isvideoMERStatus='null', isteleMERFlag=false, isvideoMERFlag=false, isteleMERProposerFlag=false, isvideoMERProposerFlag=false, ckycNoExist='null', ckycNumber='null', cersaiStatus='null', aadhaarEncryptionStatus='null', aadhaarDocStatus='null', resendLink='null', illustrationStage='null', dataFetchStrategy='null', stpFlag='null', isATSLinkSent='null', isPaymentSkip='null', photoVerified=false, stpIdDobproof=false, proposerDob=null, stpAddressProf=false, stpNach=false, isPaymentModeChanged=false, cancelledChequeNeft=false, shouldEnableWLSPhoto='null', billdeskRetryCount=null, prePosvCall='null', postPosvCall='null', underwritingCount=null, clearCase='null', axisDirectDebitPOSVData=null, agentFraudCheckDetails=null, replacementSale='null', policySplitting='null', isNewYblReplacementSale='null', yblReplacementPolicyStatus='null', yblReplacementPosvQueRes='null', selfDeclerationConsent='null', psmApiStatus='null', isCPDAPIValidated=false, ovrallStatusOfAml='null', isCoiApplicable=null, ekycNotPerformedProposer=null, ekycNotPerformedInsurer=null, ekycNotPerformedPayor=null, illustrationRequired='null', isYblTelesalesCase=false, YBLTelesalesLeadID='null', isEducationPresent=null, isOccupationPresent=null, ebcc=false, userDocumentSubmittedAtUiInThanos=false, isSecondAnnuitantPEP=null, annuitantReflexive='null', posEmailStatus=false, gstWaiverRequired='null', gstWaiverAmount='null', paymentNotification='null', paymentNotificationforFormCSchemeA='null', renewalNotification='null', sellerConsentStatus='null', customerIdProof='null', irpQuestionsInPosv='null', nonLinkedPlanAck='null', acrQuestion='null', isEpfoMobChange='true', altfinEnqStage4Status='null', isHealthApplicable=false, sellerConsentUWPushStatus='null', panChangeStatus=false, isPhotoSupress=false, photoType='null', updatedUnderwritingStatus='null', thanosJourney='null', thanosJourneyType='null', isRaIdPresent=false, axisJourneyPaymentType='null', isSellerDeclarationApplicable='null', isHybridPosv='null', isYblAcknowledgementSmsSent='null', isPartnerAcknowledgementSmsSent='null', panDobSwitchOn='null', isInstaCOIProductEligible=false, coiFailureReason='null', isReplacementSaleApiCalled='null', illustartionEncryptionStatus='null', proposalEncrStatus='null', policyDocsEncryptionStatus='null', uwTriggeredTime=null, isNeedToEnableResendButton=false, reasonForVideoPosv='null', agencyContest='null', isCkycApiTrigerred=false, mproJourneyDataPrefilledWith='null', ckycAuthentication='null', isPEPDisabled='null', isSeniorCitizen='null', brmsCaseMovement='null', isProspectiveYBLCustomer=null, generatePolicyNumber='null', sellerConsentCompleted='null', disableScreen6ForAgenyYblPOS='No', isTeleSaleCase='null', thanosMandatoryUserDocumentsUploaded='null', defenceChannel='null', isPosvCovidQuestionY=null, sellerConsentEmailStatus='null', covidFlagProposer='null', isNriEmodelYBLCustomer=null, covidFlagInsured='null', isNewIrpGenerate=null, new2YblNoPan=null, isInstaCoiViaExpress=null, expressQC=null, instaCoiViaExpressTime=null, isInitiativeTypeBrmsApiCallRequired='null', isOnboardedProduct='null', journeyType='null', sourceChannel='null', isCatAxis='null', diyJourneyType='null', partnerSourceCode='null', mandateAmountPercentage='null', whatsappConsent='null', optinStatus='null', uinChangeDate=null, paymentExpiryDate=null, category=null, dateOfScreening=null, sourceOfSale='null', gstWaiverAccountType='null', isForm60acceptable=null, isCRIFvalidated=null, isPanModifiedForThanos=null, basePlanGST='null', annualIncomeAmt='null', showHealthQuesOnPosv='null', directDebitNewCrIdentifier=null, isPtfPayment='null', ptfPolicyNumber='null', typeOfPtfProduct='null', ptfPlanName='null', isVideoToStandard=null, reasonForEzyPayFailure='null', paymentUrl='null', sellerConsentUrl='null', ekycAadhaarConsentDateTimeProposer='null', ekycAadhaarConsentDateTimeInsurer='null', ekycAadhaarConsentDateTimePayor='null', ekycAadhaarConsentProposer='null', ekycAadhaarConsentInsurer='null', ekycAadhaarConsentPayor='null', relationShipWithProposerFromSoruce=null, emailSMSConsent=null, isPolicy='null', resendCount='null', isVaccinated='null', showCovidQuesOnPosv='null', isCipQuestionMarkedYes=false, clientCIRiderSumAssured='null', isNJChannel=false, isStaffOrSellerDiscountApplicable='null', isExistingCustomerDiscount='null', isDiscrepancyPosvReTriggered=false, isTMBChannel=false, isUjjivanChannel=false, isCatChannel='null', pennyDropVerification=null', pennyDropNameMatch=null', isBankDetailsReEdited=null', isProposerEkycVerified=null', isInsurerEkycVerified=null', isPayorEkycVerified=null', proposerEkycSkip=null', insuredEkycSkip=null', isCorporateCustIdValidatedByYblBank=null', isPhysicalAxisCase=null', posSellerLifeHealthDisclosure=null', pennyDropConsent=null', isDCBChannel=false', isNpsJourney=null', isPennyDropApplicable=null, isMotilalOswal=false, isMahindraChannel=null, isNpsJourneyInitiatednull, isCSFBChannelnull, customerSignDateForCDFnull, isSIBChannelnull, isNewBankOrCaJourneyfalse, isSolution='null', clientAciRiderSa='null', policyAciRiderSa='null', deathBenefit='null', schemeType='null', lst2YrCliCiRiderSa='null', physicalJourneyEnabled='null', premiumPaymentTerm='null', policyTerm='null', pcb='null', isJointLife='null', isYblTelesalesCase='false', partnerCareRiderSumAssured='null', clientPartnerCareRiderSumAssured='null', termPlusRiderSumAssured='null', clientTermPlusRiderSumAssured='null', clientSFPSSumAssured='null', journeyIdentifer=' null, ifscMicrOption='null', secondAnnuitantIfscMicrOption='null', nomineeIfscMicrOption='null', renewalIfscMicrOption='null', npsResponseData='null', isCaseOpenedFromDashboard=null', clientAtpdSa=null', isAgent360CalledForCampaignId=null', reKYCdue=null', leChannelCodeForDolphin=null', dolphinTranscriptPath=null', aIFinancialDecision=null', salaryAccount=null', aaTransDataAvailabel=null', monthsCount=null', entryTimestamp=null', generalErrorMessage=null', statusCode=null', isEkycDobVerified=null', aadhaarDob=null', insuredDOBRequired=null', isMedicalTransDetected=null', isLifeInsuranceTransDetected=null', isCISApplicable=null', diyJourneyRequestFields=null', isFalconJourney=null', proposerEkycFailure='null', insuredEkycFailure='null', payorEkycFailure='null', isPolicyNumberValidated=null', isProposalFetchForFalcon=null', disabilityDeclaration=null', vernacularDeclaration=null', isFalconProduct=null', cisForSOA=null', isCSBChannel=false, solutionPlanInfo=null, isRaInitiatedCase=null', isInsurerVerified=null, isCurrentInsurerVerified=null, sellerSegment=N, sellerSegment=N, isPersistencyAbove90=null', isIvcDiscrepancyCase=false, isShriramFinance=null,isProposerEkycDobVerified='null',isInsurerEkycDobVerified='null',isPayorEkycDobVerified='null',isCkycNumberVerified='null', companyDepartmentName='null', companyDepartmentLocation='null', isInsurerMajor='null', insuredPosvType=null', isInsuredPOSVReTriggered=null', insuredPosvJourneyStatus=null', insuredPosvJourneyFlag=null', insurerOtpInStatus=null', insuredResendCount=null', isInsuredDiscrepancyPresent=null', isDiscrepancyPresent=null', enableFieldsOnUI=null', paymentStatusPopupFlag=null', isNonCasaCase=null', isECSRenewalPaymentDone=null',isAccidentalDeathBenefit='null',isCommunicationSentToRa=null,clientMaternityRiderSumAssured=null,clientReBalancingSumAssured=null,appointeeIfscMicrOption='null', isPanValidatedPayorSource='null', isDobValidatedInsuredSource='null', currAddProofPayorSource='null', clientId='null',isProposerEcsRenewalMode='NA',isPayorEcsRenewalMode='NA',proposersSpouseIncomeProof='NA',payorIncomeProofValidated='NA',liveSelfieInSPOSV='NA',rakshakDocument='NA',isFTINIndian='NA',isNRI='NA',isBusinessInsurance='NA',isPhysicalJourney='NA',mwpaApplicability='NA',dedupe='False', isVideoPOSV='NA', mostImportantDocumentTMB='NA', OASDocRequired='NA', yesGenieCustId='null', stpNachPayor='NA', currAddProofPayor='NA', unifiedRenewalStatus=null, unifiedPaymentStatus=null, isPanValidatedPayor='false', isDobValidatedInsured='null', clientIdValidated='false', cs1HierarchyNeeded='null', atrFlag='null', shorterJourneyFlag='null', selectedActivePolicy='null', cs1Submission='null', disableCatAxisClientId='null', medicalSuppressionEnable=null', paymentGateway=null', paymentFirstConsent=null', leadConvertedStatus='null', leadStatus='null', nominee1=null', nominee2=null', nominee3=null', appointee1=null', appointee2=null', appointee3=null', leadUpdateStatus=null, proposerEkycSkipBy=null', insuredEkycSkipBy=null', payorEkycSkipBy=null', proposerEkycValidationFailMsg=null', insurerEkycValidationFailMsg=null', payorEkycValidationFailMsg=null', proposerSkipUserId=null', insuredSkipUserId=null', payorSkipUserId=null', stpAddressProfSource='null', stpIdDobproofSource='null', isPanValidatedSource='null', reasonForSS='null', otherReasonForSS='null', upfrontPaymentConsent='null',proceedByFifthScreenButton='null',basbaConsent='null', basbaInstaCoiEvent=null', isRenderProcessDone=null', financialDocumentSelected=null', otherDocument=null', ekycTypeProposer=null', ekycTypeInsurer=null', ekycTypePayor=null', accountAggregatorEkycSkip=null', accountAggregatorEkycReason=null', cs3FinancialDocsRequired=null',paymentModeOnThirdScreen=null', pennyDropErrorMsg=null', pennyDropAccountHolderName=null', pennyDropNameMatchScore=null', payor=null', currentMonthSelected=false', isCs2LinkTriggerred=null', nameMatchScore='null', showECSOption=null', showECSOptionSkip=null', showECSOptionSkipReason=null', showECSOptionSkipErrorMsg=null', showECSOptionSkipErrorType=null', ecsUserId=null', upfrontpaymentconsentsys =null', totalEcsRemainingAttempts=null', backFlowUpfrontPaymentConsent =null', isInstaCOIEligible=null', isInstaCOIFinal=null', isYBLGenieSubStatusCall =false', agentMappedToSP =null', hasProductChanged =null', axisDubaiProduct =null', documentSharingApplicableToRA =false', isPaymentLastEnabledWip =null', unFreezeProposalDetails =null', reasonForUnfreezeProposalDetails =null', policyPurchasedAfterConsent =null', gstEmailSmsTriggered =null', isSecondBankAsSameFirstCheck =false', isKfinTechCase =null', probableReplacement =null', isinsuredHealthy =null', isPosvFirstCall =null', isPosvSecondCall =null', isUWPass =null, dontShowPanNumber =null, underwritingTaskTime =null, spCodeflag =null, bankCorrelationId =null}, underwritingServiceDetails=null, csgDetails=null, posvDetails=null, policyProcessingBackflowDetails=null, bancaDetails=BancaDetails [customerId=NTE2OTY3OTc5, bancaId=3649817333, creationTime=null, updatedTime=null, addOnBancaId=null, addOnPolicyNumber=null, creationDate=null, lastSyncDate=null, bankAccountOpeningDate=01-03-2000, isCountryCodeIndian=Y, ekyc=Y, ukyc=Y, customerSegment=PRIME, customerClassification=SBNRE, relationshipAdvisorSegment=null, leadId=395203725064, addonType=null, addOnFlag=null, type=null, maxLifeRegisteredState=null, emailTimeStamp=null, isNameModified=null, isDOBModified=null, productSolutionMatrix=null, illustrationDetails=null, isNRI=null, axisOutputResponse=null, bancaSpDetails=null, lastKYC=null, customerTypeFlag=null, customerType=null, riskCategory=null, isPANAvailable=false, isMICRAvailable=false, referenceId=null, isCommAddressModified=null,isPanModified=null, ruleOutput=null, primaryId=0, addOnDetails=null, crmBancaCustomerDetails=CrmBancaCustomerDetails [crmBankBranchName=HADAPSAR PUNE, crmtitle=Mr, crmCustomerFirstName=UDIT, crmCustomerMiddleName= , crmCustomerLastName=Kumar, crmDob=null, crmHouseNo=null, crmArea=null, crmLandmark=null, crmCity=null, crmState=null, crmCountry=null, crmPinCode=null, crmPanCard=null, crmAccountNo=13132434554, crmAccountOpendate=null], freeText1=null, freeText2=null, freeText3=null, freeText4=50022770388857, freeText5=null, freeText6=null, freeText7=null, freeText8=null, freeText9=null, freeText10=null, freeText11=null, freeText12=null, freeText13=null, freeText14=null, freeText15=null, freeText16=null, freeText17=null, freeText18=null, freeText19=null, freeText20=null, sourceOfSale=null, leadSourceOption=, gstWaiverRequired=no, insurerTmbCustomerID=null + lastSpCode=SP0069520143 customerIdTransformed=null + leadCreationAppIdentifier=null sparkBiOutput=null sparkBiInput=null selectedAccNumber=null classificationType=null crmLeadId=null], tranformationFlags=null, yblDetails=null, partnerDetails=null, salesStoriesProductDetails=SalesStoriesProductDetails [salesReferenceId=null, primaryTransactionId=0, secondaryPolicyNum=null, primaryPolicyNumber=null, secondaryMongoId=, secondaryTransactionId=0, isSalesProduct=no, productDetails=null, medicalGridStatusSec=null, financialGridStatusSec=null, secondaryBancaId=null, secondaryOverallProductStatus=null, secondaryOverallHealthStatus=null, isCustomerBenefit=null, posvJourneyStatus=null, totalMSA=null, totalFSA=null, totalAFYP=null, totalSUC=null], pasaDetails=null, psmDetails=PSMDetails{isExistingLICover='Yes', existingLICover='', riskAppetite='Medium', recommendedProducts=[Max Life Saral Jeevan Bima, Max Life Cancer Insurance Plan, Forever Young Pension Plan, Max Life Life Perfect Partner Super, Max Life Fast Track Super Plan, Max Life Monthly Income Advantage Plan, Max Life Platinum Wealth Plan, Max Life Future Genius Education Plan, Max Life Savings Advantage Plan, Max Life Flexi Wealth Plus Plan, Max Life Smart Wealth Plan, Max Life Saral Pension Plan, Max Life Smart Secure Plus Plan, Max Life Smart Wealth Income Plan, Max Life Flexi Wealth Plus Plan, Max Life Smart Wealth Advantage guarantee Plan], recommendedProductName='null', totalSumAssured='null', bypass='null'}, productSuitabilityDetails=null, neoAdditionalDetails=null, amlScrenningDetails=null, wipCases=null, cersaiCkycDetails=null, thanosDolphinIntegrationEnabled=false, physicalJourneyDetails= null, leadClosure=null,oasDetails=null, posvViaBrmsDetails=null, brmsFieldConfigurationDetails=null,coherentIllustrationResponse={},dynamicFields=null,diyBrmsFieldConfigurationDetails=null,dolphinBackflowDetails=null,pennyDropServiceStatus=null,kfinTech=null]"} _id:UrcdDZsBXRzD5EdqNwrs _type: - _index:mli-dev-matrix-2025.12.11 _score: -
+{
+  "_id": {
+    "$oid": "693aa6c89bc1017b91bddaf4"
+  },
+  "transactionId": {
+    "$numberLong": "2000110567"
+  },
+  "bancaDetails": {
+    "leadId": "395203725064",
+    "bancaId": "3649817333",
+    "offerName": "PASAR11",
+    "customerId": "NTE2OTY3OTc5",
+    "customerSegment": "PRIME",
+    "customerClassification": "SBNRE",
+    "crmStatus": "5",
+    "title": "Mr",
+    "ukyc": "Y",
+    "ekyc": "Y",
+    "ckyc": "50022770388857",
+    "specifiedPersonCode": "SP0069520143",
+    "agentRole": "ASM",
+    "lastSpCode": "SP0069520143",
+    "bankAccountOpeningDate": "01-03-2000",
+    "constitutionCode": "1",
+    "isCountryCodeIndian": "Y",
+    "leadSourceOption": "",
+    "gstWaiverRequired": "no",
+    "freeText4": "50022770388857",
+    "crmBancaCustomerDetails": {
+      "crmtitle": "Mr",
+      "crmCustomerFirstName": "UDIT",
+      "crmCustomerMiddleName": " ",
+      "crmCustomerLastName": "Kumar",
+      "crmBankBranchName": "HADAPSAR PUNE",
+      "crmAccountNo": "13132434554"
+    }
+  },
+  "additionalPushDetails": {
+    "consentAccepted": true,
+    "payload": "{\"crmId\":395203725064,\"customerId\":\"NTE2OTY3OTc5\",\"agentId\":\"618359\",\"isConsentAccepted\":\"Y\",\"psmDetails\":{\"productType\":\"Non-POS\",\"recommendedProducts\":[\"Max Life Saral Jeevan Bima\",\"Max Life Cancer Insurance Plan\",\"Forever Young Pension Plan\",\"Max Life Life Perfect Partner Super\",\"Max Life Fast Track Super Plan\",\"Max Life Monthly Income Advantage Plan\",\"Max Life Platinum Wealth Plan\",\"Max Life Future Genius Education Plan\",\"Max Life Savings Advantage Plan\",\"Max Life Flexi Wealth Plus Plan\",\"Max Life Smart Wealth Plan\",\"Max Life Saral Pension Plan\",\"Max Life Smart Secure Plus Plan\",\"Max Life Smart Wealth Income Plan\",\"Max Life Flexi Wealth Plus Plan\",\"Max Life Smart Wealth Advantage guarantee Plan\"],\"selectedProduct\":\"133\",\"selectedProductName\":\"Max Life Smart Wealth Pla\",\"income\":\"1000000\",\"lifeStage\":\"1\",\"goalSelected\":\"protection\",\"riskAppetite\":\"Medium\",\"isRecommendedProduct\":\"Y\",\"isSolution\":\"N\"},\"additionalData\":{\"isNumberIndian\":\"Y\",\"dobOfInsured\":\"\",\"education\":\"Graduate\",\"occupation\":\"Salaried\",\"hasExistingLICover\":\"N\",\"existingLICover\":\"\",\"leadSourceOption\":\"\",\"insuredFirstName\":\"\",\"insuredMiddleName\":\"\",\"insuredLastName\":\"\",\"insuredGender\":\"\",\"relationWithProposer\":\"\",\"isLIEqualsPH\":\"Y\"},\"customerProfileData\":{\"agentDetails\":{\"agentName\":\"Preetam\",\"agentEmailId\":\"LGemailID@JK.COM\",\"agentPhoneNo\":\"789898989\",\"agentRole\":\"ASM\"},\"bancaDetails\":{\"branchCode\":\"0012\",\"branchName\":\"HADAPSAR PUNE\",\"customerSegment\":\"PRIME\",\"schemeCode\":\"SBNRE\",\"constitutionCode\":\"01\",\"kycStatus\":\"12\",\"omniFlowLink\":1,\"crmStatus\":5,\"offerId\":401,\"offerName\":\"PASAR11\",\"ukycFlag\":\"Y\",\"spCode\":\"SP0069520143\",\"accountDetails\":{\"accountNo\":\"13132434554\",\"accountType\":\"SBA\",\"ifscCode\":\"UTIB0000404\",\"accountOpeningDate\":\"2000-03-01\"}},\"customerDetails\":{\"customerTitle\":\"mr\",\"firstName\":\"UDIT \",\"middleName\":\"\",\"surName\":\"Kumar\",\"dob\":\"1986-05-09\",\"gender\":\"M\",\"pan\":\"AJFPV8829C\",\"mobileNumber\":\"9650989475\",\"emailAddress\":\"uditkumar@gmail.com\",\"stdOffice\":\"\",\"telNo\":\"\",\"stdOffice1\":\"\",\"telNo1\":\"\",\"ckycNo\":\"50022770388857\"},\"communicationAddress\":{\"address1\":\"11/6,NETHAJI NAGAR,KULATHUPALAYAM,COIMBATORE\",\"address2\":\" -\",\"city\":\"COIMBATORE\",\"state\":\"tamil_nadu\",\"country\":\"India\",\"pinCode\":\"641109\"},\"permanentAddress\":{\"address1\":\"90 a\",\"address2\":\"AH Street\",\"city\":\"JALANDHAR\",\"state\":\"\",\"country\":\"INDIA\",\"pinCode\":\"144001\"},\"additionalData\":{\"data1\":\"\",\"data2\":\"\",\"data3\":\"\",\"data4\":\"\",\"data5\":\"\",\"data6\":\"\",\"data7\":\"\",\"data8\":\"\",\"data9\":\"\",\"data10\":\"\",\"data11\":\"\",\"data12\":\"\",\"data13\":\"\",\"data14\":\"\",\"data15\":\"\"}},\"isInvalidLead\":null,\"isRepush\":\"Y\"}",
+    "nonCASAJourney": "N",
+    "teleBJourney": "N",
+    "createdAt": {
+      "$date": "2025-12-11T11:11:04.487Z"
+    },
+    "crmId": {
+      "$numberLong": "395203725064"
+    }
+  },
+  "productDetails": [
+    {
+      "needOfInsurance": "protection",
+      "lifeStage": "1",
+      "productType": "Non-POS",
+      "productInfo": {
+        "productId": "133",
+        "productName": "Max Life Smart Wealth Pla",
+        "isSmoker": false,
+        "annualIncome": {
+          "$numberLong": "1000000"
+        },
+        "desiredAnnualIncome": {
+          "$numberLong": "0"
+        },
+        "isDiabetic": ""
+      }
+    }
+  ],
+  "bank": {
+    "bankDetails": [
+      {
+        "ifsc": "UTIB0000404",
+        "typeOfAccount": "Savings",
+        "bankAccountNumber": "13132434554",
+        "bankName": "HADAPSAR PUNE"
+      }
+    ]
+  },
+  "sourcingDetails": {
+    "specifiedPersonDetails": {
+      "spCode": "SP0069520143",
+      "spSSNCode": "655393",
+      "ISSpJourneyCompleted": false
+    },
+    "agentId": "655393",
+    "agentName": "",
+    "agentEmail": "",
+    "agentMobileNumber": {
+      "$numberLong": "0"
+    },
+    "agentRole": "",
+    "agentValidated": false,
+    "specifiedPersonCode": ""
+  },
+  "partyInformation": [
+    {
+      "partyType": "Proposer",
+      "basicDetails": {
+        "firstName": "UDIT",
+        "middleName": " ",
+        "lastName": "Kumar",
+        "gender": "M",
+        "dob": {
+          "$date": "1986-05-09T00:00:00.000Z"
+        },
+        "personalIdentification": {
+          "phone": [
+            {
+              "phoneNumber": "9650989475",
+              "phoneType": "mobileNumber",
+              "stdIsdCode": ""
+            },
+            {
+              "phoneNumber": "",
+              "phoneType": "alternateMobileNo",
+              "stdIsdCode": ""
+            },
+            {
+              "phoneNumber": "",
+              "phoneType": "alternateLandlineNo",
+              "stdIsdCode": ""
+            },
+            {
+              "phoneNumber": "",
+              "phoneType": "communicationAlternateLandlineNo",
+              "stdIsdCode": ""
+            }
+          ],
+          "panDetails": {
+            "panNumber": "AJFPV8829C"
+          },
+          "email": "uditkumar@gmail.com"
+        },
+        "education": "Graduate",
+        "occupation": "Salaried",
+        "address": [
+          {
+            "addressType": "Current",
+            "addressDetails": {
+              "city": "Coimbatore ",
+              "state": "TAMIL NADU",
+              "pinCode": "641109",
+              "country": "",
+              "houseNo": "11/6,NETHAJI NAGAR,KULATHUPALA",
+              "area": "YAM,COIMBATORE -",
+              "landmark": "",
+              "village": ""
+            },
+            "proofType": ""
+          },
+          {
+            "addressType": "Permanent",
+            "addressDetails": {
+              "city": "Jalandhar ",
+              "state": "",
+              "pinCode": "144001",
+              "country": "",
+              "houseNo": "90 a AH Street",
+              "area": "",
+              "landmark": "",
+              "village": ""
+            },
+            "proofType": ""
+          }
+        ],
+        "areBothAddressSame": false
+      }
+    },
+    {
+      "partyType": "Insured",
+      "basicDetails": {
+        "firstName": "UDIT",
+        "middleName": " ",
+        "lastName": "Kumar",
+        "gender": "M",
+        "dob": {
+          "$date": "1986-05-09T00:00:00.000Z"
+        },
+        "personalIdentification": {
+          "phone": [
+            {
+              "phoneNumber": "9650989475",
+              "phoneType": "mobileNumber",
+              "stdIsdCode": ""
+            },
+            {
+              "phoneNumber": "",
+              "phoneType": "alternateMobileNo",
+              "stdIsdCode": ""
+            },
+            {
+              "phoneNumber": "",
+              "phoneType": "alternateLandlineNo",
+              "stdIsdCode": ""
+            },
+            {
+              "phoneNumber": "",
+              "phoneType": "communicationAlternateLandlineNo",
+              "stdIsdCode": ""
+            }
+          ],
+          "panDetails": {
+            "panNumber": "AJFPV8829C"
+          },
+          "email": "uditkumar@gmail.com"
+        },
+        "education": "Graduate",
+        "occupation": "Salaried",
+        "address": [
+          {
+            "addressType": "Current",
+            "addressDetails": {
+              "city": "Coimbatore ",
+              "state": "TAMIL NADU",
+              "pinCode": "641109",
+              "country": "",
+              "houseNo": "11/6,NETHAJI NAGAR,KULATHUPALA",
+              "area": "YAM,COIMBATORE -",
+              "landmark": "",
+              "village": ""
+            },
+            "proofType": ""
+          },
+          {
+            "addressType": "Permanent",
+            "addressDetails": {
+              "city": "Jalandhar ",
+              "state": "",
+              "pinCode": "144001",
+              "country": "",
+              "houseNo": "90 a AH Street",
+              "area": "",
+              "landmark": "",
+              "village": ""
+            },
+            "proofType": ""
+          }
+        ],
+        "areBothAddressSame": false
+      }
+    },
+    {
+      "partyType": "Payor",
+      "basicDetails": {
+        "firstName": "UDIT",
+        "middleName": " ",
+        "lastName": "Kumar",
+        "gender": "M",
+        "dob": {
+          "$date": "1986-05-09T00:00:00.000Z"
+        },
+        "personalIdentification": {
+          "phone": [
+            {
+              "phoneNumber": "9650989475",
+              "phoneType": "mobileNumber",
+              "stdIsdCode": ""
+            },
+            {
+              "phoneNumber": "",
+              "phoneType": "alternateMobileNo",
+              "stdIsdCode": ""
+            },
+            {
+              "phoneNumber": "",
+              "phoneType": "alternateLandlineNo",
+              "stdIsdCode": ""
+            },
+            {
+              "phoneNumber": "",
+              "phoneType": "communicationAlternateLandlineNo",
+              "stdIsdCode": ""
+            }
+          ],
+          "panDetails": {
+            "panNumber": "AJFPV8829C"
+          },
+          "email": "uditkumar@gmail.com"
+        },
+        "education": "Graduate",
+        "occupation": "Salaried",
+        "address": [
+          {
+            "addressType": "Current",
+            "addressDetails": {
+              "city": "Coimbatore ",
+              "state": "TAMIL NADU",
+              "pinCode": "641109",
+              "country": "",
+              "houseNo": "11/6,NETHAJI NAGAR,KULATHUPALA",
+              "area": "YAM,COIMBATORE -",
+              "landmark": "",
+              "village": ""
+            },
+            "proofType": ""
+          },
+          {
+            "addressType": "Permanent",
+            "addressDetails": {
+              "city": "Jalandhar ",
+              "state": "",
+              "pinCode": "144001",
+              "country": "",
+              "houseNo": "90 a AH Street",
+              "area": "",
+              "landmark": "",
+              "village": ""
+            },
+            "proofType": ""
+          }
+        ],
+        "areBothAddressSame": false
+      }
+    }
+  ],
+  "channelDetails": {
+    "specifiedPersonChannel": {
+      "spBranchCode": "0012"
+    },
+    "channel": "X",
+    "branchCode": "0012"
+  },
+  "psmDetails": {
+    "riskAppetite": "Medium",
+    "recommendedProducts": [
+      "Max Life Saral Jeevan Bima",
+      "Max Life Cancer Insurance Plan",
+      "Forever Young Pension Plan",
+      "Max Life Life Perfect Partner Super",
+      "Max Life Fast Track Super Plan",
+      "Max Life Monthly Income Advantage Plan",
+      "Max Life Platinum Wealth Plan",
+      "Max Life Future Genius Education Plan",
+      "Max Life Savings Advantage Plan",
+      "Max Life Flexi Wealth Plus Plan",
+      "Max Life Smart Wealth Plan",
+      "Max Life Saral Pension Plan",
+      "Max Life Smart Secure Plus Plan",
+      "Max Life Smart Wealth Income Plan",
+      "Max Life Flexi Wealth Plus Plan",
+      "Max Life Smart Wealth Advantage guarantee Plan"
+    ],
+    "isExistingLICover": "Yes",
+    "existingLICover": ""
+  },
+  "additionalFlags": {
+    "isIllustrationGenerated": false,
+    "sellerSegment": "N"
+  },
+  "applicationDetails": {
+    "formType": "self",
+    "stage": "1",
+    "spStage": "1"
+  },
+  "_class": "com.mli.mpro.model.onboarding.ProposalDetails"
+}
