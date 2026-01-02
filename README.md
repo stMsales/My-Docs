@@ -1,21 +1,21 @@
 {
   "_id": {
-    "$oid": "695794f38ae53f615d6d1405"
+    "$oid": "6957b2b04cf62b6edef17a38"
   },
   "transactionId": {
-    "$numberLong": "2000111080"
+    "$numberLong": "1501292907"
   },
   "version": "v3",
   "applicationDetails": {
     "createdTime": {
-      "$date": "2026-01-02T09:50:43.000Z"
+      "$date": "2026-01-02T11:57:36.000Z"
     },
     "applicationStatus": "Initiated",
     "updatedTime": {
-      "$date": "2026-01-02T09:51:10.313Z"
+      "$date": "2026-01-02T12:01:25.971Z"
     },
-    "stage": "1",
-    "spStage": "2",
+    "stage": "2",
+    "policyNumber": "196007900",
     "formType": "self",
     "posvJourneyFlag": "FALSE",
     "underwritingJourneyFlag": "FALSE",
@@ -23,17 +23,22 @@
     "ckycNumber": "",
     "isCKYCAvailable": "no",
     "isCkycFetchedSuccess": "false",
+    "bIGeneratedDateOriginal": {
+      "$date": "2026-01-02T12:01:25.000Z"
+    },
+    "isParallelJourney": "no",
     "physicalJourneyEnabled": "No",
     "rePolicyNumber": "",
-    "schemeType": ""
+    "schemeType": "",
+    "lienApplicable": "No"
   },
   "sourcingDetails": {
     "isAgentValidated": false,
-    "agentId": "",
-    "agentName": "",
+    "agentId": "39231B",
+    "agentName": "M/S AXIS BANK LTD Madiwala AXIS BANK LTD",
     "agencyName": "",
     "agentLocation": "",
-    "agentRole": "XAG",
+    "agentRole": "ACB",
     "agentLevel": "",
     "agentMobileNumber": {
       "$numberLong": "0"
@@ -42,32 +47,40 @@
     "raDocumentSharingEmail": "",
     "raDocumentSharingMobile": "",
     "uwAgentJoiningDt": "2000-01-01",
-    "agentStatus": "",
-    "agentCode": "",
+    "agentStatus": "Active",
+    "agentCode": "39231B",
     "agentEmail": "",
-    "goCABrokerCode": "",
-    "agentLicenseStartdate": "Invalid Date",
-    "licenceExpiryDateForAgent": "",
+    "goCABrokerCode": "3271",
+    "agentLicenseStartdate": "Tue, 05 Sep 2023 00:00:00 GMT",
+    "licenceExpiryDateForAgent": "3099-12-31",
     "reportingManagerCode": "",
     "reportingManagerName": "",
     "spStatus": "",
     "ssnCode": "",
-    "specifiedPersonName": "",
-    "specifiedPersonCode": "",
+    "specifiedPersonName": "M/S AXIS BANK LTD Madiwala AXIS BANK LTD",
+    "specifiedPersonCode": "MAX39231B",
     "persistency": "",
     "specifiedPersonDetails": {
-      "spName": "",
-      "spCode": "SP0069520143",
-      "amlStatus": false,
-      "amlTrainingExpirationDate": "",
-      "ulipStatus": false,
+      "spName": "M/S AXIS BANK LTD Madiwala AXIS BANK LTD",
+      "spCode": "MAX39231B",
+      "amlStatus": true,
+      "amlTrainingExpirationDate": "3099-12-31",
+      "ulipStatus": true,
       "ulipTrainingExpirationDate": "",
-      "spSSNCode": "618359"
+      "spLicenseStartDate": "",
+      "spLicenseExpiryDate": "",
+      "spCertificateNumber": "MAX39231B",
+      "spSSNCode": "39231B",
+      "spGoCABrokerCode": "3271",
+      "spLocation": "",
+      "spMobileNumber": "",
+      "spAgentId": "39231B",
+      "mSpaceRaid": "77624A"
     },
     "regionalAdvisorId": "",
-    "designation": "",
-    "agentBranchData": "",
-    "sourcingBranchCode": "",
+    "designation": "ACB",
+    "agentBranchData": "Madiwala AXIS BANK LTD",
+    "sourcingBranchCode": "X3271",
     "regionalAdvisorName": "",
     "regionalAdvisorIdType": "",
     "branchBusinessCode": "",
@@ -82,18 +95,22 @@
     "campaignIdOption": "",
     "campaignLocation": "",
     "referenceID": "",
+    "utmCode": "",
     "branchMailId": "",
     "mappedAgentId": "",
     "relationshipManagerSupport": "",
     "relationshipManagerCode": "",
-    "licenceNum": "NA",
+    "licenceNum": "MAX39231B",
+    "alphaNumericSolId": "X3271",
     "partnerCustId": "",
     "rAJourneyApplicable": false,
     "isCkycWipCase": true,
+    "lgRole": "ASM",
     "agentSegment": ""
   },
   "instantQcFlags": {
-    "instantQcEnablement": "",
+    "productDiabledForQcs": "100, 501, 108, 154, 205, 191, 200, 160, 127, 210, 176, 164",
+    "instantQcEnablement": "No",
     "instantQcOspSkip": "",
     "instantQcButtonDisabledUntil": "",
     "instantQcBackflowReceived": false,
@@ -101,12 +118,15 @@
     "isInstantQcTriggered": false
   },
   "channelDetails": {
-    "branchCode": "0012",
+    "branchCode": "3271",
     "partnerChannel": "",
     "branchName": "",
     "channel": "X",
     "specifiedPersonChannel": {
-      "spBranchCode": "0012"
+      "spBranchCode": "3271",
+      "spBranchName": "HADAPSAR PUNE",
+      "spChannel": "AXIS",
+      "spChannelId": "9084"
     },
     "originalChannel": "",
     "channelType": ""
@@ -115,12 +135,12 @@
     {
       "partyType": "Proposer",
       "basicDetails": {
-        "firstName": "UDIT",
+        "firstName": "Bhargavi",
         "middleName": "",
-        "lastName": "Kumar ",
-        "gender": "M",
+        "lastName": "ggggggggggggggg ",
+        "gender": "F",
         "dob": {
-          "$date": "1986-05-09T00:00:00.000Z"
+          "$date": "1984-05-18T00:00:00.000Z"
         },
         "fatherName": "",
         "motherName": "",
@@ -150,7 +170,7 @@
             "issuingCountry": "",
             "applicationSource": "",
             "passportExpiryDate": {
-              "$date": "2026-02-02T09:00:00.000Z"
+              "$date": "2026-02-02T12:00:00.000Z"
             },
             "citizenship": "",
             "cityOfBirth": ""
@@ -170,7 +190,7 @@
         },
         "education": "Graduate",
         "occupation": "Salaried",
-        "annualIncome": "",
+        "annualIncome": "1000000",
         "areBothAddressSame": false,
         "address": [
           {
@@ -179,13 +199,13 @@
             "proofExpiryDate": "",
             "addressType": "Current",
             "addressDetails": {
-              "houseNo": "11/6,NETHAJI NAGAR,KULATHUPALA",
-              "area": "YAM,COIMBATORE -",
+              "houseNo": "BAFNA PHARMACEUTICALS LTD",
+              "area": "299,THAMBU CHETTY STREET",
               "landmark": "",
-              "city": "Coimbatore ",
+              "city": "Chennai ",
               "state": "TAMIL NADU",
-              "pinCode": "641109",
-              "country": "",
+              "pinCode": "600001",
+              "country": "India",
               "village": "",
               "voterIdOcrStatus": "Not_Initiated",
               "aadhaarOcrStatus": "Not_Initiated"
@@ -200,10 +220,10 @@
               "houseNo": "90 a AH Street",
               "area": "",
               "landmark": "",
-              "city": "Jalandhar ",
-              "state": "",
+              "city": "JALANDHAR",
+              "state": "PUNJAB",
               "pinCode": "144001",
-              "country": "",
+              "country": "India",
               "village": "",
               "voterIdOcrStatus": "Not_Initiated",
               "aadhaarOcrStatus": "Not_Initiated"
@@ -211,38 +231,6 @@
           }
         ],
         "preferredLanguageOfCommunication": "English",
-        "personalIdentification": {
-          "phone": [
-            {
-              "phoneNumber": "9650989475",
-              "stdIsdCode": "",
-              "phoneType": "mobileNumber"
-            },
-            {
-              "phoneNumber": "",
-              "stdIsdCode": "",
-              "phoneType": "alternateMobileNo"
-            },
-            {
-              "phoneNumber": "",
-              "stdIsdCode": "",
-              "phoneType": "alternateLandlineNo"
-            },
-            {
-              "phoneNumber": "",
-              "stdIsdCode": "",
-              "phoneType": "communicationAlternateLandlineNo"
-            }
-          ],
-          "panDetails": {
-            "panNumber": "AJFPV8829C",
-            "isPANExist": false,
-            "isPanValidated": false,
-            "isDobValidated": false,
-            "panOcrFlag": false
-          },
-          "email": "uditkumar@gmail.com"
-        },
         "nachOcrStatus": "Not_Initiated",
         "businessType": "",
         "bdmId": "",
@@ -258,28 +246,13 @@
       "personalIdentification": {
         "phone": [
           {
-            "phoneNumber": "9650989475",
+            "phoneNumber": "9121834363",
             "stdIsdCode": "",
             "phoneType": "mobileNumber",
             "countryName": ""
           },
           {
-            "phoneNumber": "",
-            "stdIsdCode": "",
-            "phoneType": "alternateMobileNo"
-          },
-          {
-            "phoneNumber": "",
-            "stdIsdCode": "",
-            "phoneType": "alternateLandlineNo"
-          },
-          {
-            "phoneNumber": "",
-            "stdIsdCode": "",
-            "phoneType": "communicationAlternateLandlineNo"
-          },
-          {
-            "phoneNumber": "",
+            "phoneNumber": "8675345678",
             "stdIsdCode": "",
             "phoneType": "alternateMobileNo",
             "countryName": ""
@@ -321,10 +294,10 @@
           "enrollmentNo": ""
         },
         "panDetails": {
-          "panNumber": "",
+          "panNumber": "AJXPR0607C",
           "isPANExist": false,
-          "isPanValidated": false,
-          "isDobValidated": false,
+          "isPanValidated": true,
+          "isDobValidated": true,
           "creditScore": "",
           "incomeRange": "",
           "panOcrFlag": false,
@@ -333,7 +306,7 @@
           "panDobVerificationCounter": "",
           "panAadhaarLinkStatus": ""
         },
-        "email": "uditkumar@gmail.com",
+        "email": "BHARGAVI@gmail.com",
         "pranNumber": "",
         "abhaId": ""
       },
@@ -342,13 +315,10 @@
     {
       "partyType": "Insured",
       "basicDetails": {
-        "firstName": "UDIT",
+        "firstName": "",
         "middleName": "",
-        "lastName": "Kumar",
-        "gender": "M",
-        "dob": {
-          "$date": "1986-05-09T00:00:00.000Z"
-        },
+        "lastName": "",
+        "gender": "",
         "fatherName": "",
         "motherName": "",
         "residentialStatus": "",
@@ -377,7 +347,7 @@
             "issuingCountry": "",
             "applicationSource": "",
             "passportExpiryDate": {
-              "$date": "2026-02-02T09:00:00.000Z"
+              "$date": "2026-02-02T12:00:00.000Z"
             }
           }
         },
@@ -393,8 +363,6 @@
           "prevAnyComplicationToPregnancy": "",
           "prevPregnancyComplicationDetails": ""
         },
-        "education": "Graduate",
-        "occupation": "Salaried",
         "annualIncome": "",
         "areBothAddressSame": false,
         "address": [
@@ -404,12 +372,12 @@
             "proofExpiryDate": "",
             "addressType": "Current",
             "addressDetails": {
-              "houseNo": "11/6,NETHAJI NAGAR,KULATHUPALA",
-              "area": "YAM,COIMBATORE -",
+              "houseNo": "",
+              "area": "",
               "landmark": "",
-              "city": "Coimbatore ",
-              "state": "TAMIL NADU",
-              "pinCode": "641109",
+              "city": "",
+              "state": "",
+              "pinCode": "",
               "country": "",
               "village": "",
               "voterIdOcrStatus": "Not_Initiated",
@@ -422,12 +390,12 @@
             "proofExpiryDate": "",
             "addressType": "Permanent",
             "addressDetails": {
-              "houseNo": "90 a AH Street",
+              "houseNo": "",
               "area": "",
               "landmark": "",
-              "city": "Jalandhar ",
+              "city": "",
               "state": "",
-              "pinCode": "144001",
+              "pinCode": "",
               "country": "",
               "village": "",
               "voterIdOcrStatus": "Not_Initiated",
@@ -439,38 +407,6 @@
         "relationshipWithProposer": "",
         "relationshipWithProposerWhenOther": "",
         "preferredLanguageOfCommunication": "",
-        "personalIdentification": {
-          "phone": [
-            {
-              "phoneNumber": "9650989475",
-              "stdIsdCode": "",
-              "phoneType": "mobileNumber"
-            },
-            {
-              "phoneNumber": "",
-              "stdIsdCode": "",
-              "phoneType": "alternateMobileNo"
-            },
-            {
-              "phoneNumber": "",
-              "stdIsdCode": "",
-              "phoneType": "alternateLandlineNo"
-            },
-            {
-              "phoneNumber": "",
-              "stdIsdCode": "",
-              "phoneType": "communicationAlternateLandlineNo"
-            }
-          ],
-          "panDetails": {
-            "panNumber": "AJFPV8829C",
-            "isPANExist": false,
-            "isPanValidated": false,
-            "isDobValidated": false,
-            "panOcrFlag": false
-          },
-          "email": "uditkumar@gmail.com"
-        },
         "businessType": "",
         "bdmId": "",
         "enrollerId": "",
@@ -545,13 +481,10 @@
     {
       "partyType": "Payor",
       "basicDetails": {
-        "firstName": "UDIT",
+        "firstName": "",
         "middleName": "",
-        "lastName": "Kumar",
-        "gender": "M",
-        "dob": {
-          "$date": "1986-05-09T00:00:00.000Z"
-        },
+        "lastName": "",
+        "gender": "",
         "nationalityDetails": {
           "nationality": "indian",
           "nriDetails": {
@@ -578,73 +511,25 @@
             "applicationSource": ""
           }
         },
-        "education": "Graduate",
         "occupation": "",
         "annualIncome": "",
         "areBothAddressSame": false,
         "address": [
           {
-            "proofType": "",
             "addressType": "Current",
             "addressDetails": {
               "houseNo": "",
-              "area": "YAM,COIMBATORE -",
-              "landmark": "",
-              "city": "",
-              "state": "TAMIL NADU",
-              "pinCode": "",
-              "country": "",
-              "village": ""
-            }
-          },
-          {
-            "proofType": "",
-            "addressType": "Permanent",
-            "addressDetails": {
-              "houseNo": "90 a AH Street",
               "area": "",
               "landmark": "",
-              "city": "Jalandhar ",
+              "city": "",
               "state": "",
-              "pinCode": "144001",
+              "pinCode": "",
               "country": "",
               "village": ""
             }
           }
         ],
         "relationshipWithProposer": "",
-        "personalIdentification": {
-          "phone": [
-            {
-              "phoneNumber": "9650989475",
-              "stdIsdCode": "",
-              "phoneType": "mobileNumber"
-            },
-            {
-              "phoneNumber": "",
-              "stdIsdCode": "",
-              "phoneType": "alternateMobileNo"
-            },
-            {
-              "phoneNumber": "",
-              "stdIsdCode": "",
-              "phoneType": "alternateLandlineNo"
-            },
-            {
-              "phoneNumber": "",
-              "stdIsdCode": "",
-              "phoneType": "communicationAlternateLandlineNo"
-            }
-          ],
-          "panDetails": {
-            "panNumber": "AJFPV8829C",
-            "isPANExist": false,
-            "isPanValidated": false,
-            "isDobValidated": false,
-            "panOcrFlag": false
-          },
-          "email": "uditkumar@gmail.com"
-        },
         "businessType": "",
         "bdmId": "",
         "enrollerId": "",
@@ -734,7 +619,7 @@
             "issuingCountry": "",
             "applicationSource": "",
             "passportExpiryDate": {
-              "$date": "2026-02-02T09:00:00.000Z"
+              "$date": "2026-02-02T12:00:00.000Z"
             }
           }
         },
@@ -750,7 +635,6 @@
           "prevAnyComplicationToPregnancy": "",
           "prevPregnancyComplicationDetails": ""
         },
-        "occupation": "Salaried",
         "annualIncome": "",
         "areBothAddressSame": false,
         "address": [
@@ -841,7 +725,7 @@
           "enrollmentNo": ""
         },
         "panDetails": {
-          "panNumber": "",
+          "panNumber": "AJXPR0607C",
           "isPANExist": false,
           "isPanValidated": false,
           "isDobValidated": false,
@@ -892,7 +776,7 @@
             "issuingCountry": "",
             "applicationSource": "",
             "passportExpiryDate": {
-              "$date": "2026-02-02T09:00:00.000Z"
+              "$date": "2026-02-02T12:00:00.000Z"
             }
           }
         },
@@ -989,8 +873,8 @@
         "panDetails": {
           "panNumber": "",
           "isPANExist": false,
-          "isPanValidated": false,
-          "isDobValidated": false,
+          "isPanValidated": true,
+          "isDobValidated": true,
           "creditScore": "",
           "incomeRange": "",
           "panOcrFlag": false,
@@ -1020,32 +904,36 @@
       "productType": "Traditional",
       "nomineeUnderSection": "",
       "productInfo": {
-        "productId": "Axis",
-        "productName": "Max Life Smart Wealth Plan",
+        "productId": "194",
+        "productName": "Axis Max Life Smart Wealth Advantage Growth Par Plan",
         "sumAssuredOption": "",
         "sumAssured": "",
         "sumAssuredAvailable": "",
         "isSmoker": false,
         "maturityAge": "",
-        "policyTerm": "",
+        "policyTerm": "20",
         "premiumType": "",
-        "premiumPaymentTerm": "",
-        "premiumCommitment": "",
+        "premiumPaymentTerm": "6",
+        "premiumCommitment": "500000",
         "dividendOption": "",
         "dividendAdjustment": "",
-        "modeOfPayment": "",
-        "effectiveDateOfCoverage": "",
+        "modeOfPayment": "Annual",
+        "effectiveDateOfCoverage": "2026-01-02T00:00:00.000+0000",
         "annualIncome": {
-          "$numberLong": "1000000"
+          "$numberLong": "0"
         },
         "desiredAnnualIncome": {
           "$numberLong": "0"
         },
         "childDob": {
-          "$date": "2026-01-02T09:00:00.000Z"
+          "$date": "2026-01-02T12:00:00.000Z"
         },
+        "gstEffectiveDate": "2017-07-01",
         "vestingAge": "",
         "isSaveTommorow": false,
+        "initialPremium": "500000",
+        "riskClass": "",
+        "riskProfile": "0",
         "riderDetails": [
           {
             "isRiderRequired": false,
@@ -1117,7 +1005,8 @@
             "amount": 0,
             "riderTerm": "",
             "riderSumAssured": 0,
-            "riderModalPremium": 0
+            "riderModalPremium": 0,
+            "riderVariant": ""
           },
           {
             "isRiderRequired": false,
@@ -1183,25 +1072,77 @@
             "nfoFundPercent": 0
           }
         },
+        "productIllustrationResponse": {
+          "coverageTerm": "20",
+          "coverMultiple": "5013",
+          "sumAssured": 0,
+          "modeOfPayment": "Annual",
+          "modalPremium": 0,
+          "premiumPaymentTerm": "6",
+          "serviceTax": "0",
+          "effectiveDate": {
+            "$date": "2026-01-02T00:00:00.000Z"
+          },
+          "riderSumAssured": 0,
+          "riderModalPremium": 0,
+          "riderServiceTax": "0.0",
+          "atp": 500000,
+          "initialPremiumPaid": "0",
+          "guaranteedDeathBenefit": "",
+          "annualPremium": "",
+          "baseModalPremium": "0",
+          "serviceTaxInclCessBaseModalPrem": "0",
+          "firstYearADDRiderPremiumSummary": "0.0",
+          "firstYearTermPlusRiderPremiumSummary": "0.0",
+          "wopPlusRiderTerm": "0",
+          "firstYearPartnerCareRiderPremiumSummary": "0",
+          "partnerCareRiderTerm": "0",
+          "partnerCareRiderSumAssured": "0",
+          "employeeDiscount": "No",
+          "agentDiscount": "No",
+          "webDiscount": "No",
+          "customerDiscount": "No",
+          "deathBenefit": "",
+          "incomePeriod": "NA",
+          "premiumBackOption": "no",
+          "lifeStageEventBenefit": "no",
+          "basePlanGST": "0.0",
+          "CABRiderSumAssured": "0.0",
+          "bIGeneratedDate": {
+            "$date": "2026-01-02T00:00:00.000Z"
+          },
+          "jlSumAssured": 0,
+          "jlPremiumWithoutGST": 0,
+          "biAccruedBenefitBOY": 0,
+          "biAccruedBenefitEOY": 0,
+          "biWellnessBooster": 0,
+          "biDeathBenefitMultiple": 0,
+          "biSumAssuredOnMaturity": 0,
+          "smartWithdrawalPayoutStartYear": 0,
+          "advAnnuityIntrstRate": 0
+        },
+        "existingProductType": "Traditional",
+        "secondAnnuitantDob": "",
+        "secondAnnuitantTitle": "",
         "secondAnnuitantName": "",
-        "secondAnnuitantSex": "",
+        "secondAnnuitantSex": "M",
         "annuityOption": "",
         "deathBenefitForAnnuity": "",
         "deathBenefit": "",
-        "incomePeriod": "",
+        "incomePeriod": "NA",
         "premiumBackOption": "",
         "premiumBreakOption": "",
         "firstPremiumBreakOption": "",
         "secondPremiumBreakOption": "",
         "lifeStageEventBenefit": "",
-        "customerDiscount": "",
-        "isDiabetic": "",
-        "smokingHabits": "",
-        "variant": "",
-        "incomeCategory": "",
+        "customerDiscount": "no",
+        "isDiabetic": "yes",
+        "smokingHabits": "no",
+        "variant": "Insta Income",
+        "incomeCategory": "Classic",
         "coverMultiple": "",
-        "incomePayoutFrequency": "",
-        "incomePayoutOption": "",
+        "incomePayoutFrequency": "Annual",
+        "incomePayoutOption": "Arrears",
         "annuityType": "",
         "defermentPeriod": "",
         "secondAnnuitantRelationship": "",
@@ -1217,7 +1158,7 @@
         "secondAnnuitantPanAadhaarResponseTime": "",
         "solutionName": "",
         "smartWithdrawalPayoutPercentage": "",
-        "waiverofPremiumBenefit": "",
+        "waiverofPremiumBenefit": "No",
         "smartWithdrawalPlan": "",
         "smartWithdrawalPayoutMode": "",
         "smartWithdrawalPayoutStartYear": 0,
@@ -1232,13 +1173,14 @@
         "sspNatureOfDuties": "",
         "coverageOption": 0,
         "incomeStartYear": "",
-        "premiumOffset": "",
-        "desiredDateOfIncomePayout": "",
+        "premiumOffset": "no",
+        "desiredDateOfIncomePayout": "no",
         "desiredDate": "",
         "solveOption": "",
+        "isPosp": "No",
         "deathBenefitMultiple": "",
-        "limitedTerm": "no",
-        "deferralAccrualOption": "",
+        "limitedTerm": "yes",
+        "deferralAccrualOption": "no",
         "secondAnnuitantRiskClass": "",
         "secondAnnuitantSumAssured": "",
         "isJointLife": "",
@@ -1283,6 +1225,7 @@
         "enrollerId": "",
         "finderId": ""
       },
+      "axisBiGenerationDate": "2026-01-2",
       "gstInNumber": ""
     }
   ],
@@ -1545,33 +1488,36 @@
     "chequeDetails": {
       "chequeResponse": false
     },
-    "paymentRenewedBy": "",
+    "paymentRenewedBy": "directDebit",
     "bankDetails": [
       {
         "bankInfoType": "NEFT",
         "bankAccountNumber": "13132434554",
-        "accountHolderName": "",
+        "accountHolderName": "Bhargavi ggggggggggggggg",
         "micr": "",
         "ifsc": "UTIB0000404",
-        "bankName": "HADAPSAR PUNE",
-        "bankBranch": "",
-        "typeOfAccount": "Savings",
+        "bankName": "Axis",
+        "bankBranch": "HADAPSAR PUNE",
+        "typeOfAccount": "NRE",
+        "bankAccOpeningDate": {
+          "$date": "2000-03-01T00:00:00.000Z"
+        },
         "secondAnnuitantbankAccountHolderName": "",
         "secondAnnuitantbankAccountIFSC": "",
         "secondAnnuitantbankAccountMICR": "",
         "secondAnnuitantbankName": "",
         "secondAnnuitantbankBranch": "",
-        "gstWaiverAccountType": ""
+        "gstWaiverAccountType": "OTHERS"
       },
       {
         "bankInfoType": "ECS",
         "bankAccountNumber": "13132434554",
-        "accountHolderName": "",
+        "accountHolderName": "Bhargavi ggggggggggggggg",
         "micr": "",
         "ifsc": "UTIB0000404",
-        "bankName": "HADAPSAR PUNE",
-        "bankBranch": "",
-        "typeOfAccount": "Savings",
+        "bankName": "Axis",
+        "bankBranch": "HADAPSAR PUNE",
+        "typeOfAccount": "NRE",
         "bankAccOpeningDate": {
           "$date": "2000-01-01T00:00:00.000Z"
         }
@@ -2082,24 +2028,25 @@
     "IRPQ1": "",
     "IRPQ2": "",
     "IRPQ3": "",
-    "IRPQ4": ""
+    "IRPQ4": "",
+    "IRPRiskClassification": ""
   },
   "paymentDetails": {
     "receipt": [
       {
         "paymentType": "",
         "paymentReferenceCode": "",
-        "proposerNumber": "UDIT Kumar ",
+        "proposerNumber": "Bhargavi ggggggggggggggg ",
         "premiumMode": "",
         "isSICheck": false,
-        "modeOfPayment": "",
+        "modeOfPayment": "Annual",
         "isTermAccepted": false,
         "paymentChequeDetails": {
           "chequeNumber": {
             "$numberLong": "0"
           },
           "chequeDate": {
-            "$date": "2026-01-02T09:51:09.000Z"
+            "$date": "2026-01-02T12:01:22.000Z"
           },
           "chequeAmount": 0,
           "chequePayableAt": "",
@@ -2111,7 +2058,7 @@
         "demandDraftDetails": {
           "demandDraftNumber": "",
           "demandDraftDate": {
-            "$date": "2026-01-02T09:51:09.000Z"
+            "$date": "2026-01-02T12:01:22.000Z"
           },
           "demandDraftAmount": 0,
           "demandDraftPayableAt": "",
@@ -2134,7 +2081,7 @@
     ]
   },
   "additionalFlags": {
-    "currentActiveScreen": 2,
+    "currentActiveScreen": 0,
     "isIllustrationGenerated": false,
     "isEmailSent": false,
     "isifscMicrValidated": false,
@@ -2145,11 +2092,12 @@
     "screen4": "empty",
     "screen5": "empty",
     "screen6": "empty",
+    "isNewAxisApplication": true,
     "isPayorDiffFromPropser": false,
     "isIllustrationGeneratedOnScreen2": false,
     "isPaymentDone": false,
     "preIssuanceVerificationNumber": "",
-    "requestSource": "MPRO",
+    "requestSource": "AXIS",
     "agentKnowsProposerSince": "",
     "agentKnowsProposerUnitType": "",
     "isMaxEmp": "",
@@ -2186,6 +2134,9 @@
     "accountAggregatorEkycSkip": "No",
     "insuredEkycSkip": "No",
     "payorEkycSkip": "No",
+    "ekycTypeProposer": "4",
+    "ekycTypeInsurer": "4",
+    "ekycTypePayor": "3",
     "isYBLGenieSubStatusCall": false,
     "isIibCalledForProposer": "No",
     "isIibCalledForInsurer": "No",
@@ -2354,26 +2305,34 @@
     "isCPDAPIValidated": false,
     "isCoiApplicable": false,
     "isYblTelesalesCase": false,
-    "isEducationPresent": false,
-    "isOccupationPresent": false,
+    "isEducationPresent": true,
+    "isOccupationPresent": true,
     "ebcc": false,
     "userDocumentSubmittedAtUiInThanos": false,
     "isSecondAnnuitantPEP": false,
     "annuitantReflexive": "",
     "posEmailStatus": false,
-    "gstWaiverRequired": "",
+    "gstWaiverRequired": "no",
+    "irpQuestionsInPosv": "N",
+    "nonLinkedPlanAck": "N",
     "isEpfoMobChange": true,
     "altfinEnqStage4Status": "",
     "isHealthApplicable": false,
     "panChangeStatus": false,
     "isPhotoSupress": false,
+    "thanosJourney": "Yes",
+    "thanosJourneyType": "J3",
     "isRaIdPresent": false,
-    "utmCode": "",
+    "axisJourneyPaymentType": "PAYMENT_LATER",
+    "utmCode": "7041",
     "journeyIdentifer": "",
-    "isFalconProduct": "No",
+    "isPolicyNumberValidated": "Yes",
+    "isFalconProduct": "Yes",
     "isCkycNumberVerified": false,
     "financialDocumentSelected": "",
     "otherDocument": "",
+    "isSellerDeclarationApplicable": "yes",
+    "panDobSwitchOn": "no",
     "isInstaCOIProductEligible": false,
     "isReplacementSaleApiCalled": "N",
     "isNpsJourney": "",
@@ -2383,6 +2342,7 @@
     "agencyContest": "",
     "isCkycApiTrigerred": false,
     "mproJourneyDataPrefilledWith": "",
+    "isSeniorCitizen": "No",
     "isProspectiveYBLCustomer": false,
     "disableScreen6ForAgenyYblPOS": "No",
     "pennyDropConsent": "No",
@@ -2412,14 +2372,17 @@
       "otherDisabilityDetails": "",
       "disabilityPercentage": ""
     },
-    "journeyType": "",
+    "journeyType": "J3",
     "sourceChannel": "",
-    "whatsappConsent": "",
+    "whatsappConsent": "True",
+    "optinStatus": "success",
     "isPanModifiedForThanos": false,
     "showInterimOption": false,
     "isInterimSelected": "No",
     "isPtfPayment": "no",
-    "emailSMSConsent": false,
+    "relationShipWithProposerFromSoruce": false,
+    "emailSMSConsent": true,
+    "agentMappedToSP": "unmapped",
     "resendCount": "0",
     "insuredResendCount": "0",
     "showCovidQuesOnPosv": "N",
@@ -2436,25 +2399,25 @@
     "dolphinRepushCount": 0,
     "isCaseOpenedFromDashboard": false,
     "isAgent360CalledForCampaignId": "",
-    "isFalconJourney": "No",
+    "isFalconJourney": "Yes",
     "isPaymentConfirmation": false,
     "isShriramFinance": "false",
     "existingPolicyMaxOrNot": "",
     "isSuperAnnuationFundPolicy": "",
     "clientId": "",
     "clientIdValidated": false,
-    "disableCatAxisClientId": "Y",
+    "disableCatAxisClientId": "N",
     "paymentFirstConsent": false,
-    "upfrontPaymentConsent": "",
+    "upfrontPaymentConsent": "Yes",
     "currentMonthSelected": false,
     "isCs2LinkTriggerred": "No",
     "isBSJourneyTriggered": "No",
     "isITRJourneyTriggered": "No",
-    "upfrontpaymentconsentsys": "",
-    "isPaymentLastEnabled": "",
-    "isMmmaPolicyStatusWip": "",
+    "upfrontpaymentconsentsys": "2",
+    "isPaymentLastEnabled": "No",
+    "isMmmaPolicyStatusWip": "no",
     "enableNatureOfDutiesForAll": "Y",
-    "isInterimPaymentLast": "",
+    "isInterimPaymentLast": "No",
     "journeyProgressMode": "",
     "journeyFlowType": "",
     "spApproverName": "",
@@ -2478,10 +2441,11 @@
     "isAAJourneyCompleted": false,
     "isInsuredPOSVReTriggered": false,
     "insuredPosvJourneyFlag": "FALSE",
+    "insurerOptInStatus": "success",
     "companyDepartmentName": "",
     "companyDepartmentLocation": "",
     "isECSRenewalPaymentDone": false,
-    "showECSOption": "",
+    "showECSOption": "Yes",
     "isDhuCase": "Y",
     "isCSBChannel": false,
     "isIvcDiscrepancyCase": false,
@@ -2489,6 +2453,7 @@
     "isInsurerEkycDobVerified": false,
     "isPayorEkycDobVerified": false,
     "paymentStatusPopupFlag": false,
+    "isNonCasaCase": "N",
     "currAddProofPayor": "NA",
     "isPanValidatedPayor": false,
     "stpNachPayor": "NA",
@@ -2515,26 +2480,30 @@
     "isPosvFirstCall": "N",
     "selectedEkycDocument": "",
     "isProposerOcrConsentGiven": "",
-    "stpAddressProfSource": "NA",
-    "isPanValidatedSource": "NA",
-    "stpIdDobproofSource": "NA",
+    "stpAddressProfSource": "EBCC",
+    "isPanValidatedSource": "EBCC",
+    "stpIdDobproofSource": "EBCC",
     "reasonForSS": "",
     "otherReasonForSS": "",
     "proceedByFifthScreenButton": false,
+    "docUploadNivc": "N",
+    "idCapture": "N",
     "basbaConsent": "N",
     "paymentModeOnThirdScreen": "",
     "renewalPaymentModeOnThirdScreen": "",
-    "siWipForAxis": "",
+    "siWipForAxis": "no",
     "siWipForNonAxis": "",
     "isPaymentLastEnabledWip": "",
     "initialPaymentTimerLeft": "",
     "renewalPaymentTimerLeft": "",
     "initialPaymentLinkOpened": "",
     "renewalPaymentLinkOpened": "",
-    "sifeatureflagfnr": "",
+    "sifeatureflagfnr": "Yes",
     "checkIfAxisCase": false,
-    "showSiIntial": "",
-    "policyPurchasedAfterConsent": false
+    "showSiIntial": "Yes",
+    "policyPurchasedAfterConsent": false,
+    "sdOtpRequired": "Yes",
+    "pfRequiredInSd": "No"
   },
   "underwritingServiceDetails": {
     "medicalShedulingDetails": {
@@ -2548,46 +2517,1576 @@
     }
   },
   "csgDetails": {
-    "CSGCategory": ""
+    "CSGCategory": "",
+    "isCSGApplied": false
   },
   "bancaDetails": {
-    "customerId": "NTE2OTY3OTc5",
-    "bancaId": "4078241681",
-    "bankAccountOpeningDate": "01-03-2000",
+    "customerId": "650000008900",
+    "customerIdTransformed": "1000004278",
+    "bancaId": "490052533",
+    "creationTime": "17:27:16",
+    "updatedTime": "",
+    "addOnBancaId": "",
+    "addOnPolicyNumber": "",
+    "creationDate": "01-02-2026",
+    "lastSyncDate": "2026-01-02T17:27:03.153Z",
+    "bankAccountOpeningDate": "2000-03-01T00:00:00.000+0000",
     "isCountryCodeIndian": "Y",
-    "ekyc": "Y",
+    "ekyc": "Yes",
     "ukyc": "Y",
     "customerSegment": "PRIME",
     "customerClassification": "SBNRE",
-    "leadId": "622503056812",
+    "leadId": "800000044007",
     "addonType": "",
-    "maxLifeRegisteredState": "",
-    "isPANAvailable": false,
+    "addOnFlag": false,
+    "maxLifeRegisteredState": "HARYANA",
+    "emailTimeStamp": "",
+    "isNameModified": false,
+    "isDOBModified": false,
+    "productSolutionMatrix": {
+      "incomeRange": "",
+      "lifeStage": "Married with no children",
+      "goalSelected": "Protection",
+      "currentAgeOfInsured": "41",
+      "dateOfIllustration": "",
+      "lumpSumSavingsForGoal": "",
+      "recurringMonthlySavingsForGoal": "",
+      "expectedAnnualRateOfInflation": "",
+      "expectedAnnualReturnOnInvestment": "",
+      "futureCostOfGoal": "",
+      "suggestedSavingsPA": "",
+      "commitmentPA": "",
+      "productsRecommended": "Max Life Saral Jeevan Bima#Max Life Cancer Insurance Plan#Forever Young Pension Plan#Max Life Life Perfect Partner Super#Max Life Fast Track Super Plan#Max Life Monthly Income Advantage Plan#Max Life Platinum Wealth Plan#Max Life Future Genius Education Plan#Max Life Savings Advantage Plan#Max Life Flexi Wealth Plus Plan#Max Life Smart Wealth Plan#Max Life Saral Pension Plan#Max Life Smart Secure Plus Plan#Max Life Smart Wealth Income Plan#Max Life Flexi Wealth Plus Plan#Max Life Smart Wealth Advantage guarantee Plan",
+      "afyp": ""
+    },
+    "isNRI": "No",
+    "isPANAvailable": true,
     "isMICRAvailable": false,
-    "referenceId": "",
+    "referenceId": "712933c3-bdbc-4df7-ab14-c906b5aa4369",
+    "isCommAddressModified": "No",
+    "isPanModified": "false",
     "primaryId": {
       "$numberLong": "0"
     },
     "crmBancaCustomerDetails": {
       "crmBankBranchName": "HADAPSAR PUNE",
-      "crmtitle": "Mr",
-      "crmCustomerFirstName": "UDIT",
-      "crmCustomerMiddleName": " ",
-      "crmCustomerLastName": "Kumar",
-      "crmAccountNo": "13132434554"
+      "crmtitle": "Ms",
+      "crmCustomerFirstName": "Bhargavi",
+      "crmCustomerMiddleName": "",
+      "crmCustomerLastName": "ggggggggggggggg",
+      "crmDob": "1984-05-18 00:00:00.0",
+      "crmHouseNo": "BAFNA PHARMACEUTICALS LTD",
+      "crmArea": "299,THAMBU CHETTY STREET",
+      "crmLandmark": "",
+      "crmCity": "Chennai ",
+      "crmState": "TAMIL NADU",
+      "crmCountry": "India",
+      "crmPinCode": "600001",
+      "crmPanCard": "AJXPR0607C",
+      "crmAccountNo": "13132434554",
+      "crmAccountOpendate": "2000-03-01 00:00:00.0"
     },
-    "freeText4": "50022770388857",
-    "specifiedPersonCode": "SP0069520143",
-    "agentRole": "ASM",
-    "constitutionCode": "1",
-    "offerName": "PASAR11",
-    "crmStatus": "5",
-    "lastSpCode": "SP0069520143",
-    "title": "Mr",
-    "ckyc": "50022770388857",
+    "freeText1": "",
+    "freeText2": "",
+    "freeText3": "",
+    "freeText4": "",
+    "freeText5": "",
+    "freeText6": "",
+    "freeText7": "",
+    "freeText8": "",
+    "freeText9": "",
+    "freeText10": "",
+    "freeText11": "",
+    "freeText12": "",
+    "freeText13": "",
+    "freeText14": "",
+    "freeText15": "",
+    "freeText16": "",
+    "freeText17": "",
+    "freeText18": "",
+    "freeText19": "",
+    "freeText20": "",
+    "sourceOfSale": "None",
+    "constitutionCode": "01",
+    "mopStatusCode": "",
+    "schemeCode": "SBNRE",
     "leadSourceOption": "",
-    "gstWaiverRequired": "yes",
-    "selectedAccNumber": ""
+    "gstWaiverRequired": "no",
+    "leadCreationAppIdentifier": "Saksham",
+    "sparkBiOutput": {
+      "riderUIN": [
+        {
+          "riderName": "Term Plus Rider",
+          "UIN": "104B026V04",
+          "riderKey": "isTermPlusRider"
+        },
+        {
+          "riderName": "Accidental Death And Dismemberment Rider",
+          "UIN": "104B027V05",
+          "riderKey": "isAccidentalDeathAndDismembermentRider"
+        },
+        {
+          "riderName": "Waiver of Premium Plus Rider",
+          "UIN": "104B029V05",
+          "riderKey": "isWOPPlusRider"
+        },
+        {
+          "riderName": "Critical Illness and Disability Rider",
+          "UIN": "104B033V02",
+          "riderKey": "isSmartHealthPlusRider"
+        }
+      ],
+      "productCode": "194",
+      "channelId": "9084",
+      "isPOSP": "false",
+      "smartBI": false
+    },
+    "sparkBiOutputResponse": {
+      "additionalOutputs": [
+        {
+          "type": "productType",
+          "value": "PAR"
+        },
+        {
+          "type": "advanceIncomeEdc",
+          "value": "2024-11-17"
+        },
+        {
+          "type": "firstYearBasicModalPremium",
+          "value": 500000
+        },
+        {
+          "type": "firstYearADDRiderPremiumSummary",
+          "value": 0
+        },
+        {
+          "type": "firstYearTermPlusRiderPremiumSummary",
+          "value": 0
+        },
+        {
+          "type": "firstYearWOPPlusRiderPremiumSummary",
+          "value": 0
+        },
+        {
+          "type": "firstYearCIDisabilityRiderPremiumSummary",
+          "value": 0
+        },
+        {
+          "type": "ssvRegsEdc",
+          "value": "2024-10-01"
+        },
+        {
+          "type": "addRiderTermPremiumPaymentTerm",
+          "value": "6 Pay "
+        },
+        {
+          "type": "wopPlusRiderSumAssured",
+          "value": 0
+        },
+        {
+          "type": "CIDisabilityRiderTermPremiumPaymentTerm",
+          "value": "6 Pay "
+        },
+        {
+          "type": "payoutStartYear",
+          "value": 2027
+        },
+        {
+          "type": "annualIncomeAmt",
+          "value": 0
+        },
+        {
+          "type": "annualFirstYearPremium",
+          "value": 500000
+        },
+        {
+          "type": "AFYP",
+          "value": 500000
+        },
+        {
+          "type": "quotesTableDataGuaranteedMaturityValue",
+          "value": 0
+        },
+        {
+          "type": "quotesTableDataNonGuaranteedMaturityValue4",
+          "value": 0
+        },
+        {
+          "type": "quotesTableDataNonGuaranteedMaturityValue8",
+          "value": 0
+        },
+        {
+          "type": "quotesTableDataMaturityBenefitTotalPremiumPaid",
+          "value": 0
+        },
+        {
+          "type": "quotesTableDataMaturityBenefitAt4Pct",
+          "value": 0
+        },
+        {
+          "type": "quotesTableDataMaturityBenefitAt8Pct",
+          "value": 0
+        },
+        {
+          "type": "quotesTableDataDeathBenefitTotalPremiumPaid",
+          "value": 0
+        },
+        {
+          "type": "quotesTableDataDeathBenefitAt4Pct",
+          "value": 0
+        },
+        {
+          "type": "quotesTableDataDeathBenefitAt8Pct",
+          "value": 0
+        },
+        {
+          "type": "quotesTableDataSumAssured",
+          "value": 0
+        },
+        {
+          "type": "quotesTableDataTotMonthlyPremiumExCess",
+          "value": 0
+        },
+        {
+          "type": "annualizedGST",
+          "value": 0
+        },
+        {
+          "type": "edc",
+          "value": "2026-01-02"
+        },
+        {
+          "type": "incomePayoutOption",
+          "value": "Arrears"
+        },
+        {
+          "type": "gstChangeEdc",
+          "value": "2025-09-22"
+        },
+        {
+          "type": "accumulationOfSurvivalBenefits",
+          "value": "no"
+        },
+        {
+          "type": "genderLI",
+          "value": "Female"
+        },
+        {
+          "type": "ageLI",
+          "value": 41
+        },
+        {
+          "type": "cashBonusMode",
+          "value": "Annual"
+        }
+      ],
+      "ageGenderLI": "41 years, Female",
+      "ageGenderPH": "41 years, Female",
+      "illustration": [
+        {
+          "policyYear": 1,
+          "ageAtTheStartOfThePolicyYear": 41,
+          "singleAnnualizedPremium": 500000,
+          "survivalBenefitBOY": 0,
+          "guaranteedSurrenderValue": 0,
+          "deathBenefit": 5700000,
+          "maturityBenefitEOY": 0,
+          "additionalAccidentalDeathBenefit": 0,
+          "cashBonusBOY4": 49750,
+          "guaranteedSurrenderValueEOY4": 0,
+          "specialSurrenderValueEOY4": 138162.79,
+          "surrenderBenefitEOY4": 138162.79,
+          "cashBonusBOY8": 125000,
+          "guaranteedSurrenderValueEOY8": 0,
+          "specialSurrenderValueEOY8": 75454.45,
+          "surrenderBenefitEOY8": 75454.45,
+          "totalDeathBenefit4": 5700000,
+          "totalDeathBenefit8": 5700000,
+          "totalSurvivalBOYMaturityBenefitEOY4": 49750,
+          "totalSurvivalBOYMaturityBenefitEOY8": 125000
+        },
+        {
+          "policyYear": 2,
+          "ageAtTheStartOfThePolicyYear": 42,
+          "singleAnnualizedPremium": 500000,
+          "survivalBenefitBOY": 0,
+          "guaranteedSurrenderValue": 0,
+          "deathBenefit": 5700000,
+          "maturityBenefitEOY": 0,
+          "additionalAccidentalDeathBenefit": 0,
+          "cashBonusBOY4": 49750,
+          "guaranteedSurrenderValueEOY4": 200500,
+          "specialSurrenderValueEOY4": 316547.34,
+          "surrenderBenefitEOY4": 316547.34,
+          "cashBonusBOY8": 125000,
+          "guaranteedSurrenderValueEOY8": 50000,
+          "specialSurrenderValueEOY8": 216214,
+          "surrenderBenefitEOY8": 216214,
+          "totalDeathBenefit4": 5700000,
+          "totalDeathBenefit8": 5700000,
+          "totalSurvivalBOYMaturityBenefitEOY4": 49750,
+          "totalSurvivalBOYMaturityBenefitEOY8": 125000
+        },
+        {
+          "policyYear": 3,
+          "ageAtTheStartOfThePolicyYear": 43,
+          "singleAnnualizedPremium": 500000,
+          "survivalBenefitBOY": 0,
+          "guaranteedSurrenderValue": 0,
+          "deathBenefit": 5700000,
+          "maturityBenefitEOY": 0,
+          "additionalAccidentalDeathBenefit": 0,
+          "cashBonusBOY4": 49750,
+          "guaranteedSurrenderValueEOY4": 375750,
+          "specialSurrenderValueEOY4": 537486.57,
+          "surrenderBenefitEOY4": 537486.57,
+          "cashBonusBOY8": 125000,
+          "guaranteedSurrenderValueEOY8": 150000,
+          "specialSurrenderValueEOY8": 425467.33,
+          "surrenderBenefitEOY8": 425467.33,
+          "totalDeathBenefit4": 5700000,
+          "totalDeathBenefit8": 5700000,
+          "totalSurvivalBOYMaturityBenefitEOY4": 49750,
+          "totalSurvivalBOYMaturityBenefitEOY8": 125000
+        },
+        {
+          "policyYear": 4,
+          "ageAtTheStartOfThePolicyYear": 44,
+          "singleAnnualizedPremium": 500000,
+          "survivalBenefitBOY": 0,
+          "guaranteedSurrenderValue": 0,
+          "deathBenefit": 5700000,
+          "maturityBenefitEOY": 0,
+          "additionalAccidentalDeathBenefit": 0,
+          "cashBonusBOY4": 49750,
+          "guaranteedSurrenderValueEOY4": 801000,
+          "specialSurrenderValueEOY4": 949245.11,
+          "surrenderBenefitEOY4": 949245.11,
+          "cashBonusBOY8": 125000,
+          "guaranteedSurrenderValueEOY8": 500000,
+          "specialSurrenderValueEOY8": 792525.89,
+          "surrenderBenefitEOY8": 792525.89,
+          "totalDeathBenefit4": 5700000,
+          "totalDeathBenefit8": 5700000,
+          "totalSurvivalBOYMaturityBenefitEOY4": 49750,
+          "totalSurvivalBOYMaturityBenefitEOY8": 125000
+        },
+        {
+          "policyYear": 5,
+          "ageAtTheStartOfThePolicyYear": 45,
+          "singleAnnualizedPremium": 500000,
+          "survivalBenefitBOY": 0,
+          "guaranteedSurrenderValue": 0,
+          "deathBenefit": 5700000,
+          "maturityBenefitEOY": 0,
+          "additionalAccidentalDeathBenefit": 0,
+          "cashBonusBOY4": 49750,
+          "guaranteedSurrenderValueEOY4": 1001250,
+          "specialSurrenderValueEOY4": 1463582.05,
+          "surrenderBenefitEOY4": 1463582.05,
+          "cashBonusBOY8": 125000,
+          "guaranteedSurrenderValueEOY8": 625000,
+          "specialSurrenderValueEOY8": 1262285.51,
+          "surrenderBenefitEOY8": 1262285.51,
+          "totalDeathBenefit4": 5700000,
+          "totalDeathBenefit8": 5700000,
+          "totalSurvivalBOYMaturityBenefitEOY4": 49750,
+          "totalSurvivalBOYMaturityBenefitEOY8": 125000
+        },
+        {
+          "policyYear": 6,
+          "ageAtTheStartOfThePolicyYear": 46,
+          "singleAnnualizedPremium": 500000,
+          "survivalBenefitBOY": 0,
+          "guaranteedSurrenderValue": 0,
+          "deathBenefit": 5700000,
+          "maturityBenefitEOY": 0,
+          "additionalAccidentalDeathBenefit": 0,
+          "cashBonusBOY4": 49750,
+          "guaranteedSurrenderValueEOY4": 1201500,
+          "specialSurrenderValueEOY4": 2093816.26,
+          "surrenderBenefitEOY4": 2093816.26,
+          "cashBonusBOY8": 125000,
+          "guaranteedSurrenderValueEOY8": 750000,
+          "specialSurrenderValueEOY8": 1858850.28,
+          "surrenderBenefitEOY8": 1858850.28,
+          "totalDeathBenefit4": 5700000,
+          "totalDeathBenefit8": 5700000,
+          "totalSurvivalBOYMaturityBenefitEOY4": 49750,
+          "totalSurvivalBOYMaturityBenefitEOY8": 125000
+        },
+        {
+          "policyYear": 7,
+          "ageAtTheStartOfThePolicyYear": 47,
+          "singleAnnualizedPremium": 0,
+          "survivalBenefitBOY": 0,
+          "guaranteedSurrenderValue": 0,
+          "deathBenefit": 5700000,
+          "maturityBenefitEOY": 0,
+          "additionalAccidentalDeathBenefit": 2850000,
+          "cashBonusBOY4": 49750,
+          "guaranteedSurrenderValueEOY4": 1151750,
+          "specialSurrenderValueEOY4": 2393339.02,
+          "surrenderBenefitEOY4": 2393339.02,
+          "cashBonusBOY8": 125000,
+          "guaranteedSurrenderValueEOY8": 625000,
+          "specialSurrenderValueEOY8": 2127752.1,
+          "surrenderBenefitEOY8": 2127752.1,
+          "totalDeathBenefit4": 5700000,
+          "totalDeathBenefit8": 5700000,
+          "totalSurvivalBOYMaturityBenefitEOY4": 49750,
+          "totalSurvivalBOYMaturityBenefitEOY8": 125000
+        },
+        {
+          "policyYear": 8,
+          "ageAtTheStartOfThePolicyYear": 48,
+          "singleAnnualizedPremium": 0,
+          "survivalBenefitBOY": 0,
+          "guaranteedSurrenderValue": 0,
+          "deathBenefit": 5700000,
+          "maturityBenefitEOY": 0,
+          "additionalAccidentalDeathBenefit": 2850000,
+          "cashBonusBOY4": 49750,
+          "guaranteedSurrenderValueEOY4": 1273300,
+          "specialSurrenderValueEOY4": 2434896.05,
+          "surrenderBenefitEOY4": 2434896.05,
+          "cashBonusBOY8": 125000,
+          "guaranteedSurrenderValueEOY8": 671300,
+          "specialSurrenderValueEOY8": 2165990.82,
+          "surrenderBenefitEOY8": 2165990.82,
+          "totalDeathBenefit4": 5700000,
+          "totalDeathBenefit8": 5700000,
+          "totalSurvivalBOYMaturityBenefitEOY4": 49750,
+          "totalSurvivalBOYMaturityBenefitEOY8": 125000
+        },
+        {
+          "policyYear": 9,
+          "ageAtTheStartOfThePolicyYear": 49,
+          "singleAnnualizedPremium": 0,
+          "survivalBenefitBOY": 0,
+          "guaranteedSurrenderValue": 0,
+          "deathBenefit": 5700000,
+          "maturityBenefitEOY": 0,
+          "additionalAccidentalDeathBenefit": 2850000,
+          "cashBonusBOY4": 49750,
+          "guaranteedSurrenderValueEOY4": 1395150,
+          "specialSurrenderValueEOY4": 2477130.6,
+          "surrenderBenefitEOY4": 2477130.6,
+          "cashBonusBOY8": 125000,
+          "guaranteedSurrenderValueEOY8": 717900,
+          "specialSurrenderValueEOY8": 2206369.4,
+          "surrenderBenefitEOY8": 2206369.4,
+          "totalDeathBenefit4": 5700000,
+          "totalDeathBenefit8": 5700000,
+          "totalSurvivalBOYMaturityBenefitEOY4": 49750,
+          "totalSurvivalBOYMaturityBenefitEOY8": 125000
+        },
+        {
+          "policyYear": 10,
+          "ageAtTheStartOfThePolicyYear": 50,
+          "singleAnnualizedPremium": 0,
+          "survivalBenefitBOY": 0,
+          "guaranteedSurrenderValue": 0,
+          "deathBenefit": 5700000,
+          "maturityBenefitEOY": 0,
+          "additionalAccidentalDeathBenefit": 2850000,
+          "cashBonusBOY4": 49750,
+          "guaranteedSurrenderValueEOY4": 1516700,
+          "specialSurrenderValueEOY4": 2519974.92,
+          "surrenderBenefitEOY4": 2519974.92,
+          "cashBonusBOY8": 125000,
+          "guaranteedSurrenderValueEOY8": 764200,
+          "specialSurrenderValueEOY8": 2249125.59,
+          "surrenderBenefitEOY8": 2249125.59,
+          "totalDeathBenefit4": 5700000,
+          "totalDeathBenefit8": 5700000,
+          "totalSurvivalBOYMaturityBenefitEOY4": 49750,
+          "totalSurvivalBOYMaturityBenefitEOY8": 125000
+        },
+        {
+          "policyYear": 11,
+          "ageAtTheStartOfThePolicyYear": 51,
+          "singleAnnualizedPremium": 0,
+          "survivalBenefitBOY": 0,
+          "guaranteedSurrenderValue": 0,
+          "deathBenefit": 5700000,
+          "maturityBenefitEOY": 0,
+          "additionalAccidentalDeathBenefit": 2850000,
+          "cashBonusBOY4": 49750,
+          "guaranteedSurrenderValueEOY4": 1638550,
+          "specialSurrenderValueEOY4": 2563462.88,
+          "surrenderBenefitEOY4": 2563462.88,
+          "cashBonusBOY8": 125000,
+          "guaranteedSurrenderValueEOY8": 810800,
+          "specialSurrenderValueEOY8": 2294327.34,
+          "surrenderBenefitEOY8": 2294327.34,
+          "totalDeathBenefit4": 5700000,
+          "totalDeathBenefit8": 5700000,
+          "totalSurvivalBOYMaturityBenefitEOY4": 49750,
+          "totalSurvivalBOYMaturityBenefitEOY8": 125000
+        },
+        {
+          "policyYear": 12,
+          "ageAtTheStartOfThePolicyYear": 52,
+          "singleAnnualizedPremium": 0,
+          "survivalBenefitBOY": 0,
+          "guaranteedSurrenderValue": 0,
+          "deathBenefit": 5700000,
+          "maturityBenefitEOY": 0,
+          "additionalAccidentalDeathBenefit": 2850000,
+          "cashBonusBOY4": 49750,
+          "guaranteedSurrenderValueEOY4": 1760100,
+          "specialSurrenderValueEOY4": 2607560.6,
+          "surrenderBenefitEOY4": 2607560.6,
+          "cashBonusBOY8": 125000,
+          "guaranteedSurrenderValueEOY8": 857100,
+          "specialSurrenderValueEOY8": 2342212.4,
+          "surrenderBenefitEOY8": 2342212.4,
+          "totalDeathBenefit4": 5700000,
+          "totalDeathBenefit8": 5700000,
+          "totalSurvivalBOYMaturityBenefitEOY4": 49750,
+          "totalSurvivalBOYMaturityBenefitEOY8": 125000
+        },
+        {
+          "policyYear": 13,
+          "ageAtTheStartOfThePolicyYear": 53,
+          "singleAnnualizedPremium": 0,
+          "survivalBenefitBOY": 0,
+          "guaranteedSurrenderValue": 0,
+          "deathBenefit": 5700000,
+          "maturityBenefitEOY": 0,
+          "additionalAccidentalDeathBenefit": 2850000,
+          "cashBonusBOY4": 49750,
+          "guaranteedSurrenderValueEOY4": 1881950,
+          "specialSurrenderValueEOY4": 2652335.85,
+          "surrenderBenefitEOY4": 2652335.85,
+          "cashBonusBOY8": 125000,
+          "guaranteedSurrenderValueEOY8": 903700,
+          "specialSurrenderValueEOY8": 2392984.58,
+          "surrenderBenefitEOY8": 2392984.58,
+          "totalDeathBenefit4": 5700000,
+          "totalDeathBenefit8": 5700000,
+          "totalSurvivalBOYMaturityBenefitEOY4": 49750,
+          "totalSurvivalBOYMaturityBenefitEOY8": 125000
+        },
+        {
+          "policyYear": 14,
+          "ageAtTheStartOfThePolicyYear": 54,
+          "singleAnnualizedPremium": 0,
+          "survivalBenefitBOY": 0,
+          "guaranteedSurrenderValue": 0,
+          "deathBenefit": 5700000,
+          "maturityBenefitEOY": 0,
+          "additionalAccidentalDeathBenefit": 2850000,
+          "cashBonusBOY4": 49750,
+          "guaranteedSurrenderValueEOY4": 2003500,
+          "specialSurrenderValueEOY4": 2697822.5,
+          "surrenderBenefitEOY4": 2697822.5,
+          "cashBonusBOY8": 125000,
+          "guaranteedSurrenderValueEOY8": 950000,
+          "specialSurrenderValueEOY8": 2446949.55,
+          "surrenderBenefitEOY8": 2446949.55,
+          "totalDeathBenefit4": 5700000,
+          "totalDeathBenefit8": 5700000,
+          "totalSurvivalBOYMaturityBenefitEOY4": 49750,
+          "totalSurvivalBOYMaturityBenefitEOY8": 125000
+        },
+        {
+          "policyYear": 15,
+          "ageAtTheStartOfThePolicyYear": 55,
+          "singleAnnualizedPremium": 0,
+          "survivalBenefitBOY": 0,
+          "guaranteedSurrenderValue": 0,
+          "deathBenefit": 5700000,
+          "maturityBenefitEOY": 0,
+          "additionalAccidentalDeathBenefit": 2850000,
+          "cashBonusBOY4": 49750,
+          "guaranteedSurrenderValueEOY4": 1953750,
+          "specialSurrenderValueEOY4": 2734591.8,
+          "surrenderBenefitEOY4": 2734591.8,
+          "cashBonusBOY8": 125000,
+          "guaranteedSurrenderValueEOY8": 825000,
+          "specialSurrenderValueEOY8": 2603142.82,
+          "surrenderBenefitEOY8": 2603142.82,
+          "totalDeathBenefit4": 5700000,
+          "totalDeathBenefit8": 5700000,
+          "totalSurvivalBOYMaturityBenefitEOY4": 49750,
+          "totalSurvivalBOYMaturityBenefitEOY8": 125000
+        },
+        {
+          "policyYear": 16,
+          "ageAtTheStartOfThePolicyYear": 56,
+          "singleAnnualizedPremium": 0,
+          "survivalBenefitBOY": 0,
+          "guaranteedSurrenderValue": 0,
+          "deathBenefit": 5700000,
+          "maturityBenefitEOY": 0,
+          "additionalAccidentalDeathBenefit": 2850000,
+          "cashBonusBOY4": 49750,
+          "guaranteedSurrenderValueEOY4": 1904000,
+          "specialSurrenderValueEOY4": 2817737.35,
+          "surrenderBenefitEOY4": 2817737.35,
+          "cashBonusBOY8": 125000,
+          "guaranteedSurrenderValueEOY8": 700000,
+          "specialSurrenderValueEOY8": 2771992.8,
+          "surrenderBenefitEOY8": 2771992.8,
+          "totalDeathBenefit4": 5700000,
+          "totalDeathBenefit8": 5700000,
+          "totalSurvivalBOYMaturityBenefitEOY4": 49750,
+          "totalSurvivalBOYMaturityBenefitEOY8": 125000
+        },
+        {
+          "policyYear": 17,
+          "ageAtTheStartOfThePolicyYear": 57,
+          "singleAnnualizedPremium": 0,
+          "survivalBenefitBOY": 0,
+          "guaranteedSurrenderValue": 0,
+          "deathBenefit": 5700000,
+          "maturityBenefitEOY": 0,
+          "additionalAccidentalDeathBenefit": 2850000,
+          "cashBonusBOY4": 49750,
+          "guaranteedSurrenderValueEOY4": 1854250,
+          "specialSurrenderValueEOY4": 2952495.8,
+          "surrenderBenefitEOY4": 2952495.8,
+          "cashBonusBOY8": 125000,
+          "guaranteedSurrenderValueEOY8": 575000,
+          "specialSurrenderValueEOY8": 2952495.8,
+          "surrenderBenefitEOY8": 2952495.8,
+          "totalDeathBenefit4": 5700000,
+          "totalDeathBenefit8": 5700000,
+          "totalSurvivalBOYMaturityBenefitEOY4": 49750,
+          "totalSurvivalBOYMaturityBenefitEOY8": 125000
+        },
+        {
+          "policyYear": 18,
+          "ageAtTheStartOfThePolicyYear": 58,
+          "singleAnnualizedPremium": 0,
+          "survivalBenefitBOY": 0,
+          "guaranteedSurrenderValue": 0,
+          "deathBenefit": 5700000,
+          "maturityBenefitEOY": 0,
+          "additionalAccidentalDeathBenefit": 2850000,
+          "cashBonusBOY4": 49750,
+          "guaranteedSurrenderValueEOY4": 1804500,
+          "specialSurrenderValueEOY4": 3145747.03,
+          "surrenderBenefitEOY4": 3145747.03,
+          "cashBonusBOY8": 125000,
+          "guaranteedSurrenderValueEOY8": 450000,
+          "specialSurrenderValueEOY8": 3145747.03,
+          "surrenderBenefitEOY8": 3145747.03,
+          "totalDeathBenefit4": 5700000,
+          "totalDeathBenefit8": 5700000,
+          "totalSurvivalBOYMaturityBenefitEOY4": 49750,
+          "totalSurvivalBOYMaturityBenefitEOY8": 125000
+        },
+        {
+          "policyYear": 19,
+          "ageAtTheStartOfThePolicyYear": 59,
+          "singleAnnualizedPremium": 0,
+          "survivalBenefitBOY": 0,
+          "guaranteedSurrenderValue": 0,
+          "deathBenefit": 5700000,
+          "maturityBenefitEOY": 0,
+          "additionalAccidentalDeathBenefit": 2850000,
+          "cashBonusBOY4": 49750,
+          "guaranteedSurrenderValueEOY4": 1754750,
+          "specialSurrenderValueEOY4": 3352777.45,
+          "surrenderBenefitEOY4": 3352777.45,
+          "cashBonusBOY8": 125000,
+          "guaranteedSurrenderValueEOY8": 325000,
+          "specialSurrenderValueEOY8": 3352777.45,
+          "surrenderBenefitEOY8": 3352777.45,
+          "totalDeathBenefit4": 5700000,
+          "totalDeathBenefit8": 5700000,
+          "totalSurvivalBOYMaturityBenefitEOY4": 49750,
+          "totalSurvivalBOYMaturityBenefitEOY8": 125000
+        },
+        {
+          "policyYear": 20,
+          "ageAtTheStartOfThePolicyYear": 60,
+          "singleAnnualizedPremium": 0,
+          "survivalBenefitBOY": 0,
+          "guaranteedSurrenderValue": 0,
+          "deathBenefit": 5700000,
+          "maturityBenefitEOY": 3574890,
+          "additionalAccidentalDeathBenefit": 2850000,
+          "cashBonusBOY4": 49750,
+          "guaranteedSurrenderValueEOY4": 0,
+          "specialSurrenderValueEOY4": 0,
+          "surrenderBenefitEOY4": 0,
+          "cashBonusBOY8": 125000,
+          "guaranteedSurrenderValueEOY8": 0,
+          "specialSurrenderValueEOY8": 0,
+          "surrenderBenefitEOY8": 0,
+          "totalDeathBenefit4": 5700000,
+          "totalDeathBenefit8": 5700000,
+          "totalSurvivalBOYMaturityBenefitEOY4": 3762340,
+          "totalSurvivalBOYMaturityBenefitEOY8": 3846590
+        }
+      ],
+      "installmentPremium": 500000,
+      "nameLI": "Ms. Bhargavi",
+      "namePH": "Ms. Bhargavi",
+      "notes": [
+        {
+          "notes": "1. Annualized Premium excludes underwriting extra premium, frequency loadings on premiums, the premiums paid towards the riders, if any, and Goods and Service Tax. Refer Sales literature for explanation of terms used in this illustration."
+        },
+        {
+          "notes": "2. The survival benefits are payable at the end of the policy year."
+        },
+        {
+          "notes": "3. The surrender benefit, death benefit and maturity benefit shown above are at the end of the Policy Year."
+        },
+        {
+          "notes": "4. The Surrender Value is higher of the Guaranteed Surrender Value (GSV) and the Special Surrender Value (SSV)."
+        },
+        {
+          "notes": "5.  Refer Sales literature (Prospectus) and Policy Document for explanation of terms used in this illustration."
+        },
+        {
+          "notes": "6. Above benefits include terminal bonus payable, if any."
+        },
+        {
+          "notes": "7. The above benefits are with the assumption that save the date option is not selected by you. For details on save the date option, please refer the Policy Document."
+        },
+        {
+          "notes": "8. Under column 18 and 19, Maturity Benefit also includes the 'Terminal Bonus (if Declared) at Maturity'."
+        }
+      ],
+      "personalInfo": [
+        {
+          "fields": "nameOfTheProspectPolicyholder",
+          "inputs": "Ms. Bhargavi",
+          "labels": "Name of the Prospect/Policyholder:"
+        },
+        {
+          "fields": "ageAndGenderPH",
+          "inputs": "41 years, Female",
+          "labels": "Age & Gender: "
+        },
+        {
+          "fields": "nameOfTheLifeAssured",
+          "inputs": "Ms. Bhargavi",
+          "labels": "Name of the Life Assured:"
+        },
+        {
+          "fields": "ageAndGenderLI",
+          "inputs": "41 years, Female",
+          "labels": "Age & Gender: "
+        },
+        {
+          "fields": "riskClass",
+          "labels": "Risk Class of Life Insured"
+        },
+        {
+          "fields": "policyTerm",
+          "inputs": 20,
+          "labels": "Policy Term"
+        },
+        {
+          "fields": "premiumPaymentTerm",
+          "inputs": 6,
+          "labels": "Premium Payment Term:"
+        },
+        {
+          "fields": "amountOfInstallmentPremium",
+          "inputs": 500000,
+          "labels": "Amount of Installment Premium:"
+        },
+        {
+          "fields": "modeOfPaymentOfPremium",
+          "inputs": "Annual",
+          "labels": "Mode of payment of premium:"
+        }
+      ],
+      "policyTerm": 20,
+      "pPT": 6,
+      "premiumMode": "Annual",
+      "premiumSummary": [
+        {
+          "type": "Installment Premium without GST (in Rs.)",
+          "basePlan": 500000,
+          "accidentalDeathAndDismembermentRider": 0,
+          "termPlusRider": 0,
+          "waiverOfPremiumPlusRider": 0,
+          "criticalIllnessAndDisabilityRider": 0,
+          "totalInstallmentPremium": 500000
+        },
+        {
+          "type": "Installment Premium with first year GST (in Rs.)",
+          "basePlan": 500000,
+          "accidentalDeathAndDismembermentRider": 0,
+          "termPlusRider": 0,
+          "waiverOfPremiumPlusRider": 0,
+          "criticalIllnessAndDisabilityRider": 0,
+          "totalInstallmentPremium": 500000
+        },
+        {
+          "type": "Installment Premium with GST 2nd year onwards (in Rs.)",
+          "basePlan": 500000,
+          "accidentalDeathAndDismembermentRider": 0,
+          "termPlusRider": 0,
+          "waiverOfPremiumPlusRider": 0,
+          "criticalIllnessAndDisabilityRider": 0,
+          "totalInstallmentPremium": 500000
+        }
+      ],
+      "productDetails": [
+        {
+          "fields": "planVariant",
+          "inputs": "Insta Income",
+          "labels": "Variant Name"
+        },
+        {
+          "fields": "paymentFrequencyForGuaranteedIncome&CashBonus",
+          "inputs": "Annual",
+          "labels": "Payment frequency for Guaranteed Income & Cash Bonus"
+        },
+        {
+          "fields": "policyContinuanceBenefitOption",
+          "inputs": "no",
+          "labels": "Policy Continuance Benefit Option"
+        },
+        {
+          "fields": "saveTheDateOption",
+          "inputs": "no",
+          "labels": "Save the date Option"
+        },
+        {
+          "fields": "sumAssuredOnDeathAtInceptionOfThePolicyInRs",
+          "inputs": 5700000,
+          "labels": "Sum Assured on Death (at inception of the policy) (Rs.)"
+        },
+        {
+          "fields": "sumAssuredonMaturityInRs",
+          "inputs": 3249900,
+          "labels": "Sum Assured on Maturity (Rs.) "
+        },
+        {
+          "fields": "additionalBenefitOnMaturityOnlyApplicableForFemaleLivesInRs",
+          "inputs": 324990,
+          "labels": "Additional Benefit on Maturity (only applicable for female lives) (in Rs.)"
+        },
+        {
+          "fields": "dateOfFirstSurvivalBenefitPayment",
+          "inputs": "2027-01-02",
+          "labels": "Date of first Survival Benefit payment"
+        }
+      ],
+      "productInfo": [
+        {
+          "fields": "proposalNo",
+          "labels": "Proposal No:"
+        },
+        {
+          "fields": "nameOfTheProduct",
+          "inputs": "Axis Max Life Smart Wealth Advantage Growth Par Plan",
+          "labels": "Name of the Product:"
+        },
+        {
+          "fields": "tagLine",
+          "inputs": "A Non-Linked Participating Individual Life Insurance Savings Plan",
+          "labels": "Tag Line:"
+        },
+        {
+          "fields": "uniqueIdentificationNo",
+          "inputs": "104N135V03",
+          "labels": "Unique Identification No:"
+        },
+        {
+          "fields": "gstRateBasePolicyFirstYear",
+          "inputs": 0,
+          "labels": "GST Rate (Base Policy, First Year):"
+        },
+        {
+          "fields": "gstRateBasePolicySubsequentYear",
+          "inputs": 0,
+          "labels": "GST Rate (Base Policy, Subsequent Year):"
+        },
+        {
+          "fields": "gstRateRiderFirstYear",
+          "inputs": 0,
+          "labels": "GST Rate (Rider Policy: First Year):"
+        },
+        {
+          "fields": "gstRateRiderSubsequentYear",
+          "inputs": 0,
+          "labels": "GST Rate (Rider Policy, Subsequent Year):"
+        },
+        {
+          "fields": "maxLifeState",
+          "inputs": "Haryana",
+          "labels": "Axis Max Life State:"
+        },
+        {
+          "fields": "policyholderResidentialState",
+          "inputs": "Tamil nadu",
+          "labels": "Policyholder Residential State:"
+        }
+      ],
+      "riderDetails": [
+        {
+          "type": "waiverOfPremium(WOP)PlusRider",
+          "variant": "NA",
+          "sumAssured": "NA",
+          "riderTerm": 0,
+          "premiumPaymentTerm": 0
+        },
+        {
+          "type": "criticalIllnessAndDisabilityRider",
+          "variant": "NA",
+          "sumAssured": 0,
+          "riderTerm": 0,
+          "premiumPaymentTerm": 0
+        },
+        {
+          "type": "accidentalDeath&Dismemberment(ADD)Rider",
+          "variant": "NA",
+          "sumAssured": 0,
+          "riderTerm": 0,
+          "premiumPaymentTerm": 0
+        },
+        {
+          "type": "termPlusRider",
+          "variant": "NA",
+          "sumAssured": 0,
+          "riderTerm": 0,
+          "premiumPaymentTerm": 0
+        }
+      ],
+      "riderUIN": [
+        {
+          "riderName": "Term Plus Rider",
+          "UIN": "104B026V04",
+          "riderKey": "isTermPlusRider"
+        },
+        {
+          "riderName": "Accidental Death And Dismemberment Rider",
+          "UIN": "104B027V05",
+          "riderKey": "isAccidentalDeathAndDismembermentRider"
+        },
+        {
+          "riderName": "Waiver of Premium Plus Rider",
+          "UIN": "104B029V05",
+          "riderKey": "isWOPPlusRider"
+        },
+        {
+          "riderName": "Critical Illness and Disability Rider",
+          "UIN": "104B033V02",
+          "riderKey": "isSmartHealthPlusRider"
+        }
+      ],
+      "smartBIAAD": "Additional accidental death benefit:\nIn case of accidental death, as per policy terms, after the completion of  premium payment term and before policy maturity or attainment of age 80 yeats (whichever is earlier), an Additional Accidental Sum Assured equal to 50% (max. upto 1 Crore) of the Sum Assured on Death shall be payable.",
+      "smartBIABM": 324990,
+      "smartBIAccumRate": "(currently 7.5% )",
+      "smartBIAccumulationFutureInc": [
+        {
+          "policyYear": 1,
+          "ageOfLifeInsured": 42,
+          "annualizedPremium": 500000,
+          "deathBenefit": 5700000,
+          "guaranteedIncome": 0,
+          "cashBonus": 125000,
+          "accumulatedValue": 125000,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 125000
+        },
+        {
+          "policyYear": 2,
+          "ageOfLifeInsured": 43,
+          "annualizedPremium": 500000,
+          "deathBenefit": 5700000,
+          "guaranteedIncome": 0,
+          "cashBonus": 125000,
+          "accumulatedValue": 259375,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 259375
+        },
+        {
+          "policyYear": 3,
+          "ageOfLifeInsured": 44,
+          "annualizedPremium": 500000,
+          "deathBenefit": 5700000,
+          "guaranteedIncome": 0,
+          "cashBonus": 125000,
+          "accumulatedValue": 403828.125,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 403828.125
+        },
+        {
+          "policyYear": 4,
+          "ageOfLifeInsured": 45,
+          "annualizedPremium": 500000,
+          "deathBenefit": 5700000,
+          "guaranteedIncome": 0,
+          "cashBonus": 125000,
+          "accumulatedValue": 559115.234375,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 559115.234375
+        },
+        {
+          "policyYear": 5,
+          "ageOfLifeInsured": 46,
+          "annualizedPremium": 500000,
+          "deathBenefit": 5700000,
+          "guaranteedIncome": 0,
+          "cashBonus": 125000,
+          "accumulatedValue": 726048.876953125,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 726048.876953125
+        },
+        {
+          "policyYear": 6,
+          "ageOfLifeInsured": 47,
+          "annualizedPremium": 500000,
+          "deathBenefit": 5700000,
+          "guaranteedIncome": 0,
+          "cashBonus": 125000,
+          "accumulatedValue": 905502.542724609,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 905502.542724609
+        },
+        {
+          "policyYear": 7,
+          "ageOfLifeInsured": 48,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "guaranteedIncome": 0,
+          "cashBonus": 125000,
+          "accumulatedValue": 1098415.23342896,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 1098415.23342896
+        },
+        {
+          "policyYear": 8,
+          "ageOfLifeInsured": 49,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "guaranteedIncome": 0,
+          "cashBonus": 125000,
+          "accumulatedValue": 1305796.37593613,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 1305796.37593613
+        },
+        {
+          "policyYear": 9,
+          "ageOfLifeInsured": 50,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "guaranteedIncome": 0,
+          "cashBonus": 125000,
+          "accumulatedValue": 1528731.10413134,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 1528731.10413134
+        },
+        {
+          "policyYear": 10,
+          "ageOfLifeInsured": 51,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "guaranteedIncome": 0,
+          "cashBonus": 125000,
+          "accumulatedValue": 1768385.93694119,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 1768385.93694119
+        },
+        {
+          "policyYear": 11,
+          "ageOfLifeInsured": 52,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "guaranteedIncome": 0,
+          "cashBonus": 125000,
+          "accumulatedValue": 2026014.88221178,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 2026014.88221178
+        },
+        {
+          "policyYear": 12,
+          "ageOfLifeInsured": 53,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "guaranteedIncome": 0,
+          "cashBonus": 125000,
+          "accumulatedValue": 2302965.99837766,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 2302965.99837766
+        },
+        {
+          "policyYear": 13,
+          "ageOfLifeInsured": 54,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "guaranteedIncome": 0,
+          "cashBonus": 125000,
+          "accumulatedValue": 2600688.44825598,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 2600688.44825598
+        },
+        {
+          "policyYear": 14,
+          "ageOfLifeInsured": 55,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "guaranteedIncome": 0,
+          "cashBonus": 125000,
+          "accumulatedValue": 2920740.08187518,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 2920740.08187518
+        },
+        {
+          "policyYear": 15,
+          "ageOfLifeInsured": 56,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "guaranteedIncome": 0,
+          "cashBonus": 125000,
+          "accumulatedValue": 3264795.58801582,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 3264795.58801582
+        },
+        {
+          "policyYear": 16,
+          "ageOfLifeInsured": 57,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "guaranteedIncome": 0,
+          "cashBonus": 125000,
+          "accumulatedValue": 3634655.25711701,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 3634655.25711701
+        },
+        {
+          "policyYear": 17,
+          "ageOfLifeInsured": 58,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "guaranteedIncome": 0,
+          "cashBonus": 125000,
+          "accumulatedValue": 4032254.40140078,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 4032254.40140078
+        },
+        {
+          "policyYear": 18,
+          "ageOfLifeInsured": 59,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "guaranteedIncome": 0,
+          "cashBonus": 125000,
+          "accumulatedValue": 4459673.48150584,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 4459673.48150584
+        },
+        {
+          "policyYear": 19,
+          "ageOfLifeInsured": 60,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "guaranteedIncome": 0,
+          "cashBonus": 125000,
+          "accumulatedValue": 4919148.99261878,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 4919148.99261878
+        },
+        {
+          "policyYear": 20,
+          "ageOfLifeInsured": 61,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "guaranteedIncome": 0,
+          "cashBonus": 125000,
+          "accumulatedValue": 5413085.16706518,
+          "totalMaturityBenefit": 3721590,
+          "accumulatedBenefit": 9134675.16706519
+        }
+      ],
+      "smartBIAccumulationInstaInc": [
+        {
+          "policyYear": 1,
+          "ageOfLifeInsured": 42,
+          "annualizedPremium": 500000,
+          "deathBenefit": 5700000,
+          "cashBonus": 125000,
+          "accumulatedValue": 125000,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 125000
+        },
+        {
+          "policyYear": 2,
+          "ageOfLifeInsured": 43,
+          "annualizedPremium": 500000,
+          "deathBenefit": 5700000,
+          "cashBonus": 125000,
+          "accumulatedValue": 259375,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 259375
+        },
+        {
+          "policyYear": 3,
+          "ageOfLifeInsured": 44,
+          "annualizedPremium": 500000,
+          "deathBenefit": 5700000,
+          "cashBonus": 125000,
+          "accumulatedValue": 403828.125,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 403828.125
+        },
+        {
+          "policyYear": 4,
+          "ageOfLifeInsured": 45,
+          "annualizedPremium": 500000,
+          "deathBenefit": 5700000,
+          "cashBonus": 125000,
+          "accumulatedValue": 559115.234375,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 559115.234375
+        },
+        {
+          "policyYear": 5,
+          "ageOfLifeInsured": 46,
+          "annualizedPremium": 500000,
+          "deathBenefit": 5700000,
+          "cashBonus": 125000,
+          "accumulatedValue": 726048.876953125,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 726048.876953125
+        },
+        {
+          "policyYear": 6,
+          "ageOfLifeInsured": 47,
+          "annualizedPremium": 500000,
+          "deathBenefit": 5700000,
+          "cashBonus": 125000,
+          "accumulatedValue": 905502.542724609,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 905502.542724609
+        },
+        {
+          "policyYear": 7,
+          "ageOfLifeInsured": 48,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "cashBonus": 125000,
+          "accumulatedValue": 1098415.23342896,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 1098415.23342896
+        },
+        {
+          "policyYear": 8,
+          "ageOfLifeInsured": 49,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "cashBonus": 125000,
+          "accumulatedValue": 1305796.37593613,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 1305796.37593613
+        },
+        {
+          "policyYear": 9,
+          "ageOfLifeInsured": 50,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "cashBonus": 125000,
+          "accumulatedValue": 1528731.10413134,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 1528731.10413134
+        },
+        {
+          "policyYear": 10,
+          "ageOfLifeInsured": 51,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "cashBonus": 125000,
+          "accumulatedValue": 1768385.93694119,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 1768385.93694119
+        },
+        {
+          "policyYear": 11,
+          "ageOfLifeInsured": 52,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "cashBonus": 125000,
+          "accumulatedValue": 2026014.88221178,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 2026014.88221178
+        },
+        {
+          "policyYear": 12,
+          "ageOfLifeInsured": 53,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "cashBonus": 125000,
+          "accumulatedValue": 2302965.99837766,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 2302965.99837766
+        },
+        {
+          "policyYear": 13,
+          "ageOfLifeInsured": 54,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "cashBonus": 125000,
+          "accumulatedValue": 2600688.44825598,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 2600688.44825598
+        },
+        {
+          "policyYear": 14,
+          "ageOfLifeInsured": 55,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "cashBonus": 125000,
+          "accumulatedValue": 2920740.08187518,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 2920740.08187518
+        },
+        {
+          "policyYear": 15,
+          "ageOfLifeInsured": 56,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "cashBonus": 125000,
+          "accumulatedValue": 3264795.58801582,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 3264795.58801582
+        },
+        {
+          "policyYear": 16,
+          "ageOfLifeInsured": 57,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "cashBonus": 125000,
+          "accumulatedValue": 3634655.25711701,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 3634655.25711701
+        },
+        {
+          "policyYear": 17,
+          "ageOfLifeInsured": 58,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "cashBonus": 125000,
+          "accumulatedValue": 4032254.40140078,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 4032254.40140078
+        },
+        {
+          "policyYear": 18,
+          "ageOfLifeInsured": 59,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "cashBonus": 125000,
+          "accumulatedValue": 4459673.48150584,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 4459673.48150584
+        },
+        {
+          "policyYear": 19,
+          "ageOfLifeInsured": 60,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "cashBonus": 125000,
+          "accumulatedValue": 4919148.99261878,
+          "totalMaturityBenefit": 0,
+          "accumulatedBenefit": 4919148.99261878
+        },
+        {
+          "policyYear": 20,
+          "ageOfLifeInsured": 61,
+          "annualizedPremium": 0,
+          "deathBenefit": 5700000,
+          "cashBonus": 125000,
+          "accumulatedValue": 5413085.16706518,
+          "totalMaturityBenefit": 3721590,
+          "accumulatedBenefit": 9134675.16706519
+        }
+      ],
+      "smartBIADDSA": "",
+      "smartBIAge": 41,
+      "smartBIAgeAtIncep": 41,
+      "smartBIAgeAtMat": 61,
+      "smartBIASB": 5413085.16706518,
+      "smartBIBoostAgePPT1": 47,
+      "smartBIBoostAnnCB18": 125000,
+      "smartBIBoostDBPPT1": 5700000,
+      "smartBIBoostFreqCB14": 49750,
+      "smartBIBoostFreqCB18": 125000,
+      "smartBIBoostFreqCB24": 49750,
+      "smartBIBoostFreqCB28": 125000,
+      "smartBIBoostGI": 0,
+      "smartBIBoostIncBen8": 125000,
+      "smartBIBoostPPT1": 7,
+      "smartBIBoostSB8": 2500000,
+      "smartBIBoostTotCB": 2500000,
+      "smartBIBoostTotGI": 0,
+      "smartBICIDRSA": "",
+      "smartBIClassicFreqCB4": 49750,
+      "smartBIClassicFreqCB8": 125000,
+      "smartBIClassicSB8": 2500000,
+      "smartBIDB": 5700000,
+      "smartBIFemale": "# Applicable Only in case the life insured is female.",
+      "smartBIFutureIncAgePPT1": 48,
+      "smartBIFutureIncFreqCB14": 49750,
+      "smartBIFutureIncFreqCB18": 125000,
+      "smartBIFutureIncFreqCB24": 0,
+      "smartBIFutureIncFreqCB28": 0,
+      "smartBIFutureIncGI": 0,
+      "smartBIFutureIncIncBen8": 125000,
+      "smartBIFutureIncMinPTPPT": 20,
+      "smartBIFutureIncPPT1": 7,
+      "smartBIFutureIncSB8": 2500000,
+      "smartBIFutureIncTotCB18": 2500000,
+      "smartBIFutureIncTotCB28": 0,
+      "smartBIFutureIncTotGI": 0,
+      "smartBIIncFreqMod": "Annual in Arrears",
+      "smartBIIncomeFreq": "Annual",
+      "smartBIMB8": 3721590,
+      "smartBIOrDeath": "",
+      "smartBIPCB": "",
+      "smartBIPPT": 6,
+      "smartBIPremFreq": "Annual",
+      "smartBIPremium": 500000,
+      "smartBIPT": 20,
+      "smartBISAM": 3249900,
+      "smartBISurvivalText": "$ You choose to accumulate Survival benefits till end of policy term, the estimated value of Your Accrued Survival benefit is Rs.5413085.16706518. Any survival benefits already paid to You shall not be included again in the Accrued Survival Benefit calculation.",
+      "smartBITB4": 137700,
+      "smartBITB8": 146700,
+      "smartBITotBen4": 4707590,
+      "smartBITotBen8": 6221590,
+      "smartBITotBenMat": 3721590,
+      "smartBITPP": 3000000,
+      "smartBITPSA": "",
+      "productCode": "194",
+      "isPOSP": "false",
+      "channelId": "9084",
+      "smartBI": false,
+      "spCode": "MAX39231B"
+    },
+    "sparkBiInputRequest": {
+      "account": "Savings Account",
+      "addRiderEMRate": 0,
+      "addRiderEMROption": "no",
+      "addRiderOption": "no",
+      "ageLI": 41,
+      "agePH": 41,
+      "appName": "Others",
+      "accumulationOfSurvivalBenefits": "no",
+      "baseEMRate": 1,
+      "baseEMROption": "no",
+      "baseFlatExtraDur": 0,
+      "baseFlatExtraOption": "no",
+      "baseFlatExtraRate": 0,
+      "channel": "Axis Bank Ltd.",
+      "cIDisabilityRiderEMRate": 0,
+      "cIDisabilityRiderEMROption": "no",
+      "cIDisabilityRiderFlatExtraDur": 0,
+      "cIDisabilityRiderFlatExtraOption": "no",
+      "cIDisabilityRiderFlatExtraRate": 0,
+      "cIDisabilityRiderOption": "no",
+      "desiredSAOrPremium": 500000,
+      "edc": "2026-01-02",
+      "existingDiscount": "no",
+      "genderLI": "Female",
+      "genderPH": "Female",
+      "incomeMode": "Annual",
+      "incomePayoutOption": "Arrears",
+      "limitedTerm": "yes",
+      "mLIState": "Haryana",
+      "nameLI": "Bhargavi",
+      "namePH": "Bhargavi",
+      "nationality": "Indian",
+      "pCB": "no",
+      "pHState": "Tamil nadu",
+      "policyTerm": 20,
+      "pOSP": "no",
+      "pPT": 6,
+      "premiumOffset": "no",
+      "premiumPaymentMode": "Annual",
+      "saveTheDateOption": "no",
+      "solver": "Enter Desired Premium",
+      "termPlusRiderEMRate": 0,
+      "termPlusRiderEMROption": "no",
+      "termPlusRiderFEOption": "no",
+      "termPlusRiderFlatExtraDur": 0,
+      "termPlusRiderOption": "no",
+      "variant": "Insta Income (Classic)",
+      "wOPPlusRiderEMRate": 0,
+      "wOPPlusRiderEMROption": "no",
+      "wOPPlusRiderOption": "no",
+      "incomeCategory": "Classic",
+      "secondAnnuitantDob": "",
+      "secondAnnuitantRelationship": "",
+      "Ann_Optn": "",
+      "ROP_Optn": "",
+      "Annuity_Prop": "",
+      "EarlyRop_Milestone": 0,
+      "EarlyRop_Perc": "",
+      "Guarnt_Annuity_Period": 0,
+      "Def_Period": 0,
+      "Def_Period_M": 0,
+      "Inc_Annuity_Freq": "",
+      "Inc_Annuity_perc_UI": 0,
+      "DB_in_DefPeriod": "",
+      "Ann_Freq": "",
+      "DBperc_Prop_JL": "",
+      "DBperc_Prop": "",
+      "balancedFund": 0,
+      "conservativeFund": 0,
+      "diversifiedEquityFund": 0,
+      "dynamicBondFund": 0,
+      "growthFund": 0,
+      "growthSuperFund": 0,
+      "highGrowthFund": 0,
+      "midcapMomentumIndexFund": 0,
+      "moneyMarketFundII": 0,
+      "nifty500Momentum50Fund": 0,
+      "niftyAlpha50Fund": 0,
+      "niftyMomentumQuality50Fund": 0,
+      "niftySmallcapQualityIndexFund": 0,
+      "pureGrowthFund": 0,
+      "secureFund": 0,
+      "sustainableEquityFund": 0,
+      "sustainableWealth50": 0,
+      "triggerPercentage": 0,
+      "smartWithdrawalPercentage": 0,
+      "smartInnovationFund": 0,
+      "niftyMultifactorIndexFund": 0,
+      "lifeGrowthSuperFund": 0,
+      "lifeGrowthFund": 0,
+      "lifeBalancedFund": 0,
+      "lifeConservativeFund": 0,
+      "lifeSecuredFund": 0,
+      "lifeNiftyMultifactorIndexPensionFund": 0,
+      "bse500Value50IndexFund": 0,
+      "lifeHighGrowthPensionFund": 0,
+      "nfo1Nov25": 0,
+      "nfo1Oct25": 0,
+      "growthSuperFundII": 0,
+      "diversifiedEquityFundII": 0,
+      "highGrowthFundII": 0
+    },
+    "sparkBiInput": {
+      "annuityOption": "",
+      "returnOfPremium": "",
+      "propotionAnnuity": "",
+      "milestoneAge": 0,
+      "earlyROPPercentage": "",
+      "guaranteeAnnuityPeriod": 0,
+      "defermentPeriod": 0,
+      "defermentPeriodMonth": 0,
+      "increasingAnnuityFrequency": "",
+      "increasingAnnuityPercentage": 0,
+      "deferredPeriod": "",
+      "incomePayoutFrequency": "",
+      "returnOfPremiumDeath": "",
+      "returnOfPremiumPercentage": "",
+      "secondAnnuitantDob": "",
+      "secondAnnuitantRelationship": ""
+    },
+    "selectedAccNumber": "",
+    "classificationType": "Axis General"
   },
   "salesStoriesProductDetails": {
     "primaryTransactionId": {
@@ -2629,27 +4128,28 @@
     ]
   },
   "psmDetails": {
-    "isExistingLICover": "Yes",
+    "isExistingLICover": "No",
     "existingLICover": "",
     "riskAppetite": "Medium",
     "recommendedProducts": [
-      "Max Life Saral Jeevan Bima",
-      "Max Life Cancer Insurance Plan",
-      "Forever Young Pension Plan",
-      "Max Life Life Perfect Partner Super",
-      "Max Life Fast Track Super Plan",
-      "Max Life Monthly Income Advantage Plan",
-      "Max Life Platinum Wealth Plan",
-      "Max Life Future Genius Education Plan",
-      "Max Life Savings Advantage Plan",
-      "Max Life Flexi Wealth Plus Plan",
-      "Max Life Smart Wealth Plan",
-      "Max Life Saral Pension Plan",
-      "Max Life Smart Secure Plus Plan",
-      "Max Life Smart Wealth Income Plan",
-      "Max Life Flexi Wealth Plus Plan",
-      "Max Life Smart Wealth Advantage guarantee Plan"
-    ]
+      "Axis Max Life Saral Jeevan Bima",
+      "Axis Max Life Cancer Insurance Plan",
+      "Axis Max Life Forever Young Pension Plan",
+      "Axis Max Life Life Perfect Partner Super",
+      "Axis Max Life Fast Track Super Plan",
+      "Axis Max Life Monthly Income Advantage Plan",
+      "Axis Max Life Platinum Wealth Plan",
+      "Axis Max Life Future Genius Education Plan",
+      "Axis Max Life Savings Advantage Plan",
+      "Axis Max Life Flexi Wealth Plus Plan",
+      "Axis Max Life Smart Wealth Plan",
+      "Axis Max Life Saral Pension Plan",
+      "Axis Max Life Smart Secure Plus Plan",
+      "Axis Max Life Smart Wealth Income Plan",
+      "Axis Max Life Flexi Wealth Plus Plan",
+      "Axis Max Life Smart Wealth Advantage guarantee Plan"
+    ],
+    "recommendedProductName": "Select Another Product"
   },
   "neoAdditionalDetails": {
     "crmLeadId": "",
@@ -2667,65 +4167,58 @@
     "sellerId": ""
   },
   "brmsFieldConfigurationDetails": {
-    "productRestricted": "",
-    "productRestrictMessage": "",
-    "campaignID": "",
-    "campaignLocation": "",
-    "custIdDataType": "",
-    "custIdLength": "",
-    "customerID": "",
-    "form1": "",
-    "form2": "",
-    "formC": "",
-    "digitalJourney": "",
-    "isBRMSApiApplicable": "",
-    "pOSPJourney": "",
-    "indianNationaility": "",
-    "nRInationality": "",
-    "lEChannelCode": "",
-    "lEChannelName": "",
-    "productAnnualMode": "",
-    "productMinPrem": "",
-    "productModeCode": "",
-    "productMonthlyMode": "",
-    "productQuarterlyMode": "",
-    "productSemiMode": "",
-    "cashOption": "",
-    "chequeOption": "",
-    "dDOption": "",
-    "directDebitMannualOption": "",
-    "onlineOption": "",
-    "renewalDirectDebit": "",
-    "renewalEnach": "",
-    "renewalCheque": "",
-    "renewalECS": "",
-    "splitPayment": "",
-    "medicalScheduling": "",
-    "dNDOption": "",
-    "sellerDeclarationonMob": "",
-    "auditRequestId": "",
-    "serviceStatus": "",
-    "campaignIDDataType": "",
-    "campaignIDLength": "",
-    "campaignLocationDataType": "",
-    "campaignLocationLength": "",
-    "jvBranding": "",
-    "pasaEnablement": "",
-    "isPasaHashingEnabled": "",
-    "PasaTermProducts": [],
-    "PasaSavingProducts": [],
-    "productMinPremAnnual": "",
-    "productMinPremSemi": "",
-    "productMinPremQuarterly": "",
-    "productMinPremMonthly": "",
-    "refIdDataType": "",
-    "refIdLength": "",
-    "referenceId": "",
-    "singlePremiumApplicable": "",
-    "whatsappConsent": "",
-    "formCSchemeA": "",
-    "formCSchemeB": "",
-    "nosellerdeclaration": ""
+    "productRestricted": "NA",
+    "productRestrictMessage": "Selected Plan is not applicable for this channel",
+    "campaignID": "N",
+    "campaignLocation": "N",
+    "custIdDataType": "NA",
+    "custIdLength": "0",
+    "customerID": "N",
+    "form1": "Y",
+    "form2": "Y",
+    "formC": "Y",
+    "digitalJourney": "DIGITAL",
+    "isBRMSApiApplicable": "N",
+    "indianNationaility": "Y",
+    "nRInationality": "Y",
+    "lEChannelCode": "NA",
+    "lEChannelName": "Not Bank Broker CA",
+    "productAnnualMode": "NA",
+    "productModeCode": "NA",
+    "productMonthlyMode": "NA",
+    "productQuarterlyMode": "NA",
+    "productSemiMode": "NA",
+    "cashOption": "NA",
+    "chequeOption": "NA",
+    "dDOption": "NA",
+    "directDebitMannualOption": "NA",
+    "onlineOption": "NA",
+    "renewalDirectDebit": "NA",
+    "renewalEnach": "NA",
+    "renewalCheque": "NA",
+    "renewalECS": "NA",
+    "splitPayment": "NA",
+    "medicalScheduling": "NA",
+    "dNDOption": "NA",
+    "sellerDeclarationonMob": "NA",
+    "auditRequestId": "535f5215-7e41-46b7-9700-585139653d0e",
+    "serviceStatus": "SUCCESS",
+    "campaignIDDataType": "NA",
+    "campaignIDLength": "0",
+    "campaignLocationDataType": "NA",
+    "campaignLocationLength": "10",
+    "jvBranding": "N",
+    "productMinPremAnnual": "NA",
+    "productMinPremSemi": "NA",
+    "productMinPremQuarterly": "NA",
+    "productMinPremMonthly": "NA",
+    "refIdDataType": "NA",
+    "refIdLength": "10",
+    "referenceId": "N",
+    "singlePremiumApplicable": "N",
+    "whatsappConsent": "Y",
+    "formCSchemeA": "Y",
+    "formCSchemeB": "Y"
   },
   "diyBrmsFieldConfigurationDetails": {
     "utmBasedLogic": {
