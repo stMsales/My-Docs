@@ -14,4 +14,5 @@ db.getCollectionInfos({ name: "axisCityMaster" })
   }
 ]
 mprodevdb
-
+db.axisCityMaster.getIndexes(
+[ { v: 2, key: { _id: 1 }, name: '_id_' } ]
