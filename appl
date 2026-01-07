@@ -41,13 +41,11 @@ thanos.encrption.key=pE5nm9GhrRFNRjCanEitQtMV4lyHhNrgD/6GvlZl
 
 
 
-{
-  spName: '',
-  spCode: 'SP0069181927',
-  amlStatus: false,
-  amlTrainingExpirationDate: '',
-  ulipStatus: false,
-  ulipTrainingExpirationDate: '',
-  spSSNCode: '655393',
-  isSpJourneyCompleted: false
+
+TxnId=2000111200
+
+SP Filter
+
+Filtering out TxnId
+
 mongodb://GSBPR03188:GSBPR03188432!@10.100.250.31:29017/
