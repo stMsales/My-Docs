@@ -2795,3 +2795,11 @@ isSpJourneyCompleted
   "coherentIllustrationResponse": {},
   "_class": "com.mli.mpro.proposal.models.ProposalDetails"
 }
+
+
+
+
+db.proposalDetails.findOne(
+  {"applicationDetails.transactionId": 2000111200},
+  {"sourcingDetails.specifiedPersonDetails.isSpJourneyCompleted": 1, "applicationDetails.transactionId": 1}
+)
