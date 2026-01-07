@@ -38,6 +38,9 @@ app.token.expiryDuration=30000000
 thanos.encrption.key=pE5nm9GhrRFNRjCanEitQtMV4lyHhNrgD/6GvlZl
 
 
+@timestamp:Jan 8, 2026 @ 03:01:21.421 log:2026-01-07 21:31:21 7bea0efd-79a4-43e4-bfb9-d92e69f400c0 655393 matrix-dev-dashboard-fargate-service [http-nio-8080-exec-5] INFO c.m.m.dashboard.util.LoggerUtility - {"timestamp":"2026-01-07 21:31:21","containerName":"matrix-dev-dashboard-fargate-service","sno":"34","methodName":"getDashboardData","origin":"com.mli.mpro.dashboard.service.impl.DashboardServiceImpl:506","message":"SP Filter: Found TxnId=2000111200, isSpJourneyCompleted=null, shouldInclude=true"} container_id:be7a887f0d9d4e7f8bb54e2141a20410-0866347682 container_name:matrix-dev-dashboard-fargate-container source:stdout ecs_cluster:matrix-dev-microservices-cluster ecs_task_arn:arn:aws:ecs:ap-south-1:777706696655:task/matrix-dev-microservices-cluster/be7a887f0d9d4e7f8bb54e2141a20410 ecs_task_definition:matrix-dev-dashboard-fargate-container:559 _id:s1VfmpsBXRzD5EdqGcZX _type: - _index:mli-dev-matrix-dashboard-fargate-service-2026.01.07 _score: -
+
+
 
 
 
