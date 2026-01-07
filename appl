@@ -41,16 +41,13 @@ thanos.encrption.key=pE5nm9GhrRFNRjCanEitQtMV4lyHhNrgD/6GvlZl
 
 
 
-db.proposalDetails.findOne(
-  {transactionId: 2000111200}
-).sourcingDetails.specifiedPersonDetails
-TypeError: Cannot read properties of null (reading 'sourcingDetails')
-    at evalmachine.<anonymous>:69:42
-    at async ShellEvaluator.innerEval (C:\MongoDBCompass\app-1.41.0\resources\app.asar.unpacked\node_modules\@mongosh\node-runtime-worker-thread\dist\worker-runtime.js:10:341952)
-    at async ShellEvaluator.customEval (C:\MongoDBCompass\app-1.41.0\resources\app.asar.unpacked\node_modules\@mongosh\node-runtime-worker-thread\dist\worker-runtime.js:10:342220)
-    at async OpenContextRuntime.evaluate (C:\MongoDBCompass\app-1.41.0\resources\app.asar.unpacked\node_modules\@mongosh\node-runtime-worker-thread\dist\worker-runtime.js:10:18032)
-    at async ElectronRuntime.evaluate (C:\MongoDBCompass\app-1.41.0\resources\app.asar.unpacked\node_modules\@mongosh\node-runtime-worker-thread\dist\worker-runtime.js:10:19444)
-    at async evaluate (C:\MongoDBCompass\app-1.41.0\resources\app.asar.unpacked\node_modules\@mongosh\node-runtime-worker-thread\dist\worker-runtime.js:2:1458258)
-    at async C:\MongoDBCompass\app-1.41.0\resources\app.asar.unpacked\node_modules\@mongosh\node-runtime-worker-thread\dist\worker-runtime.js:2:1454207
-
+{
+  spName: '',
+  spCode: 'SP0069181927',
+  amlStatus: false,
+  amlTrainingExpirationDate: '',
+  ulipStatus: false,
+  ulipTrainingExpirationDate: '',
+  spSSNCode: '655393',
+  isSpJourneyCompleted: false
 mongodb://GSBPR03188:GSBPR03188432!@10.100.250.31:29017/
