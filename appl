@@ -42,11 +42,7 @@ thanos.encrption.key=pE5nm9GhrRFNRjCanEitQtMV4lyHhNrgD/6GvlZl
 
 
 db.proposalDetails.findOne(
-  {transactionId: 2000111200},
-  {
-    "sourcingDetails.specifiedPersonDetails": 1,
-    transactionId: 1
-  }
-)
+  {transactionId: 2000111200}
+).sourcingDetails.specifiedPersonDetails
 
 mongodb://GSBPR03188:GSBPR03188432!@10.100.250.31:29017/
