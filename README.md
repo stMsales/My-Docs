@@ -1,5 +1,5 @@
 "https://mprosit.axismaxlife.com/api/transformerservice/createlead
-
+Caused by: org.springframework.dao.IncorrectResultSizeDataAccessException: Query { "$java" : Query: { "constitutionCode" : "1", "constitutionStatus" : { "$regularExpression" : { "pattern" : "^YES$", "options" : "i"}}}, Fields: {}, Sort: {} } returned non unique result
 
 https://mprodevms.maxlifeinsurance.com/api/transformerservice/createlead
 
