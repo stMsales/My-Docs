@@ -3,6 +3,7 @@ Caused by: org.springframework.dao.IncorrectResultSizeDataAccessException: Query
 
 https://mprosit.maxlifeinsurance.com
 
+https://mprosit.axismaxlife.com/fulfillment/api/proposalservices/savep…
 
 https://mprodevms.maxlifeinsurance.com/api/transformerservice/createlead
 
@@ -30,3 +31,8 @@ Request For ProcessLandingRecord at
 
 
 https://mprosit.maxlifeinsurance.com/fulfillment/api/proposalservices/saveproposaldata
+
+
+
+
+https://mprosit.axismaxlife.com/journey/MQ==?source=U1BfUkVESVJFQ1Q=&apitoken=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKd1lYbHNiMkZrSWpwN0luVjBiVU52WkdVaU9tNTFiR3dzSW5KbGMzQnZibk5sUVdkbGJuUWlPbTUxYkd3c0luTnZkWEpqWlNJNklsTlFYMUpGUkVsU1JVTlVJaXdpZFhObGNpSTZJaUlzSW5SeVlXNXpZV04wYVc5dVNXUWlPaUl4TlRBeE16QXpOVFkwSW4wc0ltcDBhU0k2SWpBeU5qWTFPV1l3TFRnd05EUXRORGd6TUMxaU5EbGlMVEF4TXpJeFl6a3laamd4TnlJc0ltbGhkQ0k2TVRjMk9EZ3hNelF6TVN3aVpYaHdJam94TnpZNE9ERTFNak14ZlEuS3ppaEdXUFhxVUlLSjZ0QjRFVVM0NksyTEJ0akpLX0p2U1hIV1EzaFVpaw==
