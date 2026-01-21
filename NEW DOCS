@@ -1,1 +1,3500 @@
-ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKd1lYbHNiMkZrSWpwN0luVjBiVU52WkdVaU9tNTFiR3dzSW5KbGMzQnZibk5sUVdkbGJuUWlPbTUxYkd3c0luTnZkWEpqWlNJNklsTlFYMUpGUkVsU1JVTlVJaXdpZFhObGNpSTZJaUlzSW5SeVlXNXpZV04wYVc5dVNXUWlPaUl4TlRBeE16QTJNamsxSW4wc0ltcDBhU0k2SWpjNE5ERXpNalV6TFRsbE56RXRORFl3WVMxaFpHVmhMV1JtTUdWak4yVXpabU5oTkNJc0ltbGhkQ0k2TVRjMk9UQXlNRE0xTVN3aVpYaHdJam94TnpZNU1ESXlNVFV4ZlEuU3plb1NMZFNJU2tUTndGYldmTmlyV215QmV0SlE2Q1B0Q083Y05pelU0TQ==
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-01-21T18:48:17.493Z",
+        "id": "page_2",
+        "title": "https://mprosit.axismaxlife.com/api/transformerservice/login/redirectToMpro",
+        "pageTimings": {
+          "onContentLoad": 2730.21300000255,
+          "onLoad": 4324.903000000631
+        }
+      }
+    ],
+    "entries": [
+      {
+        "_connectionId": "10970",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "XMLHttpRequest.send",
+                "scriptId": "93",
+                "url": "",
+                "lineNumber": 14,
+                "columnNumber": 22174
+              },
+              {
+                "functionName": "",
+                "scriptId": "64",
+                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                "lineNumber": 0,
+                "columnNumber": 1547687
+              },
+              {
+                "functionName": "e.exports",
+                "scriptId": "64",
+                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                "lineNumber": 0,
+                "columnNumber": 1546127
+              },
+              {
+                "functionName": "e.exports",
+                "scriptId": "64",
+                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                "lineNumber": 0,
+                "columnNumber": 3152117
+              }
+            ],
+            "parent": {
+              "description": "Promise.then",
+              "callFrames": [
+                {
+                  "functionName": "a.request",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 3147966
+                },
+                {
+                  "functionName": "a.<computed>",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 3148231
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 1545993
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 5507387
+                }
+              ],
+              "parent": {
+                "description": "Promise.then",
+                "callFrames": [
+                  {
+                    "functionName": "c.saveDataApiCallService",
+                    "scriptId": "64",
+                    "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                    "lineNumber": 0,
+                    "columnNumber": 5493768
+                  },
+                  {
+                    "functionName": "c.saveDataToServer",
+                    "scriptId": "64",
+                    "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                    "lineNumber": 0,
+                    "columnNumber": 5479053
+                  },
+                  {
+                    "functionName": "l.screen2Save",
+                    "scriptId": "64",
+                    "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                    "lineNumber": 0,
+                    "columnNumber": 6564718
+                  },
+                  {
+                    "functionName": "l.checkProductSuitability",
+                    "scriptId": "64",
+                    "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                    "lineNumber": 0,
+                    "columnNumber": 6647381
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "64",
+                    "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                    "lineNumber": 0,
+                    "columnNumber": 6810912
+                  },
+                  {
+                    "functionName": "a",
+                    "scriptId": "64",
+                    "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                    "lineNumber": 0,
+                    "columnNumber": 3167151
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "64",
+                    "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                    "lineNumber": 0,
+                    "columnNumber": 3168197
+                  },
+                  {
+                    "functionName": "e.<computed>",
+                    "scriptId": "64",
+                    "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                    "lineNumber": 0,
+                    "columnNumber": 3167330
+                  },
+                  {
+                    "functionName": "a",
+                    "scriptId": "64",
+                    "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                    "lineNumber": 0,
+                    "columnNumber": 6502518
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "64",
+                    "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                    "lineNumber": 0,
+                    "columnNumber": 6502612
+                  }
+                ],
+                "parent": {
+                  "description": "Promise.then",
+                  "callFrames": [
+                    {
+                      "functionName": "a",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 6502595
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 6502664
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 6502462
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 6811109
+                    },
+                    {
+                      "functionName": "N",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 3135552
+                    },
+                    {
+                      "functionName": "l",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 3136028
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 3117812
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 3134509
+                    },
+                    {
+                      "functionName": "u",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 2968027
+                    },
+                    {
+                      "functionName": "qg",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 2969022
+                    },
+                    {
+                      "functionName": "ut",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 2760685
+                    },
+                    {
+                      "functionName": "dt",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 2760742
+                    },
+                    {
+                      "functionName": "zr",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 2789258
+                    },
+                    {
+                      "functionName": "Wr",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 2789598
+                    },
+                    {
+                      "functionName": "Ur",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 2789682
+                    },
+                    {
+                      "functionName": "Yr",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 2789769
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 2791103
+                    },
+                    {
+                      "functionName": "Cm",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 2910460
+                    },
+                    {
+                      "functionName": "it",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 2759828
+                    },
+                    {
+                      "functionName": "Xr",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 2791082
+                    },
+                    {
+                      "functionName": "Na",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 2775778
+                    },
+                    {
+                      "functionName": "va",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 2775708
+                    },
+                    {
+                      "functionName": "ga",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 2775519
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_2",
+        "request": {
+          "method": "POST",
+          "url": "https://mprosit.axismaxlife.com/api/proposals/saveProposalData",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "mprosit.axismaxlife.com"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/api/proposals/saveProposalData"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "application/json, text/plain, */*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "agentid",
+              "value": ""
+            },
+            {
+              "name": "apitoken",
+              "value": "eyJhbGciOiJIUzI1NiJ9.eyJwYXlsb2FkIjp7InV0bUNvZGUiOm51bGwsInJlc3BvbnNlQWdlbnQiOm51bGwsInNvdXJjZSI6IlNQX1JFRElSRUNUIiwidXNlciI6IiIsInRyYW5zYWN0aW9uSWQiOiIxNTAxMzA2Mjk5In0sImp0aSI6IjhiNzgyZTQ2LWFkMjAtNDdlZi05NTc3LWU1NDA4Mjg4MzlhYiIsImlhdCI6MTc2OTAyMTI5NywiZXhwIjoxNzY5MDIzMDk3fQ.tXqCi7KwabnDjQ8e5sfWZ_5Tsm3G9JcpXzSzOgjx-7Y"
+            },
+            {
+              "name": "browserid",
+              "value": ""
+            },
+            {
+              "name": "content-length",
+              "value": "17216"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json;charset=UTF-8"
+            },
+            {
+              "name": "issplogincase",
+              "value": "true"
+            },
+            {
+              "name": "origin",
+              "value": "https://mprosit.axismaxlife.com"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://mprosit.axismaxlife.com/journey/Mg==?source=U1BfUkVESVJFQ1Q==&transactionId=MTUwMTMwNjI5OQ=="
+            },
+            {
+              "name": "responseagentid",
+              "value": "[object Object]"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "transactionid",
+              "value": "1501306299"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "x-correlation-id",
+              "value": "9ab26067-d6f1-4dcb-a477-ed2456fe7784"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 17216,
+          "postData": {
+            "mimeType": "application/json;charset=UTF-8",
+            "text": "{\"request\":{\"data\":{\"values\":{\"formType\":\"self\",\"policyNumber\":null,\"stage\":\"2\",\"firstName\":\"UDIT \",\"lastName\":\"Kumar \",\"hasLastName\":false,\"gender\":\"M\",\"dateOfBirth\":\"1986-05-09\",\"education\":\"Graduate\",\"occupation\":\"Salaried\",\"income\":\"1000000\",\"permanentReflexive\":\"no\",\"communicationHouseNo\":\"11/6,NETHAJI NAGAR,KULATHUPALA\",\"communicationRoadNo\":\"YAM,COIMBATORE -\",\"communicationCity\":\"Coimbatore \",\"communicationState\":\"TAMIL NADU\",\"communicationPinCode\":\"641109\",\"authorizedSignatoryGender\":\"M\",\"authorizedSignatoryNationality\":\"indian\",\"insurerLastName\":\"Kumar \",\"insurerPermanentReflexive\":\"no\",\"insurerPermanentHouseNo\":\"90 a AH Street\",\"insurerPermanentCity\":\"Jalandhar \",\"insurerPermanentPinCode\":\"144001\",\"insurerPermanentCountry\":\"India\",\"insurerCommunicationHouseNo\":\"11/6,NETHAJI NAGAR,KULATHUPALA\",\"insurerCommunicationRoadNo\":\"YAM,COIMBATORE -\",\"insurerCommunicationCity\":\"Coimbatore \",\"insurerCommunicationState\":\"TAMIL NADU\",\"insurerCommunicationPinCode\":\"641109\",\"permanentHouseNo\":\"90 a AH Street\",\"permanentCity\":\"Jalandhar \",\"permanentPinCode\":\"144001\",\"permanentCountry\":\"India\",\"pregnant\":\"no\",\"pregnancyComplications\":\"no\",\"coverageOption\":0,\"isCustomerBenefit\":\"no\",\"needOfInsurance\":\"Protection\",\"desiredAnnualIncome\":\"no\",\"annualIncome\":\"1000000\",\"productType\":\"Traditional\",\"lifeStage\":\"Married with no children\",\"productId\":\"133\",\"productName\":\"Axis Max Life Smart Wealth Plan\",\"premiumPaymentTerm\":6,\"policyTerm\":7,\"secondary_PolicyTerm\":0,\"recommendedFundTypes\":\"no\",\"isSecondAnnuitantPanValidated\":false,\"isSecondAnnuitantDobValidated\":false,\"isNomineePEP\":false,\"isPayorPEP\":false,\"isAuthorizedSignatoryPEP\":false,\"isLifeInsuredPEP\":false,\"politicallyExposed\":\"no\",\"isFamilyMemberOfLifeInsuredPEP\":false,\"isProposerPEP\":false,\"multipleNominees\":[],\"isBankDetailsSame\":true,\"bankAccountNo\":\"13132434554\",\"bankAccountIFSC\":\"UTIB0000404\",\"bankName\":\"HADAPSAR PUNE\",\"typeofAccount\":\"Savings\",\"panFlag\":false,\"dobFlag\":false,\"authorizedSignatoryPanFlag\":false,\"authorizedSignatoryDobFlag\":false,\"insurerPanFlag\":false,\"insurerDobFlag\":false,\"panFlagForPayor\":false,\"dobFlagForPayor\":false,\"aadhaarOcrStatus\":\"Not_Initiated\",\"panOcrStatus\":\"Not_Initiated\",\"nachOcrStatus\":\"Not_Initiated\",\"permanentVoterIdOcrStatus\":\"Not_Initiated\",\"permanentAadhaarOcrStatus\":\"Not_Initiated\",\"communicationAadhaarOcrStatus\":\"Not_Initiated\",\"communicationVoterIdOcrStatus\":\"Not_Initiated\",\"payorAadhaarOcrStatus\":\"Not_Initiated\",\"payorPanOcrStatus\":\"Not_Initiated\",\"transactionId\":\"1501306299\",\"id\":\"69711f6e56d8374c8b43fbd0\",\"email\":\"uditkumar@gmail.com\",\"payorName\":\"UDIT Kumar\",\"spStage\":\"1\",\"isSpJourneyCompleted\":false,\"spSSNCode\":\"618359\",\"mobileNumber\":\"9650989475\",\"enableNatureOfDutiesForAll\":false,\"currentlyPostedLocation\":\"no\",\"professionalDiver\":\"no\",\"involvesOffshore\":\"no\",\"natureOfDuties\":\"no\",\"doesRoleInvolved\":\"no\",\"anyIllness\":\"no\",\"eInsurance\":\"no\",\"isAddressProofSame\":true,\"isSecondAnnuitantAddressProofSame\":true,\"isPayorDifferent\":\"no\",\"payorDateOfBirth\":\"1986-05-09T00:00:00.000+00:00\",\"payorGender\":\"M\",\"payorAnnualIncome\":\"1000000\",\"payorState\":\"TAMIL NADU\",\"payorAddress\":\"YAM,COIMBATORE -\",\"currentActiveScreen\":2,\"topBarStatus\":{\"screen1\":\"full\",\"screen2\":\"half\",\"screen3\":\"empty\",\"screen4\":\"empty\",\"screen5\":\"empty\",\"screen6\":\"empty\"},\"multipleFTINNumbers\":[],\"objectiveOfInsurance\":null,\"insurerName\":\"UDIT Kumar\",\"insurerDateOfBirth\":\"1986-05-09T00:00:00.000+00:00\",\"insurerGender\":\"M\",\"insurerAnnualIncome\":\"1000000\",\"insurerEducation\":\"Graduate\",\"insurerOccupation\":\"Salaried\",\"insurerCriticalIllness\":\"no\",\"isInsurerCriticalIllnessPolicyIssued\":false,\"isInsurerCriticalIllnessPolicyOffered\":false,\"criticalIllnessPolicy\":\"no\",\"isIssued\":false,\"isOffered\":false,\"isInsurerPregnancyComplications\":\"no\",\"isInsurerPregnant\":\"no\",\"currentlyInsurerPostedLocation\":\"no\",\"insurerProfessionalDiver\":\"no\",\"insurerInvolvesInOffshore\":\"no\",\"insurerNatureOfDuties\":\"no\",\"doesInsurerRoleInvolved\":\"no\",\"insurerHadAnyIllness\":\"no\",\"valueMSA\":\"Not yet calculated\",\"valueFSA\":\"Not yet calculated\",\"valueOfFSAProposer\":\"Not yet calculated\",\"valueOfMSAProposer\":\"Not yet calculated\",\"ocrKyc\":[],\"requiredDocuments\":{\"underWriterNotes\":\"\",\"qcNotes\":\"\"},\"ocrDocumentScreen3\":null,\"isPaymentDone\":false,\"isRenewelPaymentDone\":false,\"isEmailSent\":false,\"isifscMicrValidated\":false,\"isIllustrationGenerated\":false,\"neftBankDetailsStatus\":\"Modified\",\"authorizedSignatoryOTPSubmittedDate\":null,\"gstRiderAddedAnnualPremium\":0,\"multipleFTINNumbersOfInsurer\":[],\"ftinOfPayor\":\"no\",\"multipleFTINNumbersOfPayor\":[],\"isSiOpted\":\"false\",\"isTermsAccepted\":false,\"isChargeableIncome\":false,\"isIncomeExceedLimit\":false,\"isTaxableIncome\":false,\"isItOtherIncome\":false,\"isNRI\":false,\"isApplicableIncome\":false,\"isSecondAnnuitantChargeableIncome\":false,\"isSecondAnnuitantIncomeExceedLimit\":false,\"isSecondAnnuitantTaxableIncome\":false,\"isSecondAnnuitantItOtherIncome\":false,\"isSecondAnnuitantNRI\":false,\"isSecondAnnuitantApplicableIncome\":false,\"isYblNisCase\":false,\"ckycDataFetched\":false,\"isCkycApiTrigerred\":false,\"underwritingJourneyFlag\":\"FALSE\",\"dedupeFlag\":true,\"ulipTrainingExpirationDate\":null,\"amlTrainingExpirationDate\":null,\"aml\":false,\"ulip\":false,\"customerId\":\"NTE2OTY3OTc5\",\"spAgentId\":null,\"branchCode\":\"0012\",\"channel\":\"X\",\"customerClassification\":\"SBNRE\",\"isPANAvailable\":false,\"isMICRAvailable\":false,\"labIndex\":0,\"smartWithdrawalPayoutStartYear\":null,\"ukyc\":\"Y\",\"isAgentSelf\":\"FAILURE\",\"isSecondAnnuitantPEP\":false,\"isDedupeValidated\":false,\"isDedupeAdressEdited\":false,\"specifiedPersonName\":null,\"nomineeHavePan\":\"no\",\"nomineeOptionForIfscMicr\":\"nomineeIfsc\",\"isPartnerRedirected\":false,\"isvideoMERStatus\":\"No\",\"isvideoMERFlag\":false,\"isvideoMERProposerFlag\":false,\"isteleMERProposerFlag\":false,\"isYblTelesalesCase\":false,\"isEducationPresent\":false,\"isOccupationPresent\":false,\"isSellerDeclarationSubmitted\":\"no\",\"isSellerDeclarationApplicable\":\"no\",\"isReplacementSaleApiCalled\":\"N\",\"isDirectDebitOptionDisable\":false,\"pasa\":{\"isPasaApplied\":\"\",\"isPasaEligible\":\"\",\"uniqueId\":\"\",\"custId\":\"\",\"offerType\":\"\",\"pasaCategory1\":\"\",\"categoryCode1\":\"\",\"pasaCategory2\":\"\",\"categoryCode2\":\"\",\"premium\":\"\",\"sumAssured\":\"\",\"pasaProducts\":[{\"productId\":\"\",\"productName\":\"\",\"productType\":\"\",\"premiumBackOption\":\"\",\"lifeStageEventBenefit\":\"\",\"deathBenefit\":\"\"}]},\"isCSFBChannel\":\"No\",\"isSIBChannel\":\"No\",\"isNewBankOrCaJourney\":false,\"isMahindraChannel\":\"NO\",\"csgDetails\":{\"CSGCategory\":\"\",\"isCSGApplied\":false},\"brmsFieldConfigurationDetails\":{\"productRestricted\":\"\",\"productRestrictMessage\":\"\",\"campaignID\":\"\",\"campaignIDLength\":\"\",\"campaignIDDataType\":\"\",\"campaignLocationDataType\":\"\",\"campaignLocationLength\":\"\",\"campaignLocation\":\"\",\"custIdDataType\":\"\",\"custIdLength\":\"\",\"customerID\":\"\",\"refIdDataType\":\"\",\"refIdLength\":\"\",\"referenceId\":\"\",\"form1\":\"\",\"form2\":\"\",\"formC\":\"\",\"digitalJourney\":\"\",\"isBRMSApiApplicable\":\"\",\"pOSPJourney\":\"\",\"nRInationality\":\"\",\"indianNationaility\":\"\",\"lEChannelCode\":\"\",\"lEChannelName\":\"\",\"productAnnualMode\":\"\",\"productMinPrem\":\"\",\"productModeCode\":\"\",\"productMonthlyMode\":\"\",\"productQuarterlyMode\":\"\",\"productSemiMode\":\"\",\"cashOption\":\"\",\"chequeOption\":\"\",\"dDOption\":\"\",\"directDebitMannualOption\":\"\",\"onlineOption\":\"\",\"renewalDirectDebit\":\"\",\"renewalEnach\":\"\",\"renewalCheque\":\"\",\"renewalECS\":\"\",\"splitPayment\":\"\",\"medicalScheduling\":\"\",\"dNDOption\":\"\",\"sellerDeclarationonMob\":\"\",\"auditRequestId\":\"\",\"serviceStatus\":\"\",\"jvBranding\":\"\",\"productMinPremAnnual\":\"\",\"productMinPremSemi\":\"\",\"productMinPremQuarterly\":\"\",\"productMinPremMonthly\":\"\",\"singlePremiumApplicable\":\"\",\"whatsappConsent\":\"\",\"formCSchemeA\":\"\",\"formCSchemeB\":\"\",\"nosellerdeclaration\":\"\",\"pasaEnablement\":\"\",\"PasaTermProducts\":[],\"PasaSavingProducts\":[],\"isPasaHashingEnabled\":\"\"},\"diyBrmsFieldConfigurationDetails\":{\"utmBasedLogic\":{\"channelCode\":\"\",\"staticAgentId\":\"\",\"journeyType\":\"\",\"customerDataFetch\":\"\",\"formType\":\"\",\"productEnabled\":\"\",\"advisorId\":\"\",\"advisorIdVerbiage\":\"\",\"leChannelCode\":\"\",\"leChannelName\":\"\",\"leSecondaryChannel\":\"\",\"continueJourneyUrl\":\"\",\"journeyTypeProductCode\":\"\",\"posvApplicability\":\"\",\"paymentMode\":\"\",\"paymentType\":\"\",\"renewalType\":\"\",\"diyJourneyType\":\"\",\"partnerLogoDisplay\":\"\",\"jvRemoval\":\"\",\"pasaEnablement\":\"\",\"smsDailyLimit\":\"\",\"smsInstanceLimit\":\"\",\"coolDownPeriod\":\"\",\"sourceChannel\":\"\",\"dolphinPushChannelCode\":\"\",\"influencerChannel\":\"\",\"psmGrid\":\"\",\"reKYCdue\":\"\",\"productCommissionability\":\"\",\"advisoridviacampaignid\":\"\",\"whatsappConsent\":\"\",\"formCSchemeA\":\"\",\"formCSchemeB\":\"\",\"nosellerdeclaration\":\"\",\"PasaTermProducts\":[],\"PasaSavingProducts\":[],\"isPasaHashingEnabled\":\"\"}},\"isFalconJourney\":false,\"isFalconProduct\":false,\"agentFraudCheckDetails\":{\"source\":\"\",\"panMatched\":\"\",\"mobileMatched\":\"\",\"emailMatched\":\"\",\"dobMatched\":\"\",\"isAgentSelf\":\"\",\"agentFraudIdentified\":\"\",\"sellerContactDeclaration\":\"\",\"auditRequestId\":\"\",\"agentFraudCheckSkip\":\"\",\"requestTimestamp\":\"\",\"responseTimestamp\":\"\",\"serviceStatus\":\"\"},\"isPermAddressEdited\":false,\"isCommAddressEdited\":false,\"isAddressProofTypeEdited\":\"No\",\"isteleMERStatus\":\"No\",\"isExistingLICover\":\"Yes\",\"recommendedProducts\":[\"Max Life Saral Jeevan Bima\",\"Max Life Cancer Insurance Plan\",\"Forever Young Pension Plan\",\"Max Life Life Perfect Partner Super\",\"Max Life Fast Track Super Plan\",\"Max Life Monthly Income Advantage Plan\",\"Max Life Platinum Wealth Plan\",\"Max Life Future Genius Education Plan\",\"Max Life Savings Advantage Plan\",\"Max Life Flexi Wealth Plus Plan\",\"Max Life Smart Wealth Plan\",\"Max Life Saral Pension Plan\",\"Max Life Smart Secure Plus Plan\",\"Max Life Smart Wealth Income Plan\",\"Max Life Flexi Wealth Plus Plan\",\"Max Life Smart Wealth Advantage guarantee Plan\"],\"riskAppetite\":\"Medium\",\"secondaryPremiumPaymentTerm\":0,\"secondaryPolicyTerm\":0,\"irpFundsSelectedValue\":{},\"psmApiStatus\":\"true\",\"isPosSeller\":false,\"wipCases\":{\"CIP\":false,\"HUF\":false,\"category\":null},\"isCPDAPIValidated\":false,\"policySplitting\":\"N\",\"replacementSale\":\"N\",\"isCoiApplicable\":false,\"defenceChannel\":\"no\",\"new2YblNoPan\":false,\"firstPremiumBreakOption\":0,\"secondPremiumBreakOption\":0,\"createdTime\":\"2026-01-21T18:48:14.311+00:00\",\"isRaIdPresent\":false,\"isNeedToEnableResendButton\":false,\"axisJourneyPaymentType\":\"DEFAULT\",\"isPEPDisabled\":\"no\",\"disableScreen6ForAgenyYblPOS\":\"No\",\"isNewAxisApplication\":false,\"isProspectiveYBLCustomer\":false,\"isPosvCovidQuestionY\":false,\"isNriEmodelYBLCustomer\":false,\"selfDeclerationConsent\":false,\"isForm60acceptable\":\" \",\"isCRIFvalidated\":\" \",\"isPanModifiedForThanos\":false,\"bancaId\":\"6702183517\",\"leadId\":\"244441700289\",\"isOnboardedProduct\":\"no\",\"journeyType\":\"J3\",\"relationShipWithProposerFromSoruce\":false,\"isSuperAppRedirected\":false,\"showHealthQuesOnPosv\":\"Y\",\"showCovidQuesOnPosv\":false,\"resendCount\":\"0\",\"insuredResendCount\":\"0\",\"isCipQuestionMarkedYes\":false,\"isFormCSchemeAJourney\":false,\"isFormCSchemeBJourney\":false,\"emailSMSConsent\":false,\"isCatChannel\":\"N\",\"isDiscrepancyPosvReTriggered\":false,\"physicalJourneyEnabled\":\"No\",\"vernacularDeclarationYes\":false,\"vernacularDeclarationNo\":false,\"isPhysicalAxisCase\":\"No\",\"isPennyDropApplicable\":false,\"pennyDropConsent\":\"No\",\"citiBankComConsent\":false,\"nonEditableNonMandatoryFields\":{},\"isTalicBIQueueSuppressed\":\"N\",\"isEkycDobVerified\":\"No\",\"rAJourneyApplicable\":false,\"isInsurerVerified\":false,\"isProposerEkycDobVerified\":false,\"isInsurerEkycDobVerified\":false,\"isPayorEkycDobVerified\":false,\"iibResponse\":null,\"isECSRenewalPaymentDone\":false,\"enableFieldsOnUI\":[],\"paymentStatusPopupFlag\":false,\"appointeeOptionForIfscMicr\":\"appointeeIfsc\",\"appointeeNationality\":\"indian\",\"raHopJourneyApplicable\":false,\"isLinkTriggeredToSp\":false,\"spDigitalConsentSkip\":\"No\",\"clientIdValidated\":false,\"shorterJourneyFlag\":\"No\",\"atrFlag\":\"N\",\"paymentFirstConsent\":false,\"nominee1\":{\"agentFraudCheckDetails\":{\"firstName\":\"\",\"lastName\":\"\",\"panNumber\":\"\",\"phoneNumber\":\"\",\"email\":\"\",\"dob\":\"\",\"source\":\"\",\"panMatched\":\"\",\"mobileMatched\":\"\",\"emailMatched\":\"\",\"dobMatched\":\"\",\"isAgentSelf\":\"\",\"agentFraudIdentified\":\"\",\"sellerContactDeclaration\":\"\",\"agentFraudCheckSkip\":\"\",\"requestTimestamp\":\"\",\"responseTimestamp\":\"\",\"serviceStatus\":\"\",\"auditRequestId\":\"\"}},\"nominee2\":{\"agentFraudCheckDetails\":{\"firstName\":\"\",\"lastName\":\"\",\"panNumber\":\"\",\"phoneNumber\":\"\",\"email\":\"\",\"dob\":\"\",\"source\":\"\",\"panMatched\":\"\",\"mobileMatched\":\"\",\"emailMatched\":\"\",\"dobMatched\":\"\",\"isAgentSelf\":\"\",\"agentFraudIdentified\":\"\",\"sellerContactDeclaration\":\"\",\"agentFraudCheckSkip\":\"\",\"requestTimestamp\":\"\",\"responseTimestamp\":\"\",\"serviceStatus\":\"\",\"auditRequestId\":\"\"}},\"nominee3\":{\"agentFraudCheckDetails\":{\"firstName\":\"\",\"lastName\":\"\",\"panNumber\":\"\",\"phoneNumber\":\"\",\"email\":\"\",\"dob\":\"\",\"source\":\"\",\"panMatched\":\"\",\"mobileMatched\":\"\",\"emailMatched\":\"\",\"dobMatched\":\"\",\"isAgentSelf\":\"\",\"agentFraudIdentified\":\"\",\"sellerContactDeclaration\":\"\",\"agentFraudCheckSkip\":\"\",\"requestTimestamp\":\"\",\"responseTimestamp\":\"\",\"serviceStatus\":\"\",\"auditRequestId\":\"\"}},\"appointee1\":{\"agentFraudCheckDetails\":{\"firstName\":\"\",\"lastName\":\"\",\"panNumber\":\"\",\"phoneNumber\":\"\",\"email\":\"\",\"dob\":\"\",\"source\":\"\",\"panMatched\":\"\",\"mobileMatched\":\"\",\"emailMatched\":\"\",\"dobMatched\":\"\",\"isAgentSelf\":\"\",\"agentFraudIdentified\":\"\",\"sellerContactDeclaration\":\"\",\"agentFraudCheckSkip\":\"\",\"requestTimestamp\":\"\",\"responseTimestamp\":\"\",\"serviceStatus\":\"\",\"auditRequestId\":\"\"}},\"appointee2\":{\"agentFraudCheckDetails\":{\"firstName\":\"\",\"lastName\":\"\",\"panNumber\":\"\",\"phoneNumber\":\"\",\"email\":\"\",\"dob\":\"\",\"source\":\"\",\"panMatched\":\"\",\"mobileMatched\":\"\",\"emailMatched\":\"\",\"dobMatched\":\"\",\"isAgentSelf\":\"\",\"agentFraudIdentified\":\"\",\"sellerContactDeclaration\":\"\",\"agentFraudCheckSkip\":\"\",\"requestTimestamp\":\"\",\"responseTimestamp\":\"\",\"serviceStatus\":\"\",\"auditRequestId\":\"\"}},\"appointee3\":{\"agentFraudCheckDetails\":{\"firstName\":\"\",\"lastName\":\"\",\"panNumber\":\"\",\"phoneNumber\":\"\",\"email\":\"\",\"dob\":\"\",\"source\":\"\",\"panMatched\":\"\",\"mobileMatched\":\"\",\"emailMatched\":\"\",\"dobMatched\":\"\",\"isAgentSelf\":\"\",\"agentFraudIdentified\":\"\",\"sellerContactDeclaration\":\"\",\"agentFraudCheckSkip\":\"\",\"requestTimestamp\":\"\",\"responseTimestamp\":\"\",\"serviceStatus\":\"\",\"auditRequestId\":\"\"}},\"stpAddressProfSource\":\"NA\",\"isPanValidatedSource\":\"NA\",\"stpIdDobproofSource\":\"NA\",\"isRenderProcessDone\":\"N\",\"proceedByFifthScreenButton\":false,\"totalEcsRemainingAttempts\":5,\"currentMonthSelected\":false,\"isYBLGenieSubStatusCall\":false,\"documentSharingApplicableToRA\":false,\"checkIfAxisCase\":false,\"policyPurchasedAfter22SeptConsent\":false,\"isSecondBankAsSameFirstCheck\":false,\"isInterimSelected\":false,\"showInterimOption\":false,\"isEpfoMobChange\":true,\"isPasaTermProductApplicable\":false,\"isPasaSavingProductApplicable\":false,\"isInstantQcTriggered\":false,\"userDocumentSubmittedAtUiInThanos\":false,\"panChangeStatus\":false,\"isCKYCAvailable\":\"no\",\"isPOSVReTriggered\":false,\"isInsuredPOSVReTriggered\":false,\"thanosMandatoryUserDocumentsUploaded\":\"PENDING\",\"sellerConsentCompleted\":\"PENDING\",\"proposerEkycSkip\":\"No\",\"accountAggregatorEkycSkip\":\"No\",\"isCs2LinkTriggerred\":\"No\",\"isITRJourneyTriggered\":\"No\",\"isBSJourneyTriggered\":\"No\",\"posvRetriggerForInsurer\":\"N\",\"isIVCresentforForm2\":\"N\",\"insuredEkycSkip\":\"No\",\"payorEkycSkip\":\"No\",\"proposerEkycFailure\":\"No\",\"insurerEkycFailure\":\"No\",\"payorEkycFailure\":\"No\",\"isCkycNumberVerified\":false,\"currAddProofPayorSource\":\"NA\",\"isPanValidatedPayorSource\":\"NA\",\"isDobValidatedInsuredSource\":\"NA\",\"pcb\":\"no\",\"GSTWaiverAccountType\":null,\"nationality\":\"indian\",\"GSTWaiverRequired\":\"no\",\"relationshipManagerSupport\":\"No\",\"effectiveDateOfCoverage\":\"2026-01-21T18:48:25.420Z\",\"preferredMailingAddress\":\"CRA\",\"isIibCalledForInsurer\":\"No\",\"isIibCalledForProposer\":\"No\",\"iibResForProposer\":{},\"iibResForInsurer\":{},\"ciriderSAMaxLimit\":\"40\",\"permanentState\":\"UTTAR PRADESH\",\"alternateMobileNo\":\"9876543210\",\"permanentRoadNo\":\"jgjfj\",\"existingLICover\":\"57557\",\"premiumType\":null,\"variant\":\"Short Term Income\",\"modeOfPayment\":\"Annual\",\"riderTerm\":null,\"accidentalDeathRiderTerm\":null,\"incomePayoutFrequency\":\"Annual\",\"premiumCommitment\":\"75757575\",\"agentBranchPincode\":\"\",\"solutionName\":null,\"recordId\":\"69711f6e56d8374c8b43fbd0\",\"isNotAutoSave\":false,\"declarantOtpValidated\":\"No\",\"agentLevel\":\"\",\"agentSegment\":\"\",\"agentRole\":\"XAG\",\"designation\":\"\",\"uwAgentJoiningDt\":\"2000-01-01\",\"agentId\":null,\"regionalAdvisorIdType\":\"\",\"riderCIPremiumType\":\"\",\"riderADDPremiumType\":\"\",\"posvJourneyFlag\":\"FALSE\",\"insuredPosvJourneyFlag\":\"FALSE\",\"isPaymentModeChanged\":false,\"checkAPIRateLimit\":false,\"requestSourceSetInLocalstorage\":\"SP_REDIRECT\",\"saveType\":\"callSave\",\"isMsalesRedirected\":false,\"agentChannel\":null,\"agentJoiningdate\":null,\"esgFundSelected\":\"N\",\"SSESReturnOfPremium\":\"\",\"isSSESProduct\":\"No\",\"SSESSolveOption\":\"BASE\",\"isWIPCategory\":null,\"SFPSPlan\":\"BASE\",\"isPtfPayment\":\"no\",\"policyStatus\":\"\",\"agentSegmentDesc\":\"\",\"licenceNum\":\"NA\",\"agencyContest\":\"\",\"isEarlyWealthPlus\":\"no\",\"isProposerEkycVerified\":\"\",\"isInsurerEkycVerified\":\"\",\"isPayorEkycVerified\":\"\",\"ekycNotPerformedProposer\":false,\"ekycNotPerformedInsurer\":false,\"ekycNotPerformedPayor\":false,\"isCaseOpenedFromDashboard\":false,\"riderPremiumType\":\"\",\"licenceExpiryDateForAgent\":\"\",\"isRaLogin\":\"No\",\"mappedAgentId\":null,\"isCkycWipCase\":true,\"disableCatAxisClientId\":\"Y\",\"financialDocumentSelected\":\"\",\"utmCode\":\"\",\"preferredLanguageOfCommunication\":\"English\",\"H1F\":\"[]\",\"H25F\":\"[]\",\"H2A6\":\"[]\",\"H26A6\":\"[]\",\"isDhuCase\":\"Y\",\"ivcRetriggeredCount\":0,\"isSPLoginCase\":true}}}}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "name": "access-control-allow-headers",
+              "value": "Content-Type, *"
+            },
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET, POST"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "content-length",
+              "value": "409"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "cross-origin-opener-policy",
+              "value": "same-origin"
+            },
+            {
+              "name": "cross-origin-resource-policy",
+              "value": "same-origin"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 21 Jan 2026 18:49:04 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"199-AtLkUW8NP4SEGiF3+usS7xe61G8\""
+            },
+            {
+              "name": "origin-agent-cluster",
+              "value": "?1"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "referrer-policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "secure",
+              "value": "true"
+            },
+            {
+              "name": "server",
+              "value": "envoy"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=0; includeSubDomains"
+            },
+            {
+              "name": "vary",
+              "value": "Origin, Accept-Encoding"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "x-correlation-id",
+              "value": "9ab26067-d6f1-4dcb-a477-ed2456fe7784"
+            },
+            {
+              "name": "x-dns-prefetch-control",
+              "value": "off"
+            },
+            {
+              "name": "x-download-options",
+              "value": "noopen"
+            },
+            {
+              "name": "x-envoy-upstream-service-time",
+              "value": "593"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "x-permitted-cross-domain-policies",
+              "value": "none"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 409,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 1093,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "10.103.65.9",
+        "startedDateTime": "2026-01-21T18:49:03.787Z",
+        "time": 646.4509999932488,
+        "timings": {
+          "blocked": 27.440999990300277,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.36799999999999855,
+          "wait": 618.3009999966472,
+          "receive": 0.34100000630132854,
+          "_blocked_queueing": 0.9599999903002754,
+          "_blocked_proxy": 25.473000000000003,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "12242",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "XMLHttpRequest.send",
+                "scriptId": "93",
+                "url": "",
+                "lineNumber": 14,
+                "columnNumber": 22174
+              },
+              {
+                "functionName": "Ne",
+                "scriptId": "107",
+                "url": "",
+                "lineNumber": 0,
+                "columnNumber": 58810
+              },
+              {
+                "functionName": "Te.onmessage",
+                "scriptId": "107",
+                "url": "",
+                "lineNumber": 0,
+                "columnNumber": 61540
+              }
+            ],
+            "parentId": {
+              "id": "29",
+              "debuggerId": "-7110095636297901084.1259469348541833288"
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "cache": {},
+        "connection": "3128",
+        "pageref": "page_2",
+        "request": {
+          "method": "POST",
+          "url": "https://r1as01.visualwebsiteoptimizer.com/analyze?_a=888670&_u=https%3A%2F%2Fmprosit.axismaxlife.com%2Fjourney%2FMg%3D%3D%3Fsource%3DU1BfUkVESVJFQ1Q%3D%3D%26transactionId%3DMTUwMTMwNjI5OQ%3D%3D",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "4646"
+            },
+            {
+              "name": "Content-Type",
+              "value": "multipart/form-data; boundary=----WebKitFormBoundaryOvNZQbEBcxWyC2l3"
+            },
+            {
+              "name": "Host",
+              "value": "r1as01.visualwebsiteoptimizer.com"
+            },
+            {
+              "name": "Origin",
+              "value": "https://mprosit.axismaxlife.com"
+            },
+            {
+              "name": "Referer",
+              "value": "https://mprosit.axismaxlife.com/"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "empty"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "cross-site"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_a",
+              "value": "888670"
+            },
+            {
+              "name": "_u",
+              "value": "https%3A%2F%2Fmprosit.axismaxlife.com%2Fjourney%2FMg%3D%3D%3Fsource%3DU1BfUkVESVJFQ1Q%3D%3D%26transactionId%3DMTUwMTMwNjI5OQ%3D%3D"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 840,
+          "bodySize": 5717,
+          "postData": {
+            "mimeType": "multipart/form-data; boundary=----WebKitFormBoundaryOvNZQbEBcxWyC2l3",
+            "text": "------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"a\"\r\n\r\n888670\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"url\"\r\n\r\nhttps://mprosit.axismaxlife.com/journey/Mg==?source=U1BfUkVESVJFQ1Q==&transactionId=MTUwMTMwNjI5OQ==\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"session_id\"\r\n\r\n1769020315\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"recording_id\"\r\n\r\n8\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"vn\"\r\n\r\n4.0.473\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"rand\"\r\n\r\n0.8445475810888868\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"cnnUrl\"\r\n\r\nhttps://mprosit.axismaxlife.com/journey/Mg==?source=U1BfUkVESVJFQ1Q==&transactionId=MTUwMTMwNjI5OQ==\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"eTime\"\r\n\r\n1769021342100\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"rm\"\r\n\r\n{\"ctc\":{\"c\":1}}\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"fRS\"\r\n\r\ntrue\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"movements\"\r\n\r\n1360\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"clicks\"\r\n\r\n1\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"duration\"\r\n\r\n3.35\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"start_time\"\r\n\r\n1769021303070\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"end_time\"\r\n\r\n1769021341100\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"re\"\r\n\r\n{\"1\":\"D5F3DACBF4D440A2D415F2A96D964D73B\"}\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"he\"\r\n\r\n{\"2\":\"D5F3DACBF4D440A2D415F2A96D964D73B\"}\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"v2\"\r\n\r\ntrue\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"count\"\r\n\r\n34\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"c_mutations\"; filename=\"blob\"\r\nContent-Type: application/octet-stream\r\n\r\n\u001f\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003íW{oÛ6\u0010ÿ*\u0001-`9¢\u001e¶¤þ³5Û°\u0014YQ4Y¡\u001d\u0002J¢m.2eP\u001d¯ðwßô²%;IÓ\u0016\u001d\by¼÷\u001dG¾ÿh\u000b:%vâQ\u0010õìi-° %«ìäýGæv\u0012û^Ï\u0016Ë\u0019ðØX\bNÓZÊîÙ\fK9;+p%s\\ÔrýGM+ùô\u0012§¤pxY\n'ò­\u0006qDäN4ä\u000b6«Á<ö¨#;/àeá\fã½MÌè\u0014\u000b©ÌÛÛ©&²['Böª·\t$xh Jö+v·\u0006\u001a.ÅhG¯YNxA\u0019qâÀ:/§³\u0011¦Ù5ï\rìÕßÒ¡uÒA0ø\nI7ÈeVW\u001e|»ÅÐ\u0011Ä;£OZ \u0010í\u0017hív6¡E~I+\u0001nâ<'ùë2'Á¯kÅ\u0005Â2\\äº1ÄÇ¯uxWo~~-Åv+±ÎØ¯Ë:¼¥³YA\u001c®ÿ!OUøpç\u001d­hª\u0018\u0002îµÖJ,\u000bbh]Ð\\L\u0012Ë¢þ\u0000\rgw/¬\t¡ãhD9K,\u0007ù¾ïÆP\u0011p8!¬#É\u0001ÙêÙ3Næ´¬«+°KÙØNX]\u0014@Æ\u001c²+³b'ºêQVÊ¥Ãü ÷©ò£ê\u0002ÑËJ>À7Y¢àdZÎwÕTÝ`ÔðA={X{Ö­Ù±·ß_\u0000$¾M0x²\u001fú\u0007\u0007ßèÔ\u00079ÛÚûM áà9t)ì\u000f÷Ü\u0019¢Añ(\u001cB¨qÎ®ÿºüµó åX`çF4&¢¨í)\u0011¸\u0019í9åY]`þcN@ºõ\u0018®³\u0019\u000eWm1Ø\të¾lyr'dA\u0006,~`ý\u0016£º5B\u0014X\u001f?0ËÊi5+ð2±(S]\u0016evûBî¨å\u0006ù\u0010V\u001d\n+ú\fTZ¥àUTV#Ñ¿e3Y¾ëN++«S`MÉ¿ðgn?èY.|}¯g¡ç\u00160\u001c1C¡S\u0005áSÊàôµ¶¦26­©3Û°gky\u0017ü#\u0016ê\u0007\tsuD\u0019\u0015äµ¬,JXn¾\u0004cCmLQ\u0013ë\u0007\u0000</OO_¬d¹V\u00105\u0015ÄC\u0014\u0004ù1\u0005@Þ\u000f=W\u000bVproI\u0002\tä²%Î¥âWëÊxè°2Z¡ãjRF\u0015\u0011^!mô¢Y'Ï»g¤'ºJ\u0004W\u0004Êíµ0KµIâÄË®ÜÙ]Ïò\\ø·Ï¡£J,½\u0005>ÿä,HzKsK#\u000e'µêðdÝ1Êmm?ê_ëôÉfN,ÍòÌ\u001f¸9\u0019?W¦W\u000f3¢ÂUw\u0006\u000eãCÍð\u0004¨\u001c°¬ð¨6©è¤>\u0007¦F3\u0003Wé\u0019^Âg·\u0000_÷ý\u0003¡ÎûÇ)¨?\u0014Û\\¸\\=FÔÂóN.S>w\u0006;»!}Jºeî½¬(ÙKÙç\n\u0011R·\u0004\f¸SyåÌí¶4·\u0017\u001bÜ\u00005L`ÀµÜñQ\u0015Syû÷ºÊ¬[µ>X´®2N\bC77\u0015T°WeÍ\u0019YÞÜø¯HZß;ÀÒýixª6ícXÚÚá_.Þu\u000eá¼\u001e@ÒvØµm\u001e`|\u001bÓáØÙÝRÔ-«\u001fè¦Xû\u0007W-óY±\u0014óû¼>ÆÃC®]\u0017 D­×Èó:ß\u0015òj¹Mt5\u001fR¢A\u001e\u0013Í)Y¼,ÍC\u0003³\u0000¾ O\u0005ÃJö»\u0016Ò«\u0019ÎÈo/k\"Ä,9;[,\u0016ýß/ùø\fÐÅ=Ó\u001e\u001eÄ\u00045üÎÐC3t=¶>)zcZwo\u001f\fF3Y'\u001eckÙ¹ÅÍäÂ6÷äÅØ\\fß)Víf°ù}ý:üÌ¥\t>\u0003 #\u0003ÐýãO\u0013~Bº¥#¾\u0004 oé»{¥Ô\u001bò\u0018âk¢)\u0012vÌ{Çÿ´x?ø÷À{ßíÀû¸\u0013ôÿw¼\u001ft\u001e}Çû¯÷Ãv¼¿ÿ\u0000eª1âh\u0019\u0000\u0000\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3\r\nContent-Disposition: form-data; name=\"c_recording\"; filename=\"blob\"\r\nContent-Type: application/octet-stream\r\n\r\n\u001f\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003íYÛnÚ@\u0010ý\u0015RÞZÖ²×÷JE¨HÜ\u0004¤UZU+c/\u001bÛkµ\u001aþ¾ã\u000bMÀ®\u001b\u0010Rµ<\u001cY3³³ãÙsð\u0018Â¨a\u0018¤?\u001dÜ·º­Étq=\u001fÎ\u001f×~²áÈ}ô\u0003¯õ¡5\u0018~i'qK)\u0013¶\u0017Ñm}¾é\rnæÒ±`å$\u0007ËÇ½áD\u001a9[ò+¢«\u001c®YÄiôÊ Æ£ûër\u0007pFÔå#í\u0014Í®\u0004QaÌ\"HR\u0004©X/WCO·Óù¸¬5v\"\u001a¬ØóAG\u000eëØ\u0005{\u001f=|£\u0007\u001d,n(ñ\u001f\u001eù,ËW\u0018b(¢\u001bX'X³MÉ6,S'¦J°¬\u001bÄ¶m±;«¨º%Slg?Å\"|ìøQÿWâÄÕtí\u0019M6,r\u0001å\u001fl4íYÂ¼ÔåÔçÎÊ\u000f|¾­õïÕZ»¬ÚOe9>]ï\u0001¥MÈ (ëKÕ½ÝÖbÖÔd­îÖmzý4Ný[#gE\u0003´fnº¡\u001e²´j,r\u0018Å)ÿ\u0013ecÈ2Ìîß#'¤ÞÅ\t\rý4\u0004®>\u000f¬ï~¼ÎCÞïfZÔ\u0015¡Å(´ø\u0016Ëñùëz?8·\u0016kcÿI_!L,&&Æ(ôõ\u0016Ëñùëz?h¦¯bÁÂM(\u0017º'å>ã/\u000eôU\u000f²ÿïÑ$ß$¦û¬.T+Í³üX-»\\í>R÷\tø\u0002S*¨\u001a»u2¯ýÈL0½Úi\u0014c­,éD±,ti[\u0004ë¶UhÜ\u0014\u001ao\u0017×x±`Å#\u0004s\u0014ptGÄr!8 ¤,M\"º­©ÓgîBç*ÌÍkè&MæY1Uoµ\n°÷ïËé¤½É\u0011ðÃ¥0Ü­RO\r}ýü\n¹pèpKÔ[P¸ôdT\u0005\u0003%XÒä¨&\u0013²B0@NQS6tAÑ((z>ª6±¢rFQÜY3 ¨&\u000b6ÅS4÷IéI©vÆøÛþÕ\u0011e\u0017ÛàM$ÿ±ÍÔt,dÕ\u0010¬Þb9>]ï\u0007çÕe~l+\u001eq¶*´Ø\u0010/®ÅbÁÿ1uB\u0017h¨cKÐ°!\n\u001a\u0004Ãä¯áÃ×|^1ÅQóäü\rU@Fj \u0000\u0000\r\n------WebKitFormBoundaryOvNZQbEBcxWyC2l3--\r\n",
+            "params": [
+              {
+                "name": "a",
+                "value": "888670"
+              },
+              {
+                "name": "url",
+                "value": "https://mprosit.axismaxlife.com/journey/Mg==?source=U1BfUkVESVJFQ1Q==&transactionId=MTUwMTMwNjI5OQ=="
+              },
+              {
+                "name": "session_id",
+                "value": "1769020315"
+              },
+              {
+                "name": "recording_id",
+                "value": "8"
+              },
+              {
+                "name": "vn",
+                "value": "4.0.473"
+              },
+              {
+                "name": "rand",
+                "value": "0.8445475810888868"
+              },
+              {
+                "name": "cnnUrl",
+                "value": "https://mprosit.axismaxlife.com/journey/Mg==?source=U1BfUkVESVJFQ1Q==&transactionId=MTUwMTMwNjI5OQ=="
+              },
+              {
+                "name": "eTime",
+                "value": "1769021342100"
+              },
+              {
+                "name": "rm",
+                "value": "{\"ctc\":{\"c\":1}}"
+              },
+              {
+                "name": "fRS",
+                "value": "true"
+              },
+              {
+                "name": "movements",
+                "value": "1360"
+              },
+              {
+                "name": "clicks",
+                "value": "1"
+              },
+              {
+                "name": "duration",
+                "value": "3.35"
+              },
+              {
+                "name": "start_time",
+                "value": "1769021303070"
+              },
+              {
+                "name": "end_time",
+                "value": "1769021341100"
+              },
+              {
+                "name": "re",
+                "value": "{\"1\":\"D5F3DACBF4D440A2D415F2A96D964D73B\"}"
+              },
+              {
+                "name": "he",
+                "value": "{\"2\":\"D5F3DACBF4D440A2D415F2A96D964D73B\"}"
+              },
+              {
+                "name": "v2",
+                "value": "true"
+              },
+              {
+                "name": "count",
+                "value": "34"
+              },
+              {
+                "name": "c_mutations",
+                "value": "(binary)"
+              },
+              {
+                "name": "c_recording",
+                "value": "(binary)"
+              }
+            ]
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Age",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript; charset=UTF-8"
+            },
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jan 2026 18:49:03 GMT"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains; preload"
+            },
+            {
+              "name": "Via",
+              "value": "HTTPS/1.1 vlingursrv0765-wcg"
+            },
+            {
+              "name": "server",
+              "value": "r1as01"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "application/javascript",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 316,
+          "bodySize": 0,
+          "_transferSize": 316,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "172.23.64.142",
+        "startedDateTime": "2026-01-21T18:49:04.342Z",
+        "time": 470.6950000108918,
+        "timings": {
+          "blocked": 2.4810000023311005,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.16500000000000004,
+          "wait": 467.7469999936344,
+          "receive": 0.3020000149263069,
+          "_blocked_queueing": 1.1030000023311004,
+          "_blocked_proxy": 0.586,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "10970",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "XMLHttpRequest.send",
+                "scriptId": "93",
+                "url": "",
+                "lineNumber": 14,
+                "columnNumber": 22174
+              },
+              {
+                "functionName": "",
+                "scriptId": "64",
+                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                "lineNumber": 0,
+                "columnNumber": 1547687
+              },
+              {
+                "functionName": "e.exports",
+                "scriptId": "64",
+                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                "lineNumber": 0,
+                "columnNumber": 1546127
+              },
+              {
+                "functionName": "e.exports",
+                "scriptId": "64",
+                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                "lineNumber": 0,
+                "columnNumber": 3152117
+              }
+            ],
+            "parent": {
+              "description": "Promise.then",
+              "callFrames": [
+                {
+                  "functionName": "a.request",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 3147966
+                },
+                {
+                  "functionName": "a.<computed>",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 3148231
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 1545993
+                },
+                {
+                  "functionName": "l.validateProduct",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 6552729
+                },
+                {
+                  "functionName": "l.proceedToNextScreen",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 6652609
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 6648230
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 5509581
+                }
+              ],
+              "parent": {
+                "description": "Promise.then",
+                "callFrames": [
+                  {
+                    "functionName": "",
+                    "scriptId": "64",
+                    "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                    "lineNumber": 0,
+                    "columnNumber": 5507444
+                  }
+                ],
+                "parent": {
+                  "description": "Promise.then",
+                  "callFrames": [
+                    {
+                      "functionName": "c.saveDataApiCallService",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 5493768
+                    },
+                    {
+                      "functionName": "c.saveDataToServer",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 5479053
+                    },
+                    {
+                      "functionName": "l.screen2Save",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 6564718
+                    },
+                    {
+                      "functionName": "l.checkProductSuitability",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 6647381
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 6810912
+                    },
+                    {
+                      "functionName": "a",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 3167151
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 3168197
+                    },
+                    {
+                      "functionName": "e.<computed>",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 3167330
+                    },
+                    {
+                      "functionName": "a",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 6502518
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 6502612
+                    }
+                  ],
+                  "parent": {
+                    "description": "Promise.then",
+                    "callFrames": [
+                      {
+                        "functionName": "a",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 6502595
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 6502664
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 6502462
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 6811109
+                      },
+                      {
+                        "functionName": "N",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 3135552
+                      },
+                      {
+                        "functionName": "l",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 3136028
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 3117812
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 3134509
+                      },
+                      {
+                        "functionName": "u",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 2968027
+                      },
+                      {
+                        "functionName": "qg",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 2969022
+                      },
+                      {
+                        "functionName": "ut",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 2760685
+                      },
+                      {
+                        "functionName": "dt",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 2760742
+                      },
+                      {
+                        "functionName": "zr",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 2789258
+                      },
+                      {
+                        "functionName": "Wr",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 2789598
+                      },
+                      {
+                        "functionName": "Ur",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 2789682
+                      },
+                      {
+                        "functionName": "Yr",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 2789769
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 2791103
+                      },
+                      {
+                        "functionName": "Cm",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 2910460
+                      },
+                      {
+                        "functionName": "it",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 2759828
+                      },
+                      {
+                        "functionName": "Xr",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 2791082
+                      },
+                      {
+                        "functionName": "Na",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 2775778
+                      },
+                      {
+                        "functionName": "va",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 2775708
+                      },
+                      {
+                        "functionName": "ga",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 2775519
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_2",
+        "request": {
+          "method": "POST",
+          "url": "https://mprosit.axismaxlife.com/api/validateProducts/validateProduct",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "mprosit.axismaxlife.com"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/api/validateProducts/validateProduct"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "application/json, text/plain, */*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "agentid",
+              "value": ""
+            },
+            {
+              "name": "apitoken",
+              "value": "eyJhbGciOiJIUzI1NiJ9.eyJwYXlsb2FkIjp7InV0bUNvZGUiOm51bGwsInJlc3BvbnNlQWdlbnQiOm51bGwsInNvdXJjZSI6IlNQX1JFRElSRUNUIiwidXNlciI6IiIsInRyYW5zYWN0aW9uSWQiOiIxNTAxMzA2Mjk5In0sImp0aSI6IjhiNzgyZTQ2LWFkMjAtNDdlZi05NTc3LWU1NDA4Mjg4MzlhYiIsImlhdCI6MTc2OTAyMTI5NywiZXhwIjoxNzY5MDIzMDk3fQ.tXqCi7KwabnDjQ8e5sfWZ_5Tsm3G9JcpXzSzOgjx-7Y"
+            },
+            {
+              "name": "browserid",
+              "value": ""
+            },
+            {
+              "name": "content-length",
+              "value": "1048"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json;charset=UTF-8"
+            },
+            {
+              "name": "issplogincase",
+              "value": "true"
+            },
+            {
+              "name": "origin",
+              "value": "https://mprosit.axismaxlife.com"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://mprosit.axismaxlife.com/journey/Mg==?source=U1BfUkVESVJFQ1Q==&transactionId=MTUwMTMwNjI5OQ=="
+            },
+            {
+              "name": "responseagentid",
+              "value": "[object Object]"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "transactionid",
+              "value": "1501306299"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "x-correlation-id",
+              "value": "f7c9b3ee-80e6-4d54-9482-0b7b64a6144e"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 1048,
+          "postData": {
+            "mimeType": "application/json;charset=UTF-8",
+            "text": "{\"education\":\"\",\"insurerEducation\":\"\",\"income\":\"\",\"insurerAnnualIncome\":\"\",\"occupation\":\"\",\"insurerOccupation\":\"\",\"sumAssured\":\"\",\"spouseAnnualIncome\":\"\",\"spouseTotalInsuranceCover\":\"\",\"productId\":\"133\",\"agentId\":\"\",\"panNumber\":\"\",\"formType\":\"self\",\"schemeType\":\"\",\"isCIRider\":false,\"communicationPinCode\":\"641109\",\"communicationCountry\":\"\",\"communicationState\":\"TAMIL NADU\",\"agentRole\":\"\",\"communicationCity\":\"Coimbatore \",\"isSmoker\":false,\"nationality\":\"indian\",\"dateOfBirth\":\"1986-05-09\",\"channel\":\"\",\"residentialStatus\":\"\",\"isDedupeValidated\":\"\",\"customerClassification\":\"SBNRE\",\"isWOPPlusRider\":\"\",\"permanentCountry\":\"India\",\"isDiabetic\":false,\"transactionId\":1501306299,\"id\":\"69711f6e56d8374c8b43fbd0\",\"insurerDateOfBirth\":\"1986-05-09T00:00:00.000+00:00\",\"goCode\":\"\",\"currentCIRiderSumAssured\":0,\"isCIRiderSelected\":\"FALSE\",\"currentScreen\":\"2\",\"isPosSeller\":false,\"fatfCountryFlag\":true,\"isSspSwissReCase\":false,\"isPasaEligible\":\"\",\"pasaQ1\":\"\",\"pasaQ2\":\"\",\"pasaQ3\":\"\",\"pasaQ4\":\"\",\"dedupeFlag\":\"\",\"isSSESProduct\":\"No\",\"SSESSolveOption\":\"BASE\"}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "name": "access-control-allow-headers",
+              "value": "Content-Type, *"
+            },
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET, POST"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "content-length",
+              "value": "215"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "cross-origin-opener-policy",
+              "value": "same-origin"
+            },
+            {
+              "name": "cross-origin-resource-policy",
+              "value": "same-origin"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 21 Jan 2026 18:49:04 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"d7-odIfz20QAMxycDHg0ZkRYp9A63I\""
+            },
+            {
+              "name": "origin-agent-cluster",
+              "value": "?1"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "referrer-policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "secure",
+              "value": "true"
+            },
+            {
+              "name": "server",
+              "value": "envoy"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=0; includeSubDomains"
+            },
+            {
+              "name": "vary",
+              "value": "Origin, Accept-Encoding"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "x-correlation-id",
+              "value": "f7c9b3ee-80e6-4d54-9482-0b7b64a6144e"
+            },
+            {
+              "name": "x-dns-prefetch-control",
+              "value": "off"
+            },
+            {
+              "name": "x-download-options",
+              "value": "noopen"
+            },
+            {
+              "name": "x-envoy-upstream-service-time",
+              "value": "155"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "x-permitted-cross-domain-policies",
+              "value": "none"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 215,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 898,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "10.103.65.9",
+        "startedDateTime": "2026-01-21T18:49:04.437Z",
+        "time": 181.35100000654347,
+        "timings": {
+          "blocked": 1.5529999997382984,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.24299999999999988,
+          "wait": 179.18699999863935,
+          "receive": 0.36800000816583633,
+          "_blocked_queueing": 0.6439999997382984,
+          "_blocked_proxy": 0.54,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "10970",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "XMLHttpRequest.send",
+                "scriptId": "93",
+                "url": "",
+                "lineNumber": 14,
+                "columnNumber": 22174
+              },
+              {
+                "functionName": "",
+                "scriptId": "64",
+                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                "lineNumber": 0,
+                "columnNumber": 1547687
+              },
+              {
+                "functionName": "e.exports",
+                "scriptId": "64",
+                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                "lineNumber": 0,
+                "columnNumber": 1546127
+              },
+              {
+                "functionName": "e.exports",
+                "scriptId": "64",
+                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                "lineNumber": 0,
+                "columnNumber": 3152117
+              }
+            ],
+            "parent": {
+              "description": "Promise.then",
+              "callFrames": [
+                {
+                  "functionName": "a.request",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 3147966
+                },
+                {
+                  "functionName": "a.<computed>",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 3148231
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 1545993
+                },
+                {
+                  "functionName": "g",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 8320925
+                },
+                {
+                  "functionName": "l.callRunIllustration",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 6661252
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 6655952
+                },
+                {
+                  "functionName": "l.validateClientPolicyDetailsForSJB",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 6620659
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 6655556
+                }
+              ],
+              "parent": {
+                "description": "Promise.then",
+                "callFrames": [
+                  {
+                    "functionName": "",
+                    "scriptId": "64",
+                    "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                    "lineNumber": 0,
+                    "columnNumber": 6652743
+                  }
+                ],
+                "parent": {
+                  "description": "Promise.then",
+                  "callFrames": [
+                    {
+                      "functionName": "",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 6652698
+                    },
+                    {
+                      "functionName": "l.validateProduct",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 6554624
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 6652640
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 6553537
+                    }
+                  ],
+                  "parent": {
+                    "description": "Promise.then",
+                    "callFrames": [
+                      {
+                        "functionName": "l.validateProduct",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 6552767
+                      },
+                      {
+                        "functionName": "l.proceedToNextScreen",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 6652609
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 6648230
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 5509581
+                      }
+                    ],
+                    "parent": {
+                      "description": "Promise.then",
+                      "callFrames": [
+                        {
+                          "functionName": "",
+                          "scriptId": "64",
+                          "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                          "lineNumber": 0,
+                          "columnNumber": 5507444
+                        }
+                      ],
+                      "parent": {
+                        "description": "Promise.then",
+                        "callFrames": [
+                          {
+                            "functionName": "c.saveDataApiCallService",
+                            "scriptId": "64",
+                            "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                            "lineNumber": 0,
+                            "columnNumber": 5493768
+                          },
+                          {
+                            "functionName": "c.saveDataToServer",
+                            "scriptId": "64",
+                            "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                            "lineNumber": 0,
+                            "columnNumber": 5479053
+                          },
+                          {
+                            "functionName": "l.screen2Save",
+                            "scriptId": "64",
+                            "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                            "lineNumber": 0,
+                            "columnNumber": 6564718
+                          },
+                          {
+                            "functionName": "l.checkProductSuitability",
+                            "scriptId": "64",
+                            "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                            "lineNumber": 0,
+                            "columnNumber": 6647381
+                          },
+                          {
+                            "functionName": "",
+                            "scriptId": "64",
+                            "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                            "lineNumber": 0,
+                            "columnNumber": 6810912
+                          },
+                          {
+                            "functionName": "a",
+                            "scriptId": "64",
+                            "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                            "lineNumber": 0,
+                            "columnNumber": 3167151
+                          },
+                          {
+                            "functionName": "",
+                            "scriptId": "64",
+                            "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                            "lineNumber": 0,
+                            "columnNumber": 3168197
+                          },
+                          {
+                            "functionName": "e.<computed>",
+                            "scriptId": "64",
+                            "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                            "lineNumber": 0,
+                            "columnNumber": 3167330
+                          },
+                          {
+                            "functionName": "a",
+                            "scriptId": "64",
+                            "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                            "lineNumber": 0,
+                            "columnNumber": 6502518
+                          },
+                          {
+                            "functionName": "",
+                            "scriptId": "64",
+                            "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                            "lineNumber": 0,
+                            "columnNumber": 6502612
+                          }
+                        ],
+                        "parent": {
+                          "description": "Promise.then",
+                          "callFrames": [
+                            {
+                              "functionName": "a",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 6502595
+                            },
+                            {
+                              "functionName": "",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 6502664
+                            },
+                            {
+                              "functionName": "",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 6502462
+                            },
+                            {
+                              "functionName": "",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 6811109
+                            },
+                            {
+                              "functionName": "N",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 3135552
+                            },
+                            {
+                              "functionName": "l",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 3136028
+                            },
+                            {
+                              "functionName": "",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 3117812
+                            },
+                            {
+                              "functionName": "",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 3134509
+                            },
+                            {
+                              "functionName": "u",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 2968027
+                            },
+                            {
+                              "functionName": "qg",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 2969022
+                            },
+                            {
+                              "functionName": "ut",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 2760685
+                            },
+                            {
+                              "functionName": "dt",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 2760742
+                            },
+                            {
+                              "functionName": "zr",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 2789258
+                            },
+                            {
+                              "functionName": "Wr",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 2789598
+                            },
+                            {
+                              "functionName": "Ur",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 2789682
+                            },
+                            {
+                              "functionName": "Yr",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 2789769
+                            },
+                            {
+                              "functionName": "",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 2791103
+                            },
+                            {
+                              "functionName": "Cm",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 2910460
+                            },
+                            {
+                              "functionName": "it",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 2759828
+                            },
+                            {
+                              "functionName": "Xr",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 2791082
+                            },
+                            {
+                              "functionName": "Na",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 2775778
+                            },
+                            {
+                              "functionName": "va",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 2775708
+                            },
+                            {
+                              "functionName": "ga",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 2775519
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_2",
+        "request": {
+          "method": "POST",
+          "url": "https://mprosit.axismaxlife.com/api/illustrations/runProductIllustrations",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "mprosit.axismaxlife.com"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/api/illustrations/runProductIllustrations"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "application/json, text/plain, */*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "agentid",
+              "value": ""
+            },
+            {
+              "name": "apitoken",
+              "value": "eyJhbGciOiJIUzI1NiJ9.eyJwYXlsb2FkIjp7InV0bUNvZGUiOm51bGwsInJlc3BvbnNlQWdlbnQiOm51bGwsInNvdXJjZSI6IlNQX1JFRElSRUNUIiwidXNlciI6IiIsInRyYW5zYWN0aW9uSWQiOiIxNTAxMzA2Mjk5In0sImp0aSI6IjhiNzgyZTQ2LWFkMjAtNDdlZi05NTc3LWU1NDA4Mjg4MzlhYiIsImlhdCI6MTc2OTAyMTI5NywiZXhwIjoxNzY5MDIzMDk3fQ.tXqCi7KwabnDjQ8e5sfWZ_5Tsm3G9JcpXzSzOgjx-7Y"
+            },
+            {
+              "name": "browserid",
+              "value": ""
+            },
+            {
+              "name": "content-length",
+              "value": "1248"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json;charset=UTF-8"
+            },
+            {
+              "name": "issplogincase",
+              "value": "true"
+            },
+            {
+              "name": "origin",
+              "value": "https://mprosit.axismaxlife.com"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://mprosit.axismaxlife.com/journey/Mg==?source=U1BfUkVESVJFQ1Q==&transactionId=MTUwMTMwNjI5OQ=="
+            },
+            {
+              "name": "responseagentid",
+              "value": "[object Object]"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "transactionid",
+              "value": "1501306299"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "x-correlation-id",
+              "value": "3515808c-2ec5-4bcc-a51d-4f589b9f2b3b"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 1248,
+          "postData": {
+            "mimeType": "application/json;charset=UTF-8",
+            "text": "{\"request\":{\"data\":{\"formType\":\"self\",\"firstName\":\"UDIT \",\"lastName\":\"Kumar \",\"gender\":\"M\",\"permanentReflexive\":\"no\",\"communicationState\":\"TAMIL NADU\",\"desiredAnnualIncome\":\"no\",\"annualIncome\":\"1000000\",\"productName\":\"Axis Max Life Smart Wealth Plan\",\"premiumPaymentTerm\":6,\"policyTerm\":7,\"transactionId\":\"1501306299\",\"id\":\"69711f6e56d8374c8b43fbd0\",\"email\":\"uditkumar@gmail.com\",\"insurerName\":\"UDIT Kumar\",\"insurerGender\":\"M\",\"isAgentSelf\":\"FAILURE\",\"isNewBankOrCaJourney\":false,\"isFormCSchemeAJourney\":false,\"isFormCSchemeBJourney\":false,\"nationality\":\"indian\",\"GSTWaiverRequired\":\"no\",\"effectiveDateOfCoverage\":\"2026-01-22\",\"permanentState\":\"TAMIL NADU\",\"variant\":\"Short Term Income\",\"modeOfPayment\":\"Annual\",\"incomePayoutFrequency\":\"Annual\",\"premiumCommitment\":\"75757575\",\"requestSource\":\"SP_REDIRECT\",\"isCATChannel\":\"N\",\"proposerAge\":39,\"productId\":\"133\",\"stateKey\":\"TN\",\"maxState\":null,\"maxStateKey\":\"HR\",\"customerDiscount\":\"no\",\"agentId\":null,\"insurerLastName\":\"Kumar \",\"isDefenceChannel\":\"no\",\"PSMAnnualIncome\":\"1000000\",\"checkPSMQuestion\":\"Yes\",\"isPOSP\":false,\"isIPCJourney\":\"N\",\"isBajajCapitalChannel\":false,\"isCSFBChannel\":\"No\",\"customerSignDate\":\"\",\"journeyType\":\"J3\",\"isSPLoginCase\":true,\"channelName\":\"X\",\"irpFundsSelectedValue\":{}}}}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "name": "access-control-allow-headers",
+              "value": "Content-Type, *"
+            },
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET, POST"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "content-length",
+              "value": "169"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "cross-origin-opener-policy",
+              "value": "same-origin"
+            },
+            {
+              "name": "cross-origin-resource-policy",
+              "value": "same-origin"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 21 Jan 2026 18:49:05 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"a9-Rf/6cWBUHSL/6Dy1blBkKrc8Mjk\""
+            },
+            {
+              "name": "origin-agent-cluster",
+              "value": "?1"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "referrer-policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "secure",
+              "value": "true"
+            },
+            {
+              "name": "server",
+              "value": "envoy"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=0; includeSubDomains"
+            },
+            {
+              "name": "vary",
+              "value": "Origin, Accept-Encoding"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "x-correlation-id",
+              "value": "3515808c-2ec5-4bcc-a51d-4f589b9f2b3b"
+            },
+            {
+              "name": "x-dns-prefetch-control",
+              "value": "off"
+            },
+            {
+              "name": "x-download-options",
+              "value": "noopen"
+            },
+            {
+              "name": "x-envoy-upstream-service-time",
+              "value": "855"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "x-permitted-cross-domain-policies",
+              "value": "none"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 169,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 852,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "10.103.65.9",
+        "startedDateTime": "2026-01-21T18:49:04.623Z",
+        "time": 882.7869999950053,
+        "timings": {
+          "blocked": 1.6280000005923212,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.268,
+          "wait": 880.1220000032895,
+          "receive": 0.7689999911235645,
+          "_blocked_queueing": 0.7110000005923212,
+          "_blocked_proxy": 0.5489999999999999,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "12242",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "XMLHttpRequest.send",
+                "scriptId": "93",
+                "url": "",
+                "lineNumber": 14,
+                "columnNumber": 22174
+              },
+              {
+                "functionName": "Ne",
+                "scriptId": "107",
+                "url": "",
+                "lineNumber": 0,
+                "columnNumber": 58810
+              },
+              {
+                "functionName": "Te.onmessage",
+                "scriptId": "107",
+                "url": "",
+                "lineNumber": 0,
+                "columnNumber": 61540
+              }
+            ],
+            "parentId": {
+              "id": "30",
+              "debuggerId": "-7110095636297901084.1259469348541833288"
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "cache": {},
+        "connection": "3128",
+        "pageref": "page_2",
+        "request": {
+          "method": "POST",
+          "url": "https://r1as01.visualwebsiteoptimizer.com/analyze?_a=888670&_u=https%3A%2F%2Fmprosit.axismaxlife.com%2Fjourney%2FMg%3D%3D%3Fsource%3DU1BfUkVESVJFQ1Q%3D%3D%26transactionId%3DMTUwMTMwNjI5OQ%3D%3D",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "3673"
+            },
+            {
+              "name": "Content-Type",
+              "value": "multipart/form-data; boundary=----WebKitFormBoundaryneLBEyFmOIi6NsaS"
+            },
+            {
+              "name": "Host",
+              "value": "r1as01.visualwebsiteoptimizer.com"
+            },
+            {
+              "name": "Origin",
+              "value": "https://mprosit.axismaxlife.com"
+            },
+            {
+              "name": "Referer",
+              "value": "https://mprosit.axismaxlife.com/"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "empty"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "cross-site"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_a",
+              "value": "888670"
+            },
+            {
+              "name": "_u",
+              "value": "https%3A%2F%2Fmprosit.axismaxlife.com%2Fjourney%2FMg%3D%3D%3Fsource%3DU1BfUkVESVJFQ1Q%3D%3D%26transactionId%3DMTUwMTMwNjI5OQ%3D%3D"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 840,
+          "bodySize": 4334,
+          "postData": {
+            "mimeType": "multipart/form-data; boundary=----WebKitFormBoundaryneLBEyFmOIi6NsaS",
+            "text": "------WebKitFormBoundaryneLBEyFmOIi6NsaS\r\nContent-Disposition: form-data; name=\"a\"\r\n\r\n888670\r\n------WebKitFormBoundaryneLBEyFmOIi6NsaS\r\nContent-Disposition: form-data; name=\"url\"\r\n\r\nhttps://mprosit.axismaxlife.com/journey/Mg==?source=U1BfUkVESVJFQ1Q==&transactionId=MTUwMTMwNjI5OQ==\r\n------WebKitFormBoundaryneLBEyFmOIi6NsaS\r\nContent-Disposition: form-data; name=\"session_id\"\r\n\r\n1769020315\r\n------WebKitFormBoundaryneLBEyFmOIi6NsaS\r\nContent-Disposition: form-data; name=\"recording_id\"\r\n\r\n8\r\n------WebKitFormBoundaryneLBEyFmOIi6NsaS\r\nContent-Disposition: form-data; name=\"vn\"\r\n\r\n4.0.473\r\n------WebKitFormBoundaryneLBEyFmOIi6NsaS\r\nContent-Disposition: form-data; name=\"rand\"\r\n\r\n0.6441376564321117\r\n------WebKitFormBoundaryneLBEyFmOIi6NsaS\r\nContent-Disposition: form-data; name=\"cnnUrl\"\r\n\r\nhttps://mprosit.axismaxlife.com/journey/Mg==?source=U1BfUkVESVJFQ1Q==&transactionId=MTUwMTMwNjI5OQ==\r\n------WebKitFormBoundaryneLBEyFmOIi6NsaS\r\nContent-Disposition: form-data; name=\"eTime\"\r\n\r\n1769021342704\r\n------WebKitFormBoundaryneLBEyFmOIi6NsaS\r\nContent-Disposition: form-data; name=\"fRS\"\r\n\r\ntrue\r\n------WebKitFormBoundaryneLBEyFmOIi6NsaS\r\nContent-Disposition: form-data; name=\"movements\"\r\n\r\n1361\r\n------WebKitFormBoundaryneLBEyFmOIi6NsaS\r\nContent-Disposition: form-data; name=\"clicks\"\r\n\r\n0\r\n------WebKitFormBoundaryneLBEyFmOIi6NsaS\r\nContent-Disposition: form-data; name=\"duration\"\r\n\r\n0.872\r\n------WebKitFormBoundaryneLBEyFmOIi6NsaS\r\nContent-Disposition: form-data; name=\"start_time\"\r\n\r\n1769021303070\r\n------WebKitFormBoundaryneLBEyFmOIi6NsaS\r\nContent-Disposition: form-data; name=\"end_time\"\r\n\r\n1769021341704\r\n------WebKitFormBoundaryneLBEyFmOIi6NsaS\r\nContent-Disposition: form-data; name=\"re\"\r\n\r\n{\"1\":\"D5F3DACBF4D440A2D415F2A96D964D73B\"}\r\n------WebKitFormBoundaryneLBEyFmOIi6NsaS\r\nContent-Disposition: form-data; name=\"he\"\r\n\r\n{\"2\":\"D5F3DACBF4D440A2D415F2A96D964D73B\"}\r\n------WebKitFormBoundaryneLBEyFmOIi6NsaS\r\nContent-Disposition: form-data; name=\"v2\"\r\n\r\ntrue\r\n------WebKitFormBoundaryneLBEyFmOIi6NsaS\r\nContent-Disposition: form-data; name=\"count\"\r\n\r\n35\r\n------WebKitFormBoundaryneLBEyFmOIi6NsaS\r\nContent-Disposition: form-data; name=\"c_mutations\"; filename=\"blob\"\r\nContent-Type: application/octet-stream\r\n\r\n\u001f\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003ÝY]o0\u0014ý+\u0013\t0\u0004èÛZiÒª¶J{¨ªÈ\tnc\bL´ªÊ\u0004H\u0002×\u000eiX·|\\û^{îñ\u0007æé\u001d\t¶¤è\n{¶é\u000eÑ2\u0015D°'èêé\u001d±@6XÞ\u0010·ì\u00101¥&h8ÉüPÀ\u00122\u000bi -k\u0012¦\tm[_Ïð=c\\Ç\u0000}ç!I²¿;ÇûMhHçb\u0014_¶a\r\u000e÷§²\u0001×\u001av\u0018¤ÙÎÌßø*\u0015#ú^e)ûùX\u001b£ 3Æ\u0003ú»ÉÓ0,½m\f\u000b(q\u0014IlF#¶Êø\u0012ÅË8\nG¾YÙS(\u000e\u0019§#ß\u001eÜDËUÄ)ßï±Yåè§¢ì¿\u000e\n:}Ð»!Ã¿P\u0007ÛslE©G¡*<4Um\u0003\u0006­Ð.F`Ñ\u0001[ã\u001aF·\u001bF]úàð0}cÐ·\u0015ZôN7ô)Âô6èÛ\n­Oú,«\u001bFMú\u0014áAú,xâ·Bë¾Wè¯2Ð\u001dÑ°Àéå*cÕsö\u001b^XÝ\u0012j-[ÕaÛ»ë\u001f4\u0012ÎDdÁò\r°Ö,bÆ¼Úêá\n6dx C(KCÐXî *é(\u0006\u0006¥/+\u001d¹GÿdXüª\u001aZª\u0010Ú\u001dw¦Ö&ÚáaòNÖôIäiÐ¤w6¼«5`ü×æâ\u0004ßá@ºÎ;ÅÀ tìËJç\u0003æóß\u000bg\f×¯!Ã\u000f\u0012b`P8Î§\u0017N×g±V\u0018bÞíQÆ\u001fF½ð¨ §ãÏö\u0014_tØ[ÇÝ\u0018AVµÃô¹'¯\u0014ýÓçu|Â\u0000éSR1*Èª\u0007_Úµ\"îUgÜñô\b²ª\u001d\u001e¢ÏQ¬±­Ðú¤Ï\u000fî­\u00185éS\u0007éó`ê[¡õH{Æ#³{Æuºk1®Â·W½»ÛúÖð=ÍWÜ³5`ìý6Z\u0011¾ö\rø*¬!Ã\u000bWa×½~\u001bíÝOL¾\u0005oNm¾[ùÁ\u001dKl'A@( Ù»®ç!é2ZWb<¹©âÍ³NwÄå¯Ç¼\\Â¶ÎY¦äõ¡\u00007ùþå!s«pçn­µyÒùâ\u0007[­BZTÈ´,´PW1]³(M&l&iEW\u0005XÏ²7²Äý\fVeÇÌí Ã<­m;Hê±èQVDåÜ×u*DÄ¯I²KËÌ¦\nsa²üºi.UD¤¾\u00116sîº\u0012äF<\u0018Læ1¥ÜN\u0013²¦3Áo£4æôm:Å·tjÃ=\u0016P>Á\n\tlßæûÛþR:Ù/õeêé\u000b0ÖÐ¨P+;­ô§Pl6+\u0014\u001b°B1|¨\u0015ªpnÈëÃ\u0014ZÚ'Tþ\fHü&;ä»È±\u000fu\u0017G;V\u0001?ÿ\u0001R\u000ebì\u001f\u0000\u0000\r\n------WebKitFormBoundaryneLBEyFmOIi6NsaS\r\nContent-Disposition: form-data; name=\"c_recording\"; filename=\"blob\"\r\nContent-Type: application/octet-stream\r\n\r\n\u001f\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003­[o@\u0010ÿ\n¦Í\u0012®\u0005û`bÁ¦$¢&öeÃeU\u001aØÙ¬Cªÿ¾Ð¤}Ùlæ|gæìl]SÛw}¾¬Ã6ÓVë÷ 6Ûç})OHòcY\u0015Ú£\u0016F\u001f\u000f\u0012\u0000\u0015¡®z-$Ü\u00103ím1\u000f\u0017¾\u0005¨²T\u000eìñ<ZéËô\u0002\rNHC&×#\u0000ÿ)Øb¹\u000bú\tJä,G´séLÇ\u0014U\u000bàªI\u0007ÙÛÙÇè¿¯ë$î³³*ó`#Ã\u001c¿pQüðÉ\u0006\u001bì\u001e$ËÃ\u00117m¿\u001eÓ_ûËTÜ1dÈIÞ\u0010jÒ\u0012ÉÞ¨\u0004\u0015é\u000b\u001aÉÙåN\u000edgÌÕæØí_uâ^mÉ¤\r3VÇ)¨e\u0018Ô±tÇx²\\jÚSêQO,Ï0\u0000KOÏÖa\u0002\u0000\u0000\r\n------WebKitFormBoundaryneLBEyFmOIi6NsaS--\r\n",
+            "params": [
+              {
+                "name": "a",
+                "value": "888670"
+              },
+              {
+                "name": "url",
+                "value": "https://mprosit.axismaxlife.com/journey/Mg==?source=U1BfUkVESVJFQ1Q==&transactionId=MTUwMTMwNjI5OQ=="
+              },
+              {
+                "name": "session_id",
+                "value": "1769020315"
+              },
+              {
+                "name": "recording_id",
+                "value": "8"
+              },
+              {
+                "name": "vn",
+                "value": "4.0.473"
+              },
+              {
+                "name": "rand",
+                "value": "0.6441376564321117"
+              },
+              {
+                "name": "cnnUrl",
+                "value": "https://mprosit.axismaxlife.com/journey/Mg==?source=U1BfUkVESVJFQ1Q==&transactionId=MTUwMTMwNjI5OQ=="
+              },
+              {
+                "name": "eTime",
+                "value": "1769021342704"
+              },
+              {
+                "name": "fRS",
+                "value": "true"
+              },
+              {
+                "name": "movements",
+                "value": "1361"
+              },
+              {
+                "name": "clicks",
+                "value": "0"
+              },
+              {
+                "name": "duration",
+                "value": "0.872"
+              },
+              {
+                "name": "start_time",
+                "value": "1769021303070"
+              },
+              {
+                "name": "end_time",
+                "value": "1769021341704"
+              },
+              {
+                "name": "re",
+                "value": "{\"1\":\"D5F3DACBF4D440A2D415F2A96D964D73B\"}"
+              },
+              {
+                "name": "he",
+                "value": "{\"2\":\"D5F3DACBF4D440A2D415F2A96D964D73B\"}"
+              },
+              {
+                "name": "v2",
+                "value": "true"
+              },
+              {
+                "name": "count",
+                "value": "35"
+              },
+              {
+                "name": "c_mutations",
+                "value": "(binary)"
+              },
+              {
+                "name": "c_recording",
+                "value": "(binary)"
+              }
+            ]
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Age",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript; charset=UTF-8"
+            },
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jan 2026 18:49:04 GMT"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains; preload"
+            },
+            {
+              "name": "Via",
+              "value": "HTTPS/1.1 vlingursrv0765-wcg"
+            },
+            {
+              "name": "server",
+              "value": "r1as01"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "application/javascript",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 316,
+          "bodySize": 0,
+          "_transferSize": 316,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "172.23.64.142",
+        "startedDateTime": "2026-01-21T18:49:05.082Z",
+        "time": 501.47100001049694,
+        "timings": {
+          "blocked": 2.2150000063935296,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.1509999999999998,
+          "wait": 498.8169999939166,
+          "receive": 0.2880000101868063,
+          "_blocked_queueing": 1.1150000063935295,
+          "_blocked_proxy": 0.5890000000000001,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "10970",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "XMLHttpRequest.send",
+                "scriptId": "93",
+                "url": "",
+                "lineNumber": 14,
+                "columnNumber": 22174
+              },
+              {
+                "functionName": "",
+                "scriptId": "64",
+                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                "lineNumber": 0,
+                "columnNumber": 1547687
+              },
+              {
+                "functionName": "e.exports",
+                "scriptId": "64",
+                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                "lineNumber": 0,
+                "columnNumber": 1546127
+              },
+              {
+                "functionName": "e.exports",
+                "scriptId": "64",
+                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                "lineNumber": 0,
+                "columnNumber": 3152117
+              }
+            ],
+            "parent": {
+              "description": "Promise.then",
+              "callFrames": [
+                {
+                  "functionName": "a.request",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 3147966
+                },
+                {
+                  "functionName": "a.<computed>",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 3148231
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 1545993
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "64",
+                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                  "lineNumber": 0,
+                  "columnNumber": 5507387
+                }
+              ],
+              "parent": {
+                "description": "Promise.then",
+                "callFrames": [
+                  {
+                    "functionName": "c.saveDataApiCallService",
+                    "scriptId": "64",
+                    "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                    "lineNumber": 0,
+                    "columnNumber": 5493768
+                  },
+                  {
+                    "functionName": "c.saveDataToServer",
+                    "scriptId": "64",
+                    "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                    "lineNumber": 0,
+                    "columnNumber": 5479053
+                  },
+                  {
+                    "functionName": "l.screen2Save",
+                    "scriptId": "64",
+                    "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                    "lineNumber": 0,
+                    "columnNumber": 6564718
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "64",
+                    "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                    "lineNumber": 0,
+                    "columnNumber": 6661428
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "64",
+                    "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                    "lineNumber": 0,
+                    "columnNumber": 8322012
+                  }
+                ],
+                "parent": {
+                  "description": "Promise.then",
+                  "callFrames": [
+                    {
+                      "functionName": "g",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 8320952
+                    },
+                    {
+                      "functionName": "l.callRunIllustration",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 6661252
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 6655952
+                    },
+                    {
+                      "functionName": "l.validateClientPolicyDetailsForSJB",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 6620659
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "64",
+                      "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                      "lineNumber": 0,
+                      "columnNumber": 6655556
+                    }
+                  ],
+                  "parent": {
+                    "description": "Promise.then",
+                    "callFrames": [
+                      {
+                        "functionName": "",
+                        "scriptId": "64",
+                        "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                        "lineNumber": 0,
+                        "columnNumber": 6652743
+                      }
+                    ],
+                    "parent": {
+                      "description": "Promise.then",
+                      "callFrames": [
+                        {
+                          "functionName": "",
+                          "scriptId": "64",
+                          "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                          "lineNumber": 0,
+                          "columnNumber": 6652698
+                        },
+                        {
+                          "functionName": "l.validateProduct",
+                          "scriptId": "64",
+                          "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                          "lineNumber": 0,
+                          "columnNumber": 6554624
+                        },
+                        {
+                          "functionName": "",
+                          "scriptId": "64",
+                          "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                          "lineNumber": 0,
+                          "columnNumber": 6652640
+                        },
+                        {
+                          "functionName": "",
+                          "scriptId": "64",
+                          "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                          "lineNumber": 0,
+                          "columnNumber": 6553537
+                        }
+                      ],
+                      "parent": {
+                        "description": "Promise.then",
+                        "callFrames": [
+                          {
+                            "functionName": "l.validateProduct",
+                            "scriptId": "64",
+                            "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                            "lineNumber": 0,
+                            "columnNumber": 6552767
+                          },
+                          {
+                            "functionName": "l.proceedToNextScreen",
+                            "scriptId": "64",
+                            "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                            "lineNumber": 0,
+                            "columnNumber": 6652609
+                          },
+                          {
+                            "functionName": "",
+                            "scriptId": "64",
+                            "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                            "lineNumber": 0,
+                            "columnNumber": 6648230
+                          },
+                          {
+                            "functionName": "",
+                            "scriptId": "64",
+                            "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                            "lineNumber": 0,
+                            "columnNumber": 5509581
+                          }
+                        ],
+                        "parent": {
+                          "description": "Promise.then",
+                          "callFrames": [
+                            {
+                              "functionName": "",
+                              "scriptId": "64",
+                              "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                              "lineNumber": 0,
+                              "columnNumber": 5507444
+                            }
+                          ],
+                          "parent": {
+                            "description": "Promise.then",
+                            "callFrames": [
+                              {
+                                "functionName": "c.saveDataApiCallService",
+                                "scriptId": "64",
+                                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                "lineNumber": 0,
+                                "columnNumber": 5493768
+                              },
+                              {
+                                "functionName": "c.saveDataToServer",
+                                "scriptId": "64",
+                                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                "lineNumber": 0,
+                                "columnNumber": 5479053
+                              },
+                              {
+                                "functionName": "l.screen2Save",
+                                "scriptId": "64",
+                                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                "lineNumber": 0,
+                                "columnNumber": 6564718
+                              },
+                              {
+                                "functionName": "l.checkProductSuitability",
+                                "scriptId": "64",
+                                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                "lineNumber": 0,
+                                "columnNumber": 6647381
+                              },
+                              {
+                                "functionName": "",
+                                "scriptId": "64",
+                                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                "lineNumber": 0,
+                                "columnNumber": 6810912
+                              },
+                              {
+                                "functionName": "a",
+                                "scriptId": "64",
+                                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                "lineNumber": 0,
+                                "columnNumber": 3167151
+                              },
+                              {
+                                "functionName": "",
+                                "scriptId": "64",
+                                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                "lineNumber": 0,
+                                "columnNumber": 3168197
+                              },
+                              {
+                                "functionName": "e.<computed>",
+                                "scriptId": "64",
+                                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                "lineNumber": 0,
+                                "columnNumber": 3167330
+                              },
+                              {
+                                "functionName": "a",
+                                "scriptId": "64",
+                                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                "lineNumber": 0,
+                                "columnNumber": 6502518
+                              },
+                              {
+                                "functionName": "",
+                                "scriptId": "64",
+                                "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                "lineNumber": 0,
+                                "columnNumber": 6502612
+                              }
+                            ],
+                            "parent": {
+                              "description": "Promise.then",
+                              "callFrames": [
+                                {
+                                  "functionName": "a",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 6502595
+                                },
+                                {
+                                  "functionName": "",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 6502664
+                                },
+                                {
+                                  "functionName": "",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 6502462
+                                },
+                                {
+                                  "functionName": "",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 6811109
+                                },
+                                {
+                                  "functionName": "N",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 3135552
+                                },
+                                {
+                                  "functionName": "l",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 3136028
+                                },
+                                {
+                                  "functionName": "",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 3117812
+                                },
+                                {
+                                  "functionName": "",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 3134509
+                                },
+                                {
+                                  "functionName": "u",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 2968027
+                                },
+                                {
+                                  "functionName": "qg",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 2969022
+                                },
+                                {
+                                  "functionName": "ut",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 2760685
+                                },
+                                {
+                                  "functionName": "dt",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 2760742
+                                },
+                                {
+                                  "functionName": "zr",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 2789258
+                                },
+                                {
+                                  "functionName": "Wr",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 2789598
+                                },
+                                {
+                                  "functionName": "Ur",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 2789682
+                                },
+                                {
+                                  "functionName": "Yr",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 2789769
+                                },
+                                {
+                                  "functionName": "",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 2791103
+                                },
+                                {
+                                  "functionName": "Cm",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 2910460
+                                },
+                                {
+                                  "functionName": "it",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 2759828
+                                },
+                                {
+                                  "functionName": "Xr",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 2791082
+                                },
+                                {
+                                  "functionName": "Na",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 2775778
+                                },
+                                {
+                                  "functionName": "va",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 2775708
+                                },
+                                {
+                                  "functionName": "ga",
+                                  "scriptId": "64",
+                                  "url": "https://mprosit.axismaxlife.com/ob/static/js/main.70c469c3.js",
+                                  "lineNumber": 0,
+                                  "columnNumber": 2775519
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_2",
+        "request": {
+          "method": "POST",
+          "url": "https://mprosit.axismaxlife.com/api/proposals/saveProposalData",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "mprosit.axismaxlife.com"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/api/proposals/saveProposalData"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "application/json, text/plain, */*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "agentid",
+              "value": ""
+            },
+            {
+              "name": "apitoken",
+              "value": "eyJhbGciOiJIUzI1NiJ9.eyJwYXlsb2FkIjp7InV0bUNvZGUiOm51bGwsInJlc3BvbnNlQWdlbnQiOm51bGwsInNvdXJjZSI6IlNQX1JFRElSRUNUIiwidXNlciI6IiIsInRyYW5zYWN0aW9uSWQiOiIxNTAxMzA2Mjk5In0sImp0aSI6IjhiNzgyZTQ2LWFkMjAtNDdlZi05NTc3LWU1NDA4Mjg4MzlhYiIsImlhdCI6MTc2OTAyMTI5NywiZXhwIjoxNzY5MDIzMDk3fQ.tXqCi7KwabnDjQ8e5sfWZ_5Tsm3G9JcpXzSzOgjx-7Y"
+            },
+            {
+              "name": "browserid",
+              "value": ""
+            },
+            {
+              "name": "content-length",
+              "value": "17216"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json;charset=UTF-8"
+            },
+            {
+              "name": "issplogincase",
+              "value": "true"
+            },
+            {
+              "name": "origin",
+              "value": "https://mprosit.axismaxlife.com"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://mprosit.axismaxlife.com/journey/Mg==?source=U1BfUkVESVJFQ1Q==&transactionId=MTUwMTMwNjI5OQ=="
+            },
+            {
+              "name": "responseagentid",
+              "value": "[object Object]"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "transactionid",
+              "value": "1501306299"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "x-correlation-id",
+              "value": "731dc869-2688-4027-95c7-2aec4e4d48f8"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 17216,
+          "postData": {
+            "mimeType": "application/json;charset=UTF-8",
+            "text": "{\"request\":{\"data\":{\"values\":{\"formType\":\"self\",\"policyNumber\":null,\"stage\":\"2\",\"firstName\":\"UDIT \",\"lastName\":\"Kumar \",\"hasLastName\":false,\"gender\":\"M\",\"dateOfBirth\":\"1986-05-09\",\"education\":\"Graduate\",\"occupation\":\"Salaried\",\"income\":\"1000000\",\"permanentReflexive\":\"no\",\"communicationHouseNo\":\"11/6,NETHAJI NAGAR,KULATHUPALA\",\"communicationRoadNo\":\"YAM,COIMBATORE -\",\"communicationCity\":\"Coimbatore \",\"communicationState\":\"TAMIL NADU\",\"communicationPinCode\":\"641109\",\"authorizedSignatoryGender\":\"M\",\"authorizedSignatoryNationality\":\"indian\",\"insurerLastName\":\"Kumar \",\"insurerPermanentReflexive\":\"no\",\"insurerPermanentHouseNo\":\"90 a AH Street\",\"insurerPermanentCity\":\"Jalandhar \",\"insurerPermanentPinCode\":\"144001\",\"insurerPermanentCountry\":\"India\",\"insurerCommunicationHouseNo\":\"11/6,NETHAJI NAGAR,KULATHUPALA\",\"insurerCommunicationRoadNo\":\"YAM,COIMBATORE -\",\"insurerCommunicationCity\":\"Coimbatore \",\"insurerCommunicationState\":\"TAMIL NADU\",\"insurerCommunicationPinCode\":\"641109\",\"permanentHouseNo\":\"90 a AH Street\",\"permanentCity\":\"Jalandhar \",\"permanentPinCode\":\"144001\",\"permanentCountry\":\"India\",\"pregnant\":\"no\",\"pregnancyComplications\":\"no\",\"coverageOption\":0,\"isCustomerBenefit\":\"no\",\"needOfInsurance\":\"Protection\",\"desiredAnnualIncome\":\"no\",\"annualIncome\":\"1000000\",\"productType\":\"Traditional\",\"lifeStage\":\"Married with no children\",\"productId\":\"133\",\"productName\":\"Axis Max Life Smart Wealth Plan\",\"premiumPaymentTerm\":6,\"policyTerm\":7,\"secondary_PolicyTerm\":0,\"recommendedFundTypes\":\"no\",\"isSecondAnnuitantPanValidated\":false,\"isSecondAnnuitantDobValidated\":false,\"isNomineePEP\":false,\"isPayorPEP\":false,\"isAuthorizedSignatoryPEP\":false,\"isLifeInsuredPEP\":false,\"politicallyExposed\":\"no\",\"isFamilyMemberOfLifeInsuredPEP\":false,\"isProposerPEP\":false,\"multipleNominees\":[],\"isBankDetailsSame\":true,\"bankAccountNo\":\"13132434554\",\"bankAccountIFSC\":\"UTIB0000404\",\"bankName\":\"HADAPSAR PUNE\",\"typeofAccount\":\"Savings\",\"panFlag\":false,\"dobFlag\":false,\"authorizedSignatoryPanFlag\":false,\"authorizedSignatoryDobFlag\":false,\"insurerPanFlag\":false,\"insurerDobFlag\":false,\"panFlagForPayor\":false,\"dobFlagForPayor\":false,\"aadhaarOcrStatus\":\"Not_Initiated\",\"panOcrStatus\":\"Not_Initiated\",\"nachOcrStatus\":\"Not_Initiated\",\"permanentVoterIdOcrStatus\":\"Not_Initiated\",\"permanentAadhaarOcrStatus\":\"Not_Initiated\",\"communicationAadhaarOcrStatus\":\"Not_Initiated\",\"communicationVoterIdOcrStatus\":\"Not_Initiated\",\"payorAadhaarOcrStatus\":\"Not_Initiated\",\"payorPanOcrStatus\":\"Not_Initiated\",\"transactionId\":\"1501306299\",\"id\":\"69711f6e56d8374c8b43fbd0\",\"email\":\"uditkumar@gmail.com\",\"payorName\":\"UDIT Kumar\",\"spStage\":\"1\",\"isSpJourneyCompleted\":false,\"spSSNCode\":\"618359\",\"mobileNumber\":\"9650989475\",\"enableNatureOfDutiesForAll\":false,\"currentlyPostedLocation\":\"no\",\"professionalDiver\":\"no\",\"involvesOffshore\":\"no\",\"natureOfDuties\":\"no\",\"doesRoleInvolved\":\"no\",\"anyIllness\":\"no\",\"eInsurance\":\"no\",\"isAddressProofSame\":true,\"isSecondAnnuitantAddressProofSame\":true,\"isPayorDifferent\":\"no\",\"payorDateOfBirth\":\"1986-05-09T00:00:00.000+00:00\",\"payorGender\":\"M\",\"payorAnnualIncome\":\"1000000\",\"payorState\":\"TAMIL NADU\",\"payorAddress\":\"YAM,COIMBATORE -\",\"currentActiveScreen\":2,\"topBarStatus\":{\"screen1\":\"full\",\"screen2\":\"half\",\"screen3\":\"empty\",\"screen4\":\"empty\",\"screen5\":\"empty\",\"screen6\":\"empty\"},\"multipleFTINNumbers\":[],\"objectiveOfInsurance\":null,\"insurerName\":\"UDIT Kumar\",\"insurerDateOfBirth\":\"1986-05-09T00:00:00.000+00:00\",\"insurerGender\":\"M\",\"insurerAnnualIncome\":\"1000000\",\"insurerEducation\":\"Graduate\",\"insurerOccupation\":\"Salaried\",\"insurerCriticalIllness\":\"no\",\"isInsurerCriticalIllnessPolicyIssued\":false,\"isInsurerCriticalIllnessPolicyOffered\":false,\"criticalIllnessPolicy\":\"no\",\"isIssued\":false,\"isOffered\":false,\"isInsurerPregnancyComplications\":\"no\",\"isInsurerPregnant\":\"no\",\"currentlyInsurerPostedLocation\":\"no\",\"insurerProfessionalDiver\":\"no\",\"insurerInvolvesInOffshore\":\"no\",\"insurerNatureOfDuties\":\"no\",\"doesInsurerRoleInvolved\":\"no\",\"insurerHadAnyIllness\":\"no\",\"valueMSA\":\"Not yet calculated\",\"valueFSA\":\"Not yet calculated\",\"valueOfFSAProposer\":\"Not yet calculated\",\"valueOfMSAProposer\":\"Not yet calculated\",\"ocrKyc\":[],\"requiredDocuments\":{\"underWriterNotes\":\"\",\"qcNotes\":\"\"},\"ocrDocumentScreen3\":null,\"isPaymentDone\":false,\"isRenewelPaymentDone\":false,\"isEmailSent\":false,\"isifscMicrValidated\":false,\"isIllustrationGenerated\":false,\"neftBankDetailsStatus\":\"Modified\",\"authorizedSignatoryOTPSubmittedDate\":null,\"gstRiderAddedAnnualPremium\":0,\"multipleFTINNumbersOfInsurer\":[],\"ftinOfPayor\":\"no\",\"multipleFTINNumbersOfPayor\":[],\"isSiOpted\":\"false\",\"isTermsAccepted\":false,\"isChargeableIncome\":false,\"isIncomeExceedLimit\":false,\"isTaxableIncome\":false,\"isItOtherIncome\":false,\"isNRI\":false,\"isApplicableIncome\":false,\"isSecondAnnuitantChargeableIncome\":false,\"isSecondAnnuitantIncomeExceedLimit\":false,\"isSecondAnnuitantTaxableIncome\":false,\"isSecondAnnuitantItOtherIncome\":false,\"isSecondAnnuitantNRI\":false,\"isSecondAnnuitantApplicableIncome\":false,\"isYblNisCase\":false,\"ckycDataFetched\":false,\"isCkycApiTrigerred\":false,\"underwritingJourneyFlag\":\"FALSE\",\"dedupeFlag\":true,\"ulipTrainingExpirationDate\":null,\"amlTrainingExpirationDate\":null,\"aml\":false,\"ulip\":false,\"customerId\":\"NTE2OTY3OTc5\",\"spAgentId\":null,\"branchCode\":\"0012\",\"channel\":\"X\",\"customerClassification\":\"SBNRE\",\"isPANAvailable\":false,\"isMICRAvailable\":false,\"labIndex\":0,\"smartWithdrawalPayoutStartYear\":null,\"ukyc\":\"Y\",\"isAgentSelf\":\"FAILURE\",\"isSecondAnnuitantPEP\":false,\"isDedupeValidated\":false,\"isDedupeAdressEdited\":false,\"specifiedPersonName\":null,\"nomineeHavePan\":\"no\",\"nomineeOptionForIfscMicr\":\"nomineeIfsc\",\"isPartnerRedirected\":false,\"isvideoMERStatus\":\"No\",\"isvideoMERFlag\":false,\"isvideoMERProposerFlag\":false,\"isteleMERProposerFlag\":false,\"isYblTelesalesCase\":false,\"isEducationPresent\":false,\"isOccupationPresent\":false,\"isSellerDeclarationSubmitted\":\"no\",\"isSellerDeclarationApplicable\":\"no\",\"isReplacementSaleApiCalled\":\"N\",\"isDirectDebitOptionDisable\":false,\"pasa\":{\"isPasaApplied\":\"\",\"isPasaEligible\":\"\",\"uniqueId\":\"\",\"custId\":\"\",\"offerType\":\"\",\"pasaCategory1\":\"\",\"categoryCode1\":\"\",\"pasaCategory2\":\"\",\"categoryCode2\":\"\",\"premium\":\"\",\"sumAssured\":\"\",\"pasaProducts\":[{\"productId\":\"\",\"productName\":\"\",\"productType\":\"\",\"premiumBackOption\":\"\",\"lifeStageEventBenefit\":\"\",\"deathBenefit\":\"\"}]},\"isCSFBChannel\":\"No\",\"isSIBChannel\":\"No\",\"isNewBankOrCaJourney\":false,\"isMahindraChannel\":\"NO\",\"csgDetails\":{\"CSGCategory\":\"\",\"isCSGApplied\":false},\"brmsFieldConfigurationDetails\":{\"productRestricted\":\"\",\"productRestrictMessage\":\"\",\"campaignID\":\"\",\"campaignIDLength\":\"\",\"campaignIDDataType\":\"\",\"campaignLocationDataType\":\"\",\"campaignLocationLength\":\"\",\"campaignLocation\":\"\",\"custIdDataType\":\"\",\"custIdLength\":\"\",\"customerID\":\"\",\"refIdDataType\":\"\",\"refIdLength\":\"\",\"referenceId\":\"\",\"form1\":\"\",\"form2\":\"\",\"formC\":\"\",\"digitalJourney\":\"\",\"isBRMSApiApplicable\":\"\",\"pOSPJourney\":\"\",\"nRInationality\":\"\",\"indianNationaility\":\"\",\"lEChannelCode\":\"\",\"lEChannelName\":\"\",\"productAnnualMode\":\"\",\"productMinPrem\":\"\",\"productModeCode\":\"\",\"productMonthlyMode\":\"\",\"productQuarterlyMode\":\"\",\"productSemiMode\":\"\",\"cashOption\":\"\",\"chequeOption\":\"\",\"dDOption\":\"\",\"directDebitMannualOption\":\"\",\"onlineOption\":\"\",\"renewalDirectDebit\":\"\",\"renewalEnach\":\"\",\"renewalCheque\":\"\",\"renewalECS\":\"\",\"splitPayment\":\"\",\"medicalScheduling\":\"\",\"dNDOption\":\"\",\"sellerDeclarationonMob\":\"\",\"auditRequestId\":\"\",\"serviceStatus\":\"\",\"jvBranding\":\"\",\"productMinPremAnnual\":\"\",\"productMinPremSemi\":\"\",\"productMinPremQuarterly\":\"\",\"productMinPremMonthly\":\"\",\"singlePremiumApplicable\":\"\",\"whatsappConsent\":\"\",\"formCSchemeA\":\"\",\"formCSchemeB\":\"\",\"nosellerdeclaration\":\"\",\"pasaEnablement\":\"\",\"PasaTermProducts\":[],\"PasaSavingProducts\":[],\"isPasaHashingEnabled\":\"\"},\"diyBrmsFieldConfigurationDetails\":{\"utmBasedLogic\":{\"channelCode\":\"\",\"staticAgentId\":\"\",\"journeyType\":\"\",\"customerDataFetch\":\"\",\"formType\":\"\",\"productEnabled\":\"\",\"advisorId\":\"\",\"advisorIdVerbiage\":\"\",\"leChannelCode\":\"\",\"leChannelName\":\"\",\"leSecondaryChannel\":\"\",\"continueJourneyUrl\":\"\",\"journeyTypeProductCode\":\"\",\"posvApplicability\":\"\",\"paymentMode\":\"\",\"paymentType\":\"\",\"renewalType\":\"\",\"diyJourneyType\":\"\",\"partnerLogoDisplay\":\"\",\"jvRemoval\":\"\",\"pasaEnablement\":\"\",\"smsDailyLimit\":\"\",\"smsInstanceLimit\":\"\",\"coolDownPeriod\":\"\",\"sourceChannel\":\"\",\"dolphinPushChannelCode\":\"\",\"influencerChannel\":\"\",\"psmGrid\":\"\",\"reKYCdue\":\"\",\"productCommissionability\":\"\",\"advisoridviacampaignid\":\"\",\"whatsappConsent\":\"\",\"formCSchemeA\":\"\",\"formCSchemeB\":\"\",\"nosellerdeclaration\":\"\",\"PasaTermProducts\":[],\"PasaSavingProducts\":[],\"isPasaHashingEnabled\":\"\"}},\"isFalconJourney\":false,\"isFalconProduct\":false,\"agentFraudCheckDetails\":{\"source\":\"\",\"panMatched\":\"\",\"mobileMatched\":\"\",\"emailMatched\":\"\",\"dobMatched\":\"\",\"isAgentSelf\":\"\",\"agentFraudIdentified\":\"\",\"sellerContactDeclaration\":\"\",\"auditRequestId\":\"\",\"agentFraudCheckSkip\":\"\",\"requestTimestamp\":\"\",\"responseTimestamp\":\"\",\"serviceStatus\":\"\"},\"isPermAddressEdited\":false,\"isCommAddressEdited\":false,\"isAddressProofTypeEdited\":\"No\",\"isteleMERStatus\":\"No\",\"isExistingLICover\":\"Yes\",\"recommendedProducts\":[\"Max Life Saral Jeevan Bima\",\"Max Life Cancer Insurance Plan\",\"Forever Young Pension Plan\",\"Max Life Life Perfect Partner Super\",\"Max Life Fast Track Super Plan\",\"Max Life Monthly Income Advantage Plan\",\"Max Life Platinum Wealth Plan\",\"Max Life Future Genius Education Plan\",\"Max Life Savings Advantage Plan\",\"Max Life Flexi Wealth Plus Plan\",\"Max Life Smart Wealth Plan\",\"Max Life Saral Pension Plan\",\"Max Life Smart Secure Plus Plan\",\"Max Life Smart Wealth Income Plan\",\"Max Life Flexi Wealth Plus Plan\",\"Max Life Smart Wealth Advantage guarantee Plan\"],\"riskAppetite\":\"Medium\",\"secondaryPremiumPaymentTerm\":0,\"secondaryPolicyTerm\":0,\"irpFundsSelectedValue\":{},\"psmApiStatus\":\"true\",\"isPosSeller\":false,\"wipCases\":{\"CIP\":false,\"HUF\":false,\"category\":null},\"isCPDAPIValidated\":false,\"policySplitting\":\"N\",\"replacementSale\":\"N\",\"isCoiApplicable\":false,\"defenceChannel\":\"no\",\"new2YblNoPan\":false,\"firstPremiumBreakOption\":0,\"secondPremiumBreakOption\":0,\"createdTime\":\"2026-01-21T18:48:14.311+00:00\",\"isRaIdPresent\":false,\"isNeedToEnableResendButton\":false,\"axisJourneyPaymentType\":\"DEFAULT\",\"isPEPDisabled\":\"no\",\"disableScreen6ForAgenyYblPOS\":\"No\",\"isNewAxisApplication\":false,\"isProspectiveYBLCustomer\":false,\"isPosvCovidQuestionY\":false,\"isNriEmodelYBLCustomer\":false,\"selfDeclerationConsent\":false,\"isForm60acceptable\":\" \",\"isCRIFvalidated\":\" \",\"isPanModifiedForThanos\":false,\"bancaId\":\"6702183517\",\"leadId\":\"244441700289\",\"isOnboardedProduct\":\"no\",\"journeyType\":\"J3\",\"relationShipWithProposerFromSoruce\":false,\"isSuperAppRedirected\":false,\"showHealthQuesOnPosv\":\"Y\",\"showCovidQuesOnPosv\":false,\"resendCount\":\"0\",\"insuredResendCount\":\"0\",\"isCipQuestionMarkedYes\":false,\"isFormCSchemeAJourney\":false,\"isFormCSchemeBJourney\":false,\"emailSMSConsent\":false,\"isCatChannel\":\"N\",\"isDiscrepancyPosvReTriggered\":false,\"physicalJourneyEnabled\":\"No\",\"vernacularDeclarationYes\":false,\"vernacularDeclarationNo\":false,\"isPhysicalAxisCase\":\"No\",\"isPennyDropApplicable\":false,\"pennyDropConsent\":\"No\",\"citiBankComConsent\":false,\"nonEditableNonMandatoryFields\":{},\"isTalicBIQueueSuppressed\":\"N\",\"isEkycDobVerified\":\"No\",\"rAJourneyApplicable\":false,\"isInsurerVerified\":false,\"isProposerEkycDobVerified\":false,\"isInsurerEkycDobVerified\":false,\"isPayorEkycDobVerified\":false,\"iibResponse\":null,\"isECSRenewalPaymentDone\":false,\"enableFieldsOnUI\":[],\"paymentStatusPopupFlag\":false,\"appointeeOptionForIfscMicr\":\"appointeeIfsc\",\"appointeeNationality\":\"indian\",\"raHopJourneyApplicable\":false,\"isLinkTriggeredToSp\":false,\"spDigitalConsentSkip\":\"No\",\"clientIdValidated\":false,\"shorterJourneyFlag\":\"No\",\"atrFlag\":\"N\",\"paymentFirstConsent\":false,\"nominee1\":{\"agentFraudCheckDetails\":{\"firstName\":\"\",\"lastName\":\"\",\"panNumber\":\"\",\"phoneNumber\":\"\",\"email\":\"\",\"dob\":\"\",\"source\":\"\",\"panMatched\":\"\",\"mobileMatched\":\"\",\"emailMatched\":\"\",\"dobMatched\":\"\",\"isAgentSelf\":\"\",\"agentFraudIdentified\":\"\",\"sellerContactDeclaration\":\"\",\"agentFraudCheckSkip\":\"\",\"requestTimestamp\":\"\",\"responseTimestamp\":\"\",\"serviceStatus\":\"\",\"auditRequestId\":\"\"}},\"nominee2\":{\"agentFraudCheckDetails\":{\"firstName\":\"\",\"lastName\":\"\",\"panNumber\":\"\",\"phoneNumber\":\"\",\"email\":\"\",\"dob\":\"\",\"source\":\"\",\"panMatched\":\"\",\"mobileMatched\":\"\",\"emailMatched\":\"\",\"dobMatched\":\"\",\"isAgentSelf\":\"\",\"agentFraudIdentified\":\"\",\"sellerContactDeclaration\":\"\",\"agentFraudCheckSkip\":\"\",\"requestTimestamp\":\"\",\"responseTimestamp\":\"\",\"serviceStatus\":\"\",\"auditRequestId\":\"\"}},\"nominee3\":{\"agentFraudCheckDetails\":{\"firstName\":\"\",\"lastName\":\"\",\"panNumber\":\"\",\"phoneNumber\":\"\",\"email\":\"\",\"dob\":\"\",\"source\":\"\",\"panMatched\":\"\",\"mobileMatched\":\"\",\"emailMatched\":\"\",\"dobMatched\":\"\",\"isAgentSelf\":\"\",\"agentFraudIdentified\":\"\",\"sellerContactDeclaration\":\"\",\"agentFraudCheckSkip\":\"\",\"requestTimestamp\":\"\",\"responseTimestamp\":\"\",\"serviceStatus\":\"\",\"auditRequestId\":\"\"}},\"appointee1\":{\"agentFraudCheckDetails\":{\"firstName\":\"\",\"lastName\":\"\",\"panNumber\":\"\",\"phoneNumber\":\"\",\"email\":\"\",\"dob\":\"\",\"source\":\"\",\"panMatched\":\"\",\"mobileMatched\":\"\",\"emailMatched\":\"\",\"dobMatched\":\"\",\"isAgentSelf\":\"\",\"agentFraudIdentified\":\"\",\"sellerContactDeclaration\":\"\",\"agentFraudCheckSkip\":\"\",\"requestTimestamp\":\"\",\"responseTimestamp\":\"\",\"serviceStatus\":\"\",\"auditRequestId\":\"\"}},\"appointee2\":{\"agentFraudCheckDetails\":{\"firstName\":\"\",\"lastName\":\"\",\"panNumber\":\"\",\"phoneNumber\":\"\",\"email\":\"\",\"dob\":\"\",\"source\":\"\",\"panMatched\":\"\",\"mobileMatched\":\"\",\"emailMatched\":\"\",\"dobMatched\":\"\",\"isAgentSelf\":\"\",\"agentFraudIdentified\":\"\",\"sellerContactDeclaration\":\"\",\"agentFraudCheckSkip\":\"\",\"requestTimestamp\":\"\",\"responseTimestamp\":\"\",\"serviceStatus\":\"\",\"auditRequestId\":\"\"}},\"appointee3\":{\"agentFraudCheckDetails\":{\"firstName\":\"\",\"lastName\":\"\",\"panNumber\":\"\",\"phoneNumber\":\"\",\"email\":\"\",\"dob\":\"\",\"source\":\"\",\"panMatched\":\"\",\"mobileMatched\":\"\",\"emailMatched\":\"\",\"dobMatched\":\"\",\"isAgentSelf\":\"\",\"agentFraudIdentified\":\"\",\"sellerContactDeclaration\":\"\",\"agentFraudCheckSkip\":\"\",\"requestTimestamp\":\"\",\"responseTimestamp\":\"\",\"serviceStatus\":\"\",\"auditRequestId\":\"\"}},\"stpAddressProfSource\":\"NA\",\"isPanValidatedSource\":\"NA\",\"stpIdDobproofSource\":\"NA\",\"isRenderProcessDone\":\"N\",\"proceedByFifthScreenButton\":false,\"totalEcsRemainingAttempts\":5,\"currentMonthSelected\":false,\"isYBLGenieSubStatusCall\":false,\"documentSharingApplicableToRA\":false,\"checkIfAxisCase\":false,\"policyPurchasedAfter22SeptConsent\":false,\"isSecondBankAsSameFirstCheck\":false,\"isInterimSelected\":false,\"showInterimOption\":false,\"isEpfoMobChange\":true,\"isPasaTermProductApplicable\":false,\"isPasaSavingProductApplicable\":false,\"isInstantQcTriggered\":false,\"userDocumentSubmittedAtUiInThanos\":false,\"panChangeStatus\":false,\"isCKYCAvailable\":\"no\",\"isPOSVReTriggered\":false,\"isInsuredPOSVReTriggered\":false,\"thanosMandatoryUserDocumentsUploaded\":\"PENDING\",\"sellerConsentCompleted\":\"PENDING\",\"proposerEkycSkip\":\"No\",\"accountAggregatorEkycSkip\":\"No\",\"isCs2LinkTriggerred\":\"No\",\"isITRJourneyTriggered\":\"No\",\"isBSJourneyTriggered\":\"No\",\"posvRetriggerForInsurer\":\"N\",\"isIVCresentforForm2\":\"N\",\"insuredEkycSkip\":\"No\",\"payorEkycSkip\":\"No\",\"proposerEkycFailure\":\"No\",\"insurerEkycFailure\":\"No\",\"payorEkycFailure\":\"No\",\"isCkycNumberVerified\":false,\"currAddProofPayorSource\":\"NA\",\"isPanValidatedPayorSource\":\"NA\",\"isDobValidatedInsuredSource\":\"NA\",\"pcb\":\"no\",\"GSTWaiverAccountType\":null,\"nationality\":\"indian\",\"GSTWaiverRequired\":\"no\",\"relationshipManagerSupport\":\"No\",\"effectiveDateOfCoverage\":\"2026-01-21T18:48:25.420Z\",\"preferredMailingAddress\":\"CRA\",\"isIibCalledForInsurer\":\"No\",\"isIibCalledForProposer\":\"No\",\"iibResForProposer\":{},\"iibResForInsurer\":{},\"ciriderSAMaxLimit\":\"40\",\"permanentState\":\"UTTAR PRADESH\",\"alternateMobileNo\":\"9876543210\",\"permanentRoadNo\":\"jgjfj\",\"existingLICover\":\"57557\",\"premiumType\":null,\"variant\":\"Short Term Income\",\"modeOfPayment\":\"Annual\",\"riderTerm\":null,\"accidentalDeathRiderTerm\":null,\"incomePayoutFrequency\":\"Annual\",\"premiumCommitment\":\"75757575\",\"agentBranchPincode\":\"\",\"solutionName\":null,\"recordId\":\"69711f6e56d8374c8b43fbd0\",\"isNotAutoSave\":false,\"declarantOtpValidated\":\"No\",\"agentLevel\":\"\",\"agentSegment\":\"\",\"agentRole\":\"XAG\",\"designation\":\"\",\"uwAgentJoiningDt\":\"2000-01-01\",\"agentId\":null,\"regionalAdvisorIdType\":\"\",\"riderCIPremiumType\":\"\",\"riderADDPremiumType\":\"\",\"posvJourneyFlag\":\"FALSE\",\"insuredPosvJourneyFlag\":\"FALSE\",\"isPaymentModeChanged\":false,\"checkAPIRateLimit\":false,\"requestSourceSetInLocalstorage\":\"SP_REDIRECT\",\"saveType\":\"callSave\",\"isMsalesRedirected\":false,\"agentChannel\":null,\"agentJoiningdate\":null,\"esgFundSelected\":\"N\",\"SSESReturnOfPremium\":\"\",\"isSSESProduct\":\"No\",\"SSESSolveOption\":\"BASE\",\"isWIPCategory\":null,\"SFPSPlan\":\"BASE\",\"isPtfPayment\":\"no\",\"policyStatus\":\"\",\"agentSegmentDesc\":\"\",\"licenceNum\":\"NA\",\"agencyContest\":\"\",\"isEarlyWealthPlus\":\"no\",\"isProposerEkycVerified\":\"\",\"isInsurerEkycVerified\":\"\",\"isPayorEkycVerified\":\"\",\"ekycNotPerformedProposer\":false,\"ekycNotPerformedInsurer\":false,\"ekycNotPerformedPayor\":false,\"isCaseOpenedFromDashboard\":false,\"riderPremiumType\":\"\",\"licenceExpiryDateForAgent\":\"\",\"isRaLogin\":\"No\",\"mappedAgentId\":null,\"isCkycWipCase\":true,\"disableCatAxisClientId\":\"Y\",\"financialDocumentSelected\":\"\",\"utmCode\":\"\",\"preferredLanguageOfCommunication\":\"English\",\"H1F\":\"[]\",\"H25F\":\"[]\",\"H2A6\":\"[]\",\"H26A6\":\"[]\",\"isDhuCase\":\"Y\",\"ivcRetriggeredCount\":0,\"isSPLoginCase\":true}}}}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "name": "access-control-allow-headers",
+              "value": "Content-Type, *"
+            },
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET, POST"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "content-length",
+              "value": "409"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "cross-origin-opener-policy",
+              "value": "same-origin"
+            },
+            {
+              "name": "cross-origin-resource-policy",
+              "value": "same-origin"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 21 Jan 2026 18:49:05 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"199-EJLQzPs2Ijj+xvUzDdQFY+IdIx4\""
+            },
+            {
+              "name": "origin-agent-cluster",
+              "value": "?1"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "referrer-policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "secure",
+              "value": "true"
+            },
+            {
+              "name": "server",
+              "value": "envoy"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=0; includeSubDomains"
+            },
+            {
+              "name": "vary",
+              "value": "Origin, Accept-Encoding"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "x-correlation-id",
+              "value": "731dc869-2688-4027-95c7-2aec4e4d48f8"
+            },
+            {
+              "name": "x-dns-prefetch-control",
+              "value": "off"
+            },
+            {
+              "name": "x-download-options",
+              "value": "noopen"
+            },
+            {
+              "name": "x-envoy-upstream-service-time",
+              "value": "369"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "x-permitted-cross-domain-policies",
+              "value": "none"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 409,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 1095,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "10.103.65.9",
+        "startedDateTime": "2026-01-21T18:49:05.546Z",
+        "time": 396.3730000104988,
+        "timings": {
+          "blocked": 2.1039999989354983,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.351,
+          "wait": 393.5679999949392,
+          "receive": 0.35000001662410796,
+          "_blocked_queueing": 1.0069999989354983,
+          "_blocked_proxy": 0.641,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "12242",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "XMLHttpRequest.send",
+                "scriptId": "93",
+                "url": "",
+                "lineNumber": 14,
+                "columnNumber": 22174
+              },
+              {
+                "functionName": "Ne",
+                "scriptId": "107",
+                "url": "",
+                "lineNumber": 0,
+                "columnNumber": 58810
+              },
+              {
+                "functionName": "Te.onmessage",
+                "scriptId": "107",
+                "url": "",
+                "lineNumber": 0,
+                "columnNumber": 61540
+              }
+            ],
+            "parentId": {
+              "id": "31",
+              "debuggerId": "-7110095636297901084.1259469348541833288"
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "cache": {},
+        "connection": "3128",
+        "pageref": "page_2",
+        "request": {
+          "method": "POST",
+          "url": "https://r1as01.visualwebsiteoptimizer.com/analyze?_a=888670&_u=https%3A%2F%2Fmprosit.axismaxlife.com%2Fjourney%2FMg%3D%3D%3Fsource%3DU1BfUkVESVJFQ1Q%3D%3D%26transactionId%3DMTUwMTMwNjI5OQ%3D%3D",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "4682"
+            },
+            {
+              "name": "Content-Type",
+              "value": "multipart/form-data; boundary=----WebKitFormBoundaryYzxsU8qWmWAB2gZK"
+            },
+            {
+              "name": "Host",
+              "value": "r1as01.visualwebsiteoptimizer.com"
+            },
+            {
+              "name": "Origin",
+              "value": "https://mprosit.axismaxlife.com"
+            },
+            {
+              "name": "Referer",
+              "value": "https://mprosit.axismaxlife.com/"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "empty"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "cross-site"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_a",
+              "value": "888670"
+            },
+            {
+              "name": "_u",
+              "value": "https%3A%2F%2Fmprosit.axismaxlife.com%2Fjourney%2FMg%3D%3D%3Fsource%3DU1BfUkVESVJFQ1Q%3D%3D%26transactionId%3DMTUwMTMwNjI5OQ%3D%3D"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 840,
+          "bodySize": 5782,
+          "postData": {
+            "mimeType": "multipart/form-data; boundary=----WebKitFormBoundaryYzxsU8qWmWAB2gZK",
+            "text": "------WebKitFormBoundaryYzxsU8qWmWAB2gZK\r\nContent-Disposition: form-data; name=\"a\"\r\n\r\n888670\r\n------WebKitFormBoundaryYzxsU8qWmWAB2gZK\r\nContent-Disposition: form-data; name=\"url\"\r\n\r\nhttps://mprosit.axismaxlife.com/journey/Mg==?source=U1BfUkVESVJFQ1Q==&transactionId=MTUwMTMwNjI5OQ==\r\n------WebKitFormBoundaryYzxsU8qWmWAB2gZK\r\nContent-Disposition: form-data; name=\"session_id\"\r\n\r\n1769020315\r\n------WebKitFormBoundaryYzxsU8qWmWAB2gZK\r\nContent-Disposition: form-data; name=\"recording_id\"\r\n\r\n8\r\n------WebKitFormBoundaryYzxsU8qWmWAB2gZK\r\nContent-Disposition: form-data; name=\"vn\"\r\n\r\n4.0.473\r\n------WebKitFormBoundaryYzxsU8qWmWAB2gZK\r\nContent-Disposition: form-data; name=\"rand\"\r\n\r\n0.2675078179039161\r\n------WebKitFormBoundaryYzxsU8qWmWAB2gZK\r\nContent-Disposition: form-data; name=\"cnnUrl\"\r\n\r\nhttps://mprosit.axismaxlife.com/journey/Mg==?source=U1BfUkVESVJFQ1Q==&transactionId=MTUwMTMwNjI5OQ==\r\n------WebKitFormBoundaryYzxsU8qWmWAB2gZK\r\nContent-Disposition: form-data; name=\"eTime\"\r\n\r\n1769021346703\r\n------WebKitFormBoundaryYzxsU8qWmWAB2gZK\r\nContent-Disposition: form-data; name=\"fRS\"\r\n\r\ntrue\r\n------WebKitFormBoundaryYzxsU8qWmWAB2gZK\r\nContent-Disposition: form-data; name=\"movements\"\r\n\r\n1511\r\n------WebKitFormBoundaryYzxsU8qWmWAB2gZK\r\nContent-Disposition: form-data; name=\"clicks\"\r\n\r\n0\r\n------WebKitFormBoundaryYzxsU8qWmWAB2gZK\r\nContent-Disposition: form-data; name=\"duration\"\r\n\r\n1.777\r\n------WebKitFormBoundaryYzxsU8qWmWAB2gZK\r\nContent-Disposition: form-data; name=\"start_time\"\r\n\r\n1769021303070\r\n------WebKitFormBoundaryYzxsU8qWmWAB2gZK\r\nContent-Disposition: form-data; name=\"end_time\"\r\n\r\n1769021345703\r\n------WebKitFormBoundaryYzxsU8qWmWAB2gZK\r\nContent-Disposition: form-data; name=\"re\"\r\n\r\n{\"1\":\"D5F3DACBF4D440A2D415F2A96D964D73B\"}\r\n------WebKitFormBoundaryYzxsU8qWmWAB2gZK\r\nContent-Disposition: form-data; name=\"he\"\r\n\r\n{\"2\":\"D5F3DACBF4D440A2D415F2A96D964D73B\"}\r\n------WebKitFormBoundaryYzxsU8qWmWAB2gZK\r\nContent-Disposition: form-data; name=\"v2\"\r\n\r\ntrue\r\n------WebKitFormBoundaryYzxsU8qWmWAB2gZK\r\nContent-Disposition: form-data; name=\"count\"\r\n\r\n36\r\n------WebKitFormBoundaryYzxsU8qWmWAB2gZK\r\nContent-Disposition: form-data; name=\"c_mutations\"; filename=\"blob\"\r\nContent-Type: application/octet-stream\r\n\r\n\u001f\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003íZkoÛ6\u0014ý+\u0001-`9zZ÷eK¶a)Ò¢¨³\rC\u001b\u0004ÅØ\\dÉ¨¸^áÿ¾KÒ\u000f*HùÕ\u0016E\u0001#±IÞ×¹\u0014©÷:\u0004ÏPghû®év;³\u0004\u0004§IÞ\u0019¾®å\u001cº:ã)£\u001bN·\u0013D\u0011Þ¤\u0011â#\u0012øvËFÝ\u000eàaÁ7\u0012LÞ\u0004TmgtûÏÍoT\f\u0005ÙÈñÞ( þoÃ§ .hSgÕ-wÏ\u0010\tþ×\u0005¾ÂÙ¸ìmN2\u0004Ò«»ng¡'\u0016ù\b1N&á'îë­ 3ÈPB¨ÛvgÅìlÝ··î[à>úH®Ò\fXüôjêY\u0012ÝµlíÓDÓ\"Ïã`9Ôp\u0002æ\u001eÆéøñ'ÚÃ~N\u0011LÉP3¡iÕ 0§ÐA¥ÃU,HrL³1äß\u001fÒl¦Ù1Ëµq\u0011ÂÐ\u0010ýQöÂè9]ÍOÏêjæK\r\u0006HÌà$B\u0004e3\u0004\u00045[\u000b\u0012<c©\u001fj³\u0002ëóÍðñZ\u001eâ\u0005ÿföÅ\u0014d\u0010ë\u0003N0A\u0012kã4Ná\u0017èÎ`¬Ï±Ö¡öaøV\u0014ªÄGh&\u0011Wà\u0015øé8L\u00014Ä4L\u000bæ$K\u001fÑ\u0010\u0000ÌhI\\Q=JñÑ:3¶QÍ\fW¨GA>M\u001f\u001erDÏ\u00107z]Îm¶Ì\u0013õg\t\u00059tëiAÄTm@`#,£U;0æ\u001f»eÀ¿ç#xTCwÏ?ë\u000b\u0014>b¢?¢åC\u000635oðd]1ÌmÓ0~äßÖðÑb\u001ej|È\u000b»oDhò^ígË\u0014ï\fTã3ËáI\u0002d\u000eh+ÕF\u0015)õé¦+j\u0014\u00118\\¥%x\tN\rñ%E\u001c×Q\u001e¥æ\u0015¥Ê\fÍÒ§\u001dßQ&TQ}Ul£ÔôWL\u0003ý5°G×ª\u0004Æïn\b\u0004!¥\u0002ë&cü6Òã8(-\u00150w.\u000bBÒä\u0016:ãcÓôµr3\u0010s\u0010Æ(¢ÐíºøhË\u0017F\u0003×$$\u0000btÛ,\r\rpÎ\u001am¡q«Ö\u0006Úh!÷÷yðB¼J,AËû{û\u0015\nÖ\u0001n>_\u000eUÉ©_©­í:üëõ_«p\r®\u0015NÚ®vu\u0015¯\u001bT]w®ÒÙ<M Jõº\u001dj;¼(Öþei\u0004÷6\u001c\u0010\u00068*'ËÒ°\u0005Èt¨Y\u000eL\u0018m³þ²_²ý\u0002¤¨v¿0°¬g;\u001dÐ\btþ49\nh\u0007p\u0006bdO\u0018-.SqÒX\u0006\u001fÇ\u000f\u000b&I?È,¦.æÁ\u0018ýùî\u001aFM\t\u000f/.\u0016Eoa÷Òlr\u0001ôb\\p\u000f+ñKhÃn\fÝ\u0015CçëÖQÑ\u000bËuswee\u0014Á\u001a8Qx®ecW&\u000b«´Ø÷ãXè\u0006¬Q¹î\u0018M³r\u0013Ù½þçHs\u0006F·\fÑmCJY\nFWH×Äç`ômûngiòy£(â6,\b­ã?-á÷¿\u0013þ\u0001o\u001b\rï7²÷­\u0013~¿1ôÁwÂÿ²ïÕ\u0013>§üõQO© |C¥m½}Øú±á2ÛÞwóZ>Ê¶+çÑJ\u001b¡\u0018óÁè½Ôø\u001a%\u0005t0»Næ\u0005\u0001Æ¢}>\u0017ÛØ­Yý°#\u000f¹Æiî\u0006£^-X¼>+Óó(àEÝ7wí\u0005ØÎØùï\bä*\u000e·×9äÑ£¹½\u001c:\r\n»r\u0014û¾T¸Æéó¢è\u0018òh\u001a\u001dªà¢Ò$\u0013!¯ÍF?N\u0001\f\u001f`[}!\u0018º*\u001eàN\r,rM*Xè6¨YºÑ3ÁBOÕ\u000fq§\nB\u0002\u0016>¥6K7úq&XØ1û\u0001îTaQhRÀÂn+¥\u001bý8\u0017,{Ýï è&\bQÌ]\u001a0\"Þ5Ò½\f<\f¼­GÂ`oð¬U\fÂc;2¡<Sel\u0015\u0010zòiG} ¤-ÏJM åü\nP\u0005\u0005Ii\u0018°\u0003\u0004\"\u00162¯°¡È¼}²ÌÖ¿éfP÷w(·ª](Î\\^\u000e\nM*Pö®¿&PZ¯\u000e|%¨qç+\u000e}dM ûO\u0007\rEæeþ\u0004ÓÁýVòÞç¤&ýó®°¡È»û5åýÐ½þ\u0016®rË-¨ÒMCÌÜ\u0002«þ\u0017| ã\u0003Jìè\u001dèÎ\u0006­Ö\u0014°x{ÏÖ³Â28p§Ûº\u0014\u0006\u0014h\räÇ(î\u0007-·à6¨RD*MrX\\\u00055úq&X\u0006ò½e£;UX\u0014\u0014°\fä 6úq\u001eX¼£\u001e¶¼£Î\u001f=ç(Û\néF +\tõ\u0014'Î\u0012_qZRãÎI\u000eõTv¥z¾!?Ë¨qút\u0018nz¾yÌÆÀßû½ôZ¨ñ¢¯zÔÏ-²KùV×¼õ×84ÚÝ;oyCÅvË/qnÓb<}çóxsGkYÒ+6Ëi¸b³ë/3Ö°ª^J¸&®KÙÕ3ojw¿,\\\u001fïÕ \u0013Ù®$\u001aúí4Ô\u0016!»\u001bÿ|EhõEh\u001bò\"T\\áËP!\\\u0013×ÉpÛ~ìK\u000e­£i¨Ñ»ÕÝÿ&¬Cg.\u0000\u0000\r\n------WebKitFormBoundaryYzxsU8qWmWAB2gZK\r\nContent-Disposition: form-data; name=\"c_recording\"; filename=\"blob\"\r\nContent-Type: application/octet-stream\r\n\r\n\u001f\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003íVÉnÛ0\u0010ý\u0015\u0005>¦\"HJ¤Ä\u001e\fx+jÀ\u001bì Er\u0019È2\u001b\u0013D¦ÑæïK[\nX>ØHö Ëðæq8EdC \bçÐ\u000fï½®7¯\u0006Ëñâîó\u000fevÖO·*Ûx·Þpü­c´¶Ná>Q^\u001aýNÑõ¾zÃÑ\u0012Ýi­\u0013s²|Ú\u001bÏÐ$yÖ{{ãïý#\ftaeñ\bÊÉý ÞÁ\u0019\u000bZßúþa_¢\u0019Så¥.J\u0014PV-oJÿ8~/§u¬eRÈl­dä4\u0017ñf£Ç\u0007yÁê@F=níâà¯O\u0013U\u001cýÿ4IÙt×YH³ÓE\r¥MT¶«Üt\u0016Foö©]íMÖ*Söù¬ýlÆZ²É_À\u0000\u0017\u001cqÆ)8\u0012\b bÀ¨\u0000ch\u0004GäS~è;FDÛwWbÛw\u001fa.÷.÷\u000eÑ.×O.þ!/Ms\u0013Ñ*5R\u0016äµÝêJPÜ×ÖêüÕàgYRçß¨4ÇMJù¾«»ÞjÑ¡åA0IÖ2k]¯N·2}rýágjWOPSëøI¯?¼µ@c\u0014Ð¸\u0019\u000e0P\u00103\nQ\\ÍnÄY;»Wb;»\u001fa.÷.÷Ãÿ~vÁ]õÅI)ð\u0003¡\u0010\u0010hÈ\u0017fqûP»\u001aÿúÐ\u001d\t  R\u0015/\u0014\u0011\u0012<vÏ\u001e÷¤$d \u0004\u0001\u001aTÏ\u0010\u0007í¯ójüU$ÔU\u000fÇ\u0002\b\u000eÝó5 ì7°\u000fu 6\r\u0000\u0000\r\n------WebKitFormBoundaryYzxsU8qWmWAB2gZK--\r\n",
+            "params": [
+              {
+                "name": "a",
+                "value": "888670"
+              },
+              {
+                "name": "url",
+                "value": "https://mprosit.axismaxlife.com/journey/Mg==?source=U1BfUkVESVJFQ1Q==&transactionId=MTUwMTMwNjI5OQ=="
+              },
+              {
+                "name": "session_id",
+                "value": "1769020315"
+              },
+              {
+                "name": "recording_id",
+                "value": "8"
+              },
+              {
+                "name": "vn",
+                "value": "4.0.473"
+              },
+              {
+                "name": "rand",
+                "value": "0.2675078179039161"
+              },
+              {
+                "name": "cnnUrl",
+                "value": "https://mprosit.axismaxlife.com/journey/Mg==?source=U1BfUkVESVJFQ1Q==&transactionId=MTUwMTMwNjI5OQ=="
+              },
+              {
+                "name": "eTime",
+                "value": "1769021346703"
+              },
+              {
+                "name": "fRS",
+                "value": "true"
+              },
+              {
+                "name": "movements",
+                "value": "1511"
+              },
+              {
+                "name": "clicks",
+                "value": "0"
+              },
+              {
+                "name": "duration",
+                "value": "1.777"
+              },
+              {
+                "name": "start_time",
+                "value": "1769021303070"
+              },
+              {
+                "name": "end_time",
+                "value": "1769021345703"
+              },
+              {
+                "name": "re",
+                "value": "{\"1\":\"D5F3DACBF4D440A2D415F2A96D964D73B\"}"
+              },
+              {
+                "name": "he",
+                "value": "{\"2\":\"D5F3DACBF4D440A2D415F2A96D964D73B\"}"
+              },
+              {
+                "name": "v2",
+                "value": "true"
+              },
+              {
+                "name": "count",
+                "value": "36"
+              },
+              {
+                "name": "c_mutations",
+                "value": "(binary)"
+              },
+              {
+                "name": "c_recording",
+                "value": "(binary)"
+              }
+            ]
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Age",
+              "value": "0"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript; charset=UTF-8"
+            },
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jan 2026 18:49:09 GMT"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains; preload"
+            },
+            {
+              "name": "Via",
+              "value": "HTTPS/1.1 vlingursrv0765-wcg"
+            },
+            {
+              "name": "server",
+              "value": "r1as01"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "application/javascript",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 316,
+          "bodySize": 0,
+          "_transferSize": 316,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "172.23.64.142",
+        "startedDateTime": "2026-01-21T18:49:09.083Z",
+        "time": 649.8800000117626,
+        "timings": {
+          "blocked": 2.6130000119665637,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.248,
+          "wait": 646.7370000061924,
+          "receive": 0.28199999360367656,
+          "_blocked_queueing": 1.0240000119665638,
+          "_blocked_proxy": 0.562,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      }
+    ]
+  }
+}
