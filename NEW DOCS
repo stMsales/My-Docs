@@ -40,3 +40,63 @@ curl 'https://mprosit.axismaxlife.com/api/illustrations/runProductIllustrations'
         }
     }
 }
+
+
+
+
+{
+    "request": {
+        "data": {
+            "formType": "self",
+            "firstName": "UDIT ",
+            "lastName": "Kumar ",
+            "gender": "M",
+            "permanentReflexive": "no",
+            "communicationState": "TAMIL NADU",
+            "desiredAnnualIncome": "no",
+            "annualIncome": "1000000",
+            "productName": "Axis Max Life Smart Wealth Plan",
+            "premiumPaymentTerm": 5,
+            "policyTerm": 10,
+            "transactionId": "2000111492",
+            "id": "69710fcf8877e73832c79341",
+            "email": "uditkumar@gmail.com",
+            "insurerName": "UDIT Kumar",
+            "insurerGender": "M",
+            "isAgentSelf": "FAILURE",
+            "isNewBankOrCaJourney": false,
+            "isFormCSchemeAJourney": false,
+            "isFormCSchemeBJourney": false,
+            "nationality": "indian",
+            "GSTWaiverRequired": "no",
+            "effectiveDateOfCoverage": "2026-01-21",
+            "permanentState": "TAMIL NADU",
+            "variant": "Lump Sum",
+            "modeOfPayment": "Annual",
+            "smoker": "no",
+            "premiumCommitment": "70000",
+            "requestSource": "SP_REDIRECT",
+            "isCATChannel": "N",
+            "proposerAge": 39,
+            "productId": "133",
+            "stateKey": "TN",
+            "maxState": null,
+            "maxStateKey": "HR",
+            "customerDiscount": "no",
+            "agentId": null,
+            "insurerLastName": "Kumar ",
+            "isDefenceChannel": "no",
+            "PSMAnnualIncome": "1000000",
+            "checkPSMQuestion": "Yes",
+            "isPOSP": false,
+            "isIPCJourney": "N",
+            "isBajajCapitalChannel": false,
+            "isCSFBChannel": "No",
+            "customerSignDate": "",
+            "journeyType": "J3",
+            "isSPLoginCase": true,
+            "channelName": "X",
+            "irpFundsSelectedValue": {}
+        }
+    }
+}
