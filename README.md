@@ -11,28 +11,85 @@ https://mprodev.axismaxlife.com/api/transformerservice/createlead
 Received request at createlead with body
 
 
-Response from external API
-
-
-Processed request in {} ms
-
-
-Processed request in ms For CreateLead :{}
 
 
 Request For ProcessLandingRecord at
 
 
-
-2026-01-16 15:29:25 4084d940-cbdc-49eb-9606-51ea4a658894  matrix-sit-transformer-hub-fargate-container [http-nio-8080-exec-3]INFO  c.m.m.s.i.AxisLeadTransformationServiceImpl - Request For ProcessLandingRecord at : ThanosHookInsertLandingDTO{crmId=585117500317, customerId='NTE2OTY3OTc5', agentId='618359', insertDate=Fri Jan 16 15:29:25 UTC 2026, agentName='Preetam', agentEmailId='LGemailID@JK.COM', agentPhoneNo='789898989', agentRole='ASM', customerTitle='mr', firstName='UDIT ', middleName='', surName='Kumar', dob=Fri May 09 00:00:00 UTC 1986, gender='M', pan='AJFPV8829C', mobileNumber='9650989475', emailAddress='uditkumar@gmail.com', stdOffice='', telNo='', stdOffice1='', telNo1='', ckycNo='50022770388857', address1='11/6,NETHAJI NAGAR,KULATHUPALAYAM,COIMBATORE', address2=' -', city='COIMBATORE', state='tamil_nadu', country='India', pinCode='641109', permanentAddress1='90 a', permanentAddress2='AH Street', city1='JALANDHAR', state1='', country1='INDIA', pinCode1='144001', branchCode='0012', branchName='HADAPSAR PUNE', customerSegment='PRIME', schemeCode='SBNRE', constitutionCode='01', kycStatus='12', omniFlowLink=1, crmStatus=5, accountNo='13132434554', accountType='SBA', ifscCode='UTIB0000404', accountOpeningDate=Wed Mar 01 00:00:00 UTC 2000, offerId=401, offerName='PASAR11', ukycFlag='Y', spCode='SP0069520143', additionalData=AdditionalDataDTO [isNumberIndian=Y, isLIEqualsPH=Y, dobOfInsured=, education=Graduate, occupation=Salaried, hasExistingLICover=N, existingLICover=, leadSourceOption=, insuredFirstName=, insuredMiddleName=, insuredLastName=, insuredGender=, relationWithProposer=], psmDetails=PSMDetailsRequestDTO [productType=Non-POS, isRecommendedProduct=Y, isSolution=N, recommendedProducts=[Max Life Saral Jeevan Bima, Max Life Cancer Insurance Plan, Forever Young Pension Plan, Max Life Life Perfect Partner Super, Max Life Fast Track Super Plan, Max Life Monthly Income Advantage Plan, Max Life Platinum Wealth Plan, Max Life Future Genius Education Plan, Max Life Savings Advantage Plan, Max Life Flexi Wealth Plus Plan, Max Life Smart Wealth Plan, Max Life Saral Pension Plan, Max Life Smart Secure Plus Plan, Max Life Smart Wealth Income Plan, Max Life Flexi Wealth Plus Plan, Max Life Smart Wealth Advantage guarantee Plan], selectedProduct=133, selectedProductName=Max Life Smart Wealth Pla, income=1000000, lifeStage=1, goalSelected=protection, riskAppetite=Medium]}
-
-
-
-
-
-https://mprosit.maxlifeinsurance.com/fulfillment/api/proposalservices/saveproposaldata
-
-
-
-
-https://mprosit.axismaxlife.com/journey/MQ==?source=U1BfUkVESVJFQ1Q=&apitoken=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKd1lYbHNiMkZrSWpwN0luVjBiVU52WkdVaU9tNTFiR3dzSW5KbGMzQnZibk5sUVdkbGJuUWlPbTUxYkd3c0luTnZkWEpqWlNJNklsTlFYMUpGUkVsU1JVTlVJaXdpZFhObGNpSTZJaUlzSW5SeVlXNXpZV04wYVc5dVNXUWlPaUl4TlRBeE16QXpOVFkwSW4wc0ltcDBhU0k2SWpBeU5qWTFPV1l3TFRnd05EUXRORGd6TUMxaU5EbGlMVEF4TXpJeFl6a3laamd4TnlJc0ltbGhkQ0k2TVRjMk9EZ3hNelF6TVN3aVpYaHdJam94TnpZNE9ERTFNak14ZlEuS3ppaEdXUFhxVUlLSjZ0QjRFVVM0NksyTEJ0akpLX0p2U1hIV1EzaFVpaw==
+curl --location --request POST 'https://mprosit.axismaxlife.com/api/illustrations/runProductIllustrations' \
+--header 'accept: application/json, text/plain, */*' \
+--header 'accept-language: en-US,en;q=0.9' \
+--header 'agentid;' \
+--header 'apitoken: eyJhbGciOiJIUzI1NiJ9.eyJwYXlsb2FkIjp7InV0bUNvZGUiOm51bGwsInJlc3BvbnNlQWdlbnQiOm51bGwsInNvdXJjZSI6IlNQX1JFRElSRUNUIiwidXNlciI6IiIsInRyYW5zYWN0aW9uSWQiOiIxNTAxMzA2Mjg5In0sImp0aSI6IjdjZjRhY2JmLWQ5NDktNDVkOC05MGIyLWU2MzEzZTZlMTYwMSIsImlhdCI6MTc2OTAxNjczMiwiZXhwIjoxNzY5MDE4NTMyfQ.3zFvsbW514P5-xddAe55BF3F2qsC-0i_PA0oV5UAyx0' \
+--header 'browserid;' \
+--header 'content-type: application/json;charset=UTF-8' \
+--header 'issplogincase: true' \
+--header 'origin: https://mprosit.axismaxlife.com' \
+--header 'priority: u=1, i' \
+--header 'referer: https://mprosit.axismaxlife.com/journey/Mg==?source=U1BfUkVESVJFQ1Q==&transactionId=MTUwMTMwNjI4OQ==' \
+--header 'responseagentid: [object Object]' \
+--header 'sec-ch-ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"' \
+--header 'sec-ch-ua-mobile: ?0' \
+--header 'sec-ch-ua-platform: "Windows"' \
+--header 'sec-fetch-dest: empty' \
+--header 'sec-fetch-mode: cors' \
+--header 'sec-fetch-site: same-origin' \
+--header 'transactionid: 1501306289' \
+--header 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36' \
+--header 'x-correlation-id: d690f5d0-402c-48ff-a6d3-80553dc8f658' \
+--data-raw '{
+    "request": {
+        "data": {
+            "formType": "self",
+            "firstName": "UDIT ",
+            "lastName": "Kumar ",
+            "gender": "M",
+            "permanentReflexive": "no",
+            "communicationState": "TAMIL NADU",
+            "desiredAnnualIncome": "no",
+            "annualIncome": "1000000",
+            "productName": "Axis Max Life Smart Wealth Plan",
+            "premiumPaymentTerm": 6,
+            "policyTerm": 7,
+            "transactionId": "1501306289",
+            "id": "69710d9984c1a97cd33af6c7",
+            "email": "uditkumar@gmail.com",
+            "insurerName": "UDIT Kumar",
+            "insurerGender": "M",
+            "isAgentSelf": "FAILURE",
+            "isNewBankOrCaJourney": false,
+            "isFormCSchemeAJourney": false,
+            "isFormCSchemeBJourney": false,
+            "nationality": "indian",
+            "GSTWaiverRequired": "no",
+            "effectiveDateOfCoverage": "2026-01-21",
+            "permanentState": "TAMIL NADU",
+            "variant": "Short Term Income",
+            "modeOfPayment": "Annual",
+            "incomePayoutFrequency": "Annual",
+            "premiumCommitment": "252524252",
+            "requestSource": "SP_REDIRECT",
+            "isCATChannel": "N",
+            "proposerAge": 39,
+            "productId": "133",
+            "stateKey": "TN",
+            "maxState": null,
+            "maxStateKey": "HR",
+            "customerDiscount": "no",
+            "agentId": null,
+            "insurerLastName": "Kumar ",
+            "isDefenceChannel": "no",
+            "PSMAnnualIncome": "1000000",
+            "checkPSMQuestion": "Yes",
+            "isPOSP": false,
+            "isIPCJourney": "N",
+            "isBajajCapitalChannel": false,
+            "isCSFBChannel": "No",
+            "customerSignDate": "",
+            "journeyType": "J3",
+            "isSPLoginCase": true,
+            "channelName": "X",
+            "irpFundsSelectedValue": {}
+        }
+    }
+}'
