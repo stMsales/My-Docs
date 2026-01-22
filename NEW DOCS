@@ -1,106 +1,430 @@
-curl 'https://mprosit.axismaxlife.com/api/illustrations/runProductIllustrations' \
-  -H 'accept: application/json, text/plain, */*' \
-  -H 'accept-language: en-US,en;q=0.9' \
-  -H 'agentid;' \
-  -H 'apitoken: eyJhbGciOiJIUzI1NiJ9.eyJwYXlsb2FkIjp7InV0bUNvZGUiOm51bGwsInJlc3BvbnNlQWdlbnQiOm51bGwsInNvdXJjZSI6IlNQX1JFRElSRUNUIiwidXNlciI6IiIsInRyYW5zYWN0aW9uSWQiOiIxNTAxMzA2Mjk5In0sImp0aSI6IjhiNzgyZTQ2LWFkMjAtNDdlZi05NTc3LWU1NDA4Mjg4MzlhYiIsImlhdCI6MTc2OTAyMTI5NywiZXhwIjoxNzY5MDIzMDk3fQ.tXqCi7KwabnDjQ8e5sfWZ_5Tsm3G9JcpXzSzOgjx-7Y' \
-  -H 'browserid;' \
-  -H 'content-type: application/json;charset=UTF-8' \
-  -b '_vwo_uuid_v2=D5F3DACBF4D440A2D415F2A96D964D73B|223876ad3b1d5fb38c8b017649a88e98; _vwo_uuid=D5F3DACBF4D440A2D415F2A96D964D73B; _vis_opt_s=11%7C; _vis_opt_test_cookie=1; _vwo_ds=3%3At_1%2Ca_1%3A0%241766722367%3A19.8035502%3A39_1_0_2%2C41_1_0_2%3A%3A2_1%2C1_1%3A2%3A1769020315%3A1769020315%3A48; msalesredirectionUrl=https://mprosit.axismaxlife.com/api/transformerservice/login/redirectToMpro; payload=S0OrJuFX5nqh6z8h14RMAD/BmnmwabRQ+cTNfKig/wc3xsMpSx2cLuXlL7sKjNruH5F6+RPwTbGvukM2N749fmfJm/Banbk9WExt8EzRj1PUq1UABDTf+qno/MDUz4F0D9fo; token=eyJraWQiOiJiOUxMcWM3V2lMbGc1NjErVVwvU3JxV3JsbFU1RkM2V1kzY1RrXC9NVFRUVGM9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI2amE3YWdtNWk2M3MycThuaXNsczlwMWh1ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoibXByby1waGFub3NcL3JlYWQgbXByby1waGFub3NcL3dyaXRlIiwiYXV0aF90aW1lIjoxNzY5MDIxMjkyLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xXzFicDl2NUI2ciIsImV4cCI6MTc2OTAyNDg5MiwiaWF0IjoxNzY5MDIxMjkyLCJ2ZXJzaW9uIjoyLCJqdGkiOiI4MmZmNzcwNC02YjRiLTQxOTUtYjlmOS1hNDljYWM1NjI0YzQiLCJjbGllbnRfaWQiOiI2amE3YWdtNWk2M3MycThuaXNsczlwMWh1ZSJ9.Sx-UjKd5oOFp_FAQtHxbau2OP672cI1Kho8SxIFFfdIA14BRW43-NMotj5dwd1WaDv-wl8IK0gd2QbnYBAlcmQX9_7qwYxu1bZ-8aC_auwxIu_dmJ_ZMtaVz7gg6cNRXcy-UhSDUz5OZ3BcE0S1KZr1-6ENVPQWZ-V-ZsRiV8tbkNUAtO67h6wmpNkcjTQLGAEEXG0AWUjgsX3Bi_Ok6RT3qGo6L5oGxcwtzwk1i2gY_Re7FdJ7Jv8GJUvWYWUInXeEJGZQegyinowljV3IYjTPpJx479iapVBvG2Y5F42h2aGqBrRlq_ibj7sdaOMZxwyo5KndIMxpGrga7ZiAfRQ; _vwo_sn=2297948%3A12%3Ar1as01.visualwebsiteoptimizer.com%3A8%3A1%3Areferrer%3D%3A84' \
-  -H 'issplogincase: true' \
-  -H 'origin: https://mprosit.axismaxlife.com' \
-  -H 'priority: u=1, i' \
-  -H 'referer: https://mprosit.axismaxlife.com/journey/Mg==?source=U1BfUkVESVJFQ1Q==&transactionId=MTUwMTMwNjI5OQ==' \
-  -H 'responseagentid: [object Object]' \
-  -H 'sec-ch-ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"' \
-  -H 'sec-ch-ua-mobile: ?0' \
-  -H 'sec-ch-ua-platform: "Windows"' \
-  -H 'sec-fetch-dest: empty' \
-  -H 'sec-fetch-mode: cors' \
-  -H 'sec-fetch-site: same-origin' \
-  -H 'transactionid: 1501306299' \
-  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36' \
-  -H 'x-correlation-id: 3515808c-2ec5-4bcc-a51d-4f589b9f2b3b' \
-  --data-raw '{"request":{"data":{"formType":"self","firstName":"UDIT ","lastName":"Kumar ","gender":"M","permanentReflexive":"no","communicationState":"TAMIL NADU","desiredAnnualIncome":"no","annualIncome":"1000000","productName":"Axis Max Life Smart Wealth Plan","premiumPaymentTerm":6,"policyTerm":7,"transactionId":"1501306299","id":"69711f6e56d8374c8b43fbd0","email":"uditkumar@gmail.com","insurerName":"UDIT Kumar","insurerGender":"M","isAgentSelf":"FAILURE","isNewBankOrCaJourney":false,"isFormCSchemeAJourney":false,"isFormCSchemeBJourney":false,"nationality":"indian","GSTWaiverRequired":"no","effectiveDateOfCoverage":"2026-01-22","permanentState":"TAMIL NADU","variant":"Short Term Income","modeOfPayment":"Annual","incomePayoutFrequency":"Annual","premiumCommitment":"75757575","requestSource":"SP_REDIRECT","isCATChannel":"N","proposerAge":39,"productId":"133","stateKey":"TN","maxState":null,"maxStateKey":"HR","customerDiscount":"no","agentId":null,"insurerLastName":"Kumar ","isDefenceChannel":"no","PSMAnnualIncome":"1000000","checkPSMQuestion":"Yes","isPOSP":false,"isIPCJourney":"N","isBajajCapitalChannel":false,"isCSFBChannel":"No","customerSignDate":"","journeyType":"J3","isSPLoginCase":true,"channelName":"X","irpFundsSelectedValue":{}}}}'
+Jan 22, 2026 @ 09:32:33.583
 
 
-{
-    "result": {
-        "response": {
-            "header": null,
-            "msginfo": {
-                "msgCode": "201",
-                "msgInfo": "Success",
-                "msgDescription": "Success"
-            },
-            "payload": {
-                "response": {
-                    "isPSMQuestionRequired": "Yes"
-                }
-            }
-        }
-    }
-}
+[2026-01-22T04:02:33.582Z] [32minfo[39m: {"correlationId":"2d225b38-f44e-4c05-aa15-396d20715bcb","message":"[2d225b38-f44e-4c05-aa15-396d20715bcb] Token verification successful for agent: "}
 
 
+	Jan 22, 2026 @ 09:32:19.561
 
 
-{
-    "request": {
-        "data": {
-            "formType": "self",
-            "firstName": "UDIT ",
-            "lastName": "Kumar ",
-            "gender": "M",
-            "permanentReflexive": "no",
-            "communicationState": "TAMIL NADU",
-            "desiredAnnualIncome": "no",
-            "annualIncome": "1000000",
-            "productName": "Axis Max Life Smart Wealth Plan",
-            "premiumPaymentTerm": 5,
-            "policyTerm": 10,
-            "transactionId": "2000111492",
-            "id": "69710fcf8877e73832c79341",
-            "email": "uditkumar@gmail.com",
-            "insurerName": "UDIT Kumar",
-            "insurerGender": "M",
-            "isAgentSelf": "FAILURE",
-            "isNewBankOrCaJourney": false,
-            "isFormCSchemeAJourney": false,
-            "isFormCSchemeBJourney": false,
-            "nationality": "indian",
-            "GSTWaiverRequired": "no",
-            "effectiveDateOfCoverage": "2026-01-21",
-            "permanentState": "TAMIL NADU",
-            "variant": "Lump Sum",
-            "modeOfPayment": "Annual",
-            "smoker": "no",
-            "premiumCommitment": "70000",
-            "requestSource": "SP_REDIRECT",
-            "isCATChannel": "N",
-            "proposerAge": 39,
-            "productId": "133",
-            "stateKey": "TN",
-            "maxState": null,
-            "maxStateKey": "HR",
-            "customerDiscount": "no",
-            "agentId": null,
-            "insurerLastName": "Kumar ",
-            "isDefenceChannel": "no",
-            "PSMAnnualIncome": "1000000",
-            "checkPSMQuestion": "Yes",
-            "isPOSP": false,
-            "isIPCJourney": "N",
-            "isBajajCapitalChannel": false,
-            "isCSFBChannel": "No",
-            "customerSignDate": "",
-            "journeyType": "J3",
-            "isSPLoginCase": true,
-            "channelName": "X",
-            "irpFundsSelectedValue": {}
-        }
-    }
-}
+[2026-01-22T04:02:19.559Z] [31merror[39m: uncaughtException: Cannot read properties of null (reading 'responsePayload')
 
 
+	Jan 22, 2026 @ 09:32:19.561
 
-eyJhbGciOiJIUzI1NiJ9.eyJwYXlsb2FkIjp7InV0bUNvZGUiOm51bGwsInJlc3BvbnNlQWdlbnQiOm51bGwsInNvdXJjZSI6IlNQX1JFRElSRUNUIiwidXNlciI6IiIsInRyYW5zYWN0aW9uSWQiOiIyMDAwMTExNDkyIn0sImp0aSI6IjVkYWY1ZjZlLTAzOTctNGNlNS1hODc4LWVhNTlkZTdjZTUxYSIsImlhdCI6MTc2OTAxNzMwMCwiZXhwIjoxNzY5NjIyMTAwfQ.RlIPzWvmG3FBbtiS9qp5fdaEbR9aVksTH75IyXK1dPI
+
+TypeError: Cannot read properties of null (reading 'responsePayload')
+
+
+	Jan 22, 2026 @ 09:32:19.561
+
+
+    at /app/common/util/getProposalData.js:89:59
+
+
+	Jan 22, 2026 @ 09:32:19.561
+
+
+    at Request._callback (/app/common/util/request.js:144:4)
+
+
+	Jan 22, 2026 @ 09:32:19.561
+
+
+    at self.callback (/app/node_modules/request/request.js:185:22)
+
+
+	Jan 22, 2026 @ 09:32:19.561
+
+
+    at /opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1831:48
+
+
+	Jan 22, 2026 @ 09:32:19.561
+
+
+    at AsyncLocalStorage.run (node:async_hooks:327:14)
+
+
+	Jan 22, 2026 @ 09:32:19.561
+
+
+    at z.runInContext (/opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1878:37)
+
+
+	Jan 22, 2026 @ 09:32:19.561
+
+
+    at bound  (/opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1831:18)
+
+
+	Jan 22, 2026 @ 09:32:19.561
+
+
+    at Request.emit (node:events:517:28)
+
+
+	Jan 22, 2026 @ 09:32:19.561
+
+
+    at Request.emit (node:domain:552:15)
+
+
+	Jan 22, 2026 @ 09:32:19.561
+
+
+    at Request.<anonymous> (/app/node_modules/request/request.js:1154:10)
+
+
+	Jan 22, 2026 @ 09:32:19.561
+
+
+    at /opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1831:48
+
+
+	Jan 22, 2026 @ 09:32:19.561
+
+
+    at AsyncLocalStorage.run (node:async_hooks:327:14)
+
+
+	Jan 22, 2026 @ 09:32:19.561
+
+
+    at z.runInContext (/opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1878:37)
+
+
+	Jan 22, 2026 @ 09:32:19.561
+
+
+    at Request.<anonymous> (/opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1831:18)
+
+
+	Jan 22, 2026 @ 09:32:19.561
+
+
+    at Request.emit (node:events:517:28)
+
+
+	Jan 22, 2026 @ 09:32:19.561
+
+
+    at Request.emit (node:domain:552:15)
+
+
+	Jan 22, 2026 @ 09:32:19.560
+
+
+[2026-01-22T04:02:19.559Z] [31merror[39m: uncaughtException: Cannot read properties of null (reading 'responsePayload')
+
+
+	Jan 22, 2026 @ 09:32:19.560
+
+
+TypeError: Cannot read properties of null (reading 'responsePayload')
+
+
+	Jan 22, 2026 @ 09:32:19.560
+
+
+    at /app/common/util/getProposalData.js:89:59
+
+
+	Jan 22, 2026 @ 09:32:19.560
+
+
+    at Request._callback (/app/common/util/request.js:144:4)
+
+
+	Jan 22, 2026 @ 09:32:19.560
+
+
+    at self.callback (/app/node_modules/request/request.js:185:22)
+
+
+	Jan 22, 2026 @ 09:32:19.560
+
+
+    at /opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1831:48
+
+
+	Jan 22, 2026 @ 09:32:19.560
+
+
+    at AsyncLocalStorage.run (node:async_hooks:327:14)
+
+
+	Jan 22, 2026 @ 09:32:19.560
+
+
+    at z.runInContext (/opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1878:37)
+
+
+	Jan 22, 2026 @ 09:32:19.560
+
+
+    at bound  (/opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1831:18)
+
+
+	Jan 22, 2026 @ 09:32:19.560
+
+
+    at Request.emit (node:events:517:28)
+
+
+	Jan 22, 2026 @ 09:32:19.560
+
+
+    at Request.emit (node:domain:552:15)
+
+
+	Jan 22, 2026 @ 09:32:19.560
+
+
+    at Request.<anonymous> (/app/node_modules/request/request.js:1154:10)
+
+
+	Jan 22, 2026 @ 09:32:19.560
+
+
+    at /opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1831:48
+
+
+	Jan 22, 2026 @ 09:32:19.560
+
+
+    at AsyncLocalStorage.run (node:async_hooks:327:14)
+
+
+	Jan 22, 2026 @ 09:32:19.560
+
+
+    at z.runInContext (/opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1878:37)
+
+
+	Jan 22, 2026 @ 09:32:19.560
+
+
+    at Request.<anonymous> (/opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1831:18)
+
+
+	Jan 22, 2026 @ 09:32:19.560
+
+
+    at Request.emit (node:events:517:28)
+
+
+	Jan 22, 2026 @ 09:32:19.560
+
+
+    at Request.emit (node:domain:552:15)
+
+
+	Jan 22, 2026 @ 09:32:19.559
+
+
+[2026-01-22T04:02:19.559Z] [31merror[39m: uncaughtException: Cannot read properties of null (reading 'responsePayload')
+
+
+	Jan 22, 2026 @ 09:32:19.559
+
+
+TypeError: Cannot read properties of null (reading 'responsePayload')
+
+
+	Jan 22, 2026 @ 09:32:19.559
+
+
+    at /app/common/util/getProposalData.js:89:59
+
+
+	Jan 22, 2026 @ 09:32:19.559
+
+
+    at Request._callback (/app/common/util/request.js:144:4)
+
+
+	Jan 22, 2026 @ 09:32:19.559
+
+
+    at self.callback (/app/node_modules/request/request.js:185:22)
+
+
+	Jan 22, 2026 @ 09:32:19.559
+
+
+    at /opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1831:48
+
+
+	Jan 22, 2026 @ 09:32:19.559
+
+
+    at AsyncLocalStorage.run (node:async_hooks:327:14)
+
+
+	Jan 22, 2026 @ 09:32:19.559
+
+
+    at z.runInContext (/opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1878:37)
+
+
+	Jan 22, 2026 @ 09:32:19.559
+
+
+    at bound  (/opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1831:18)
+
+
+	Jan 22, 2026 @ 09:32:19.559
+
+
+    at Request.emit (node:events:517:28)
+
+
+	Jan 22, 2026 @ 09:32:19.559
+
+
+    at Request.emit (node:domain:552:15)
+
+
+	Jan 22, 2026 @ 09:32:19.559
+
+
+    at Request.<anonymous> (/app/node_modules/request/request.js:1154:10)
+
+
+	Jan 22, 2026 @ 09:32:19.559
+
+
+    at /opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1831:48
+
+
+	Jan 22, 2026 @ 09:32:19.559
+
+
+    at AsyncLocalStorage.run (node:async_hooks:327:14)
+
+
+	Jan 22, 2026 @ 09:32:19.559
+
+
+    at z.runInContext (/opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1878:37)
+
+
+	Jan 22, 2026 @ 09:32:19.559
+
+
+    at Request.<anonymous> (/opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1831:18)
+
+
+	Jan 22, 2026 @ 09:32:19.559
+
+
+    at Request.emit (node:events:517:28)
+
+
+	Jan 22, 2026 @ 09:32:19.559
+
+
+    at Request.emit (node:domain:552:15) | RequestId: 250ccd20-f747-11f0-8fe3-a5908acd4edc | UserId: N/A | TransactionId: N/A | CorrelationId: aa23c3a1-70fa-4d19-a123-cff2eb47d487
+
+
+	Jan 22, 2026 @ 09:32:19.558
+
+
+TypeError: Cannot read properties of null (reading 'responsePayload')
+
+
+	Jan 22, 2026 @ 09:32:19.558
+
+
+    at /app/common/util/getProposalData.js:89:59
+
+
+	Jan 22, 2026 @ 09:32:19.558
+
+
+    at Request._callback (/app/common/util/request.js:144:4)
+
+
+	Jan 22, 2026 @ 09:32:19.558
+
+
+    at self.callback (/app/node_modules/request/request.js:185:22)
+
+
+	Jan 22, 2026 @ 09:32:19.558
+
+
+    at /opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1831:48
+
+
+	Jan 22, 2026 @ 09:32:19.558
+
+
+    at AsyncLocalStorage.run (node:async_hooks:327:14)
+
+
+	Jan 22, 2026 @ 09:32:19.558
+
+
+    at z.runInContext (/opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1878:37)
+
+
+	Jan 22, 2026 @ 09:32:19.558
+
+
+    at bound  (/opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1831:18)
+
+
+	Jan 22, 2026 @ 09:32:19.558
+
+
+    at Request.emit (node:events:517:28)
+
+
+	Jan 22, 2026 @ 09:32:19.558
+
+
+    at Request.emit (node:domain:552:15)
+
+
+	Jan 22, 2026 @ 09:32:19.558
+
+
+    at Request.<anonymous> (/app/node_modules/request/request.js:1154:10)
+
+
+	Jan 22, 2026 @ 09:32:19.558
+
+
+    at /opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1831:48
+
+
+	Jan 22, 2026 @ 09:32:19.558
+
+
+    at AsyncLocalStorage.run (node:async_hooks:327:14)
+
+
+	Jan 22, 2026 @ 09:32:19.558
+
+
+    at z.runInContext (/opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1878:37)
+
+
+	Jan 22, 2026 @ 09:32:19.558
+
+
+    at Request.<anonymous> (/opt/dynatrace/oneagent/agent/bin/1.327.56.20251218-151643/any/nodejs/nodejsagent.js:1831:18)
+
+
+	Jan 22, 2026 @ 09:32:19.558
+
+
+    at Request.emit (node:events:517:28)
+
+
+	Jan 22, 2026 @ 09:32:19.558
+
+
+    at Request.emit (node:domain:552:15)
