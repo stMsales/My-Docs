@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title>Kickout</title>
+    <style>
+        /* These cannot be inlined and are important for print/PDF */
+        @page {
+          size: A4;
+          margin: 20mm;
+        }
+        @media print {
+          .no-print {
+            display: none !important;
+          }
+        }
+    </style>
+</head>
+<body style="padding:0;margin:0;font-family:Arial, sans-serif;color:#222;line-height:normal;font-size:12pt;-webkit-print-color-adjust:exact;print-color-adjust:exact;">
+<main style="max-width:595px;margin:0 auto;background:#ffffff;padding:16px;">
+    <div style="max-width:90px;margin-bottom:24px;">
+
+    </div>
+
+    <h5 style="margin:0 0 8px;font-weight:500;color:#171A21;font-size:16px;">Policy Issuance</h5>
+
+    <!-- BASIC INFORMATION -->
+    <table style="width:100%;border-collapse:collapse;font-size:11pt;border:1px solid #E8EBF1;margin-bottom:8px;">
+        <thead>
+        <tr>
+            <th colspan="3" style="width:100%;font-family:Arial, sans-serif;background:#E6F4FB;padding:6.5px 8px;font-size:8px;font-weight:600;color:#171A21;text-align:left;">BASIC INFORMATION</th>
+        </tr>
+        <tr>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:33.33%;"> </th>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:33.33%;">PROPOSER</th>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:33.33%;">INSURED</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Customer ID</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${customerIdProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${customerIdInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Existing Customer Journey</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${existingCustomerJourneyProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${existingCustomerJourneyInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">De-Dupe result</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#077D3A;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${deDupeResultProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#D12F23;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${deDupeResultInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">EBCC</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${ebccProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${ebccInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Is Payor Different</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${isPayorDifferentProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${isPayorDifferentInsured}">--</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <!-- KYC DETAILS -->
+    <table style="width:100%;border-collapse:collapse;font-size:11pt;border:1px solid #E8EBF1;margin-bottom:8px;">
+        <thead>
+        <tr>
+            <th colspan="3" style="width:100%;font-family:Arial, sans-serif;background:#E6F4FB;padding:6.5px 8px;font-size:8px;font-weight:600;color:#171A21;text-align:left;">KYC DETAILS</th>
+        </tr>
+        <tr>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:33.33%;"> </th>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:33.33%;">PROPOSER</th>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:33.33%;">INSURED</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">EKYC Service</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${ekycServiceProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${ekycServiceInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">OCR KYC Document selected</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${ocrKycDocumentSelectedProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${ocrKycDocumentSelectedInsured}">--</td>
+        </tr>
+
+        <tr>
+            <td colspan="3" style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:700;background-color:#ffffff;font-size:8px;">OCR Extraction Result</td>
+        </tr>
+        <tr>
+            <td style="padding-left:24px;font-family:Arial, sans-serif;border:none;padding-top:6px;padding-right:8px;padding-bottom:6px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Document Name</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycDocNameProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycDocNameInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="padding-left:24px;font-family:Arial, sans-serif;border:none;padding-top:6px;padding-right:8px;padding-bottom:6px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Document ID</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycDocumentIdProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycDocumentIdInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="padding-left:24px;font-family:Arial, sans-serif;border:none;padding-top:6px;padding-right:8px;padding-bottom:6px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Name</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycNameProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycNameInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="padding-left:24px;font-family:Arial, sans-serif;border:none;padding-top:6px;padding-right:8px;padding-bottom:6px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">EBCC</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycEbccProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycEbccInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="padding-left:24px;font-family:Arial, sans-serif;border:none;padding-top:6px;padding-right:8px;padding-bottom:6px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Date of Birth (DOB)</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycDobProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycDobInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="padding-left:24px;font-family:Arial, sans-serif;border:none;padding-top:6px;padding-right:8px;padding-bottom:6px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Gender</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycGenderProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycGenderInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="padding-left:24px;font-family:Arial, sans-serif;border:none;padding-top:6px;padding-right:8px;padding-bottom:6px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Address</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycAddressProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycAddressInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="padding-left:24px;font-family:Arial, sans-serif;border:none;padding-top:6px;padding-right:8px;padding-bottom:6px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Pincode</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycPincodeProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycPincodeInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="padding-left:24px;font-family:Arial, sans-serif;border:none;padding-top:6px;padding-right:8px;padding-bottom:6px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Is DOB format Correct</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycIsDobFormatCorrectProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycIsDobFormatCorrectInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="padding-left:24px;font-family:Arial, sans-serif;border:none;padding-top:6px;padding-right:8px;padding-bottom:6px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Attempts</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycAttemptsProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycAttemptsInsured}">--</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <!-- PAN DETAILS -->
+    <table style="width:100%;border-collapse:collapse;font-size:11pt;border:1px solid #E8EBF1;margin-bottom:8px;">
+        <thead>
+        <tr>
+            <th colspan="3" style="width:100%;font-family:Arial, sans-serif;background:#E6F4FB;padding:6.5px 8px;font-size:8px;font-weight:600;color:#171A21;text-align:left;">PAN DETAILS</th>
+        </tr>
+        <tr>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:33.33%;"> </th>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:33.33%;">PROPOSER</th>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:33.33%;">INSURED</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Pan Validation</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#077D3A;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${panValidationProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#077D3A;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${panValidationInsured}">--</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:700;background-color:#ffffff;font-size:8px;">OCR Extraction Result</td>
+        </tr>
+        <tr>
+            <td style="padding-left:24px;font-family:Arial, sans-serif;border:none;padding-top:6px;padding-right:8px;padding-bottom:6px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Document Name</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${panDocNameProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${panDocNameInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="padding-left:24px;font-family:Arial, sans-serif;border:none;padding-top:6px;padding-right:8px;padding-bottom:6px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">PAN Number</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${panNumberProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${panNumberInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="padding-left:24px;font-family:Arial, sans-serif;border:none;padding-top:6px;padding-right:8px;padding-bottom:6px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Name</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${panNameProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${panNameInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="padding-left:24px;font-family:Arial, sans-serif;border:none;padding-top:6px;padding-right:8px;padding-bottom:6px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Date of Birth (DOB)</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${panDobProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${panDobInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="padding-left:24px;font-family:Arial, sans-serif;border:none;padding-top:6px;padding-right:8px;padding-bottom:6px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Attempts</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${panAttemptsProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${panAttemptsInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="padding-left:24px;font-family:Arial, sans-serif;border:none;padding-top:6px;padding-right:8px;padding-bottom:6px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Pan Number Match</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#077D3A;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${panNumberMatchProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#D12F23;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${panNumberMatchInsured}">--</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <!-- RESULTS -->
+    <table style="width:100%;border-collapse:collapse;font-size:11pt;border:1px solid #E8EBF1;margin-bottom:8px;">
+        <thead>
+        <tr>
+            <th colspan="3" style="width:100%;font-family:Arial, sans-serif;background:#E6F4FB;padding:6.5px 8px;font-size:8px;font-weight:600;color:#171A21;text-align:left;">RESULTS</th>
+        </tr>
+        <tr>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:33.33%;"> </th>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:33.33%;">PROPOSER</th>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:33.33%;">INSURED</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Name Selected Allowed</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${nameSelectedAllowedProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${nameSelectedAllowedInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">DOB Selected Allowed</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${dobSelectedAllowedProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${dobSelectedAllowedInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">is Popup</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#077D3A;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${isPopupProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#D12F23;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${isPopupInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Text under Popup</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${textUnderPopupProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${textUnderPopupInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">KYC Verified</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycVerifiedProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycVerifiedInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">PAN Verified</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${panVerifiedProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${panVerifiedInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">KYC Waiver From</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycWaiverFromProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${kycWaiverFromInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">PAN Waiver From</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${panWaiverFromProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${panWaiverFromInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">QC Comments</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${qcCommentsProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${qcCommentsInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">Name Selected Doc if Verified</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${nameSelectedDocIfVerifiedProposer}">--</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;" th:text="${nameSelectedDocIfVerifiedInsured}">--</td>
+        </tr>
+        <tr>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;width:33.33%;">DOB Selected Doc if Verified</td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;">
+                <span th:text="${dobSelectedDocIfVerifiedProposer}">--</span>
+                <span style="color:#505662;padding-left:10px;" th:text="${dobSelectedDocIfVerifiedAgeProposer} + ' years'">--</span>
+            </td>
+            <td style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;width:33.33%;">
+                <span th:text="${dobSelectedDocIfVerifiedInsured}">--</span>
+                <span style="color:#505662;padding-left:10px;" th:text="${dobSelectedDocIfVerifiedAgeInsured} + ' years'">--</span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div style="font-size:16px;color:#171A21;font-weight:500;margin-top:32px;margin-bottom:8px;">Underwriting Results</div>
+
+    <!-- Underwriting Results (MSA FSA) -->
+    <table style="width:100%;border-collapse:collapse;font-size:11pt;border:1px solid #E8EBF1;margin-bottom:8px;">
+        <thead>
+        <tr>
+            <th colspan="2" style="width:100%;font-family:Arial, sans-serif;background:#E6F4FB;padding:6.5px 8px;font-size:8px;font-weight:600;color:#171A21;text-align:left;vertical-align:middle;">UW RESULTS <span style="font-size:9px;vertical-align:middle;"> &middot; </span> MSA FSA</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">MSA</td>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${uwMsa}">--</td>
+        </tr>
+        <tr>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">FSA</td>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${uwFsa}">--</td>
+        </tr>
+        <tr>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">SUC</td>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#077D3A;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${uwSucStatus}">--</td>
+        </tr>
+        <tr>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">Medical Grid Result</td>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${uwMedicalGridResult}">--</td>
+        </tr>
+        <tr>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">Initiative Type</td>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${uwInitiativeType}">--</td>
+        </tr>
+        <tr>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">Initiative Type-Rule Run</td>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${uwInitiativeTypeRuleRun}">--</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <!-- Underwriting Results (Kickout Messages) -->
+    <table style="width:100%;border-collapse:collapse;font-size:11pt;border:1px solid #E8EBF1;margin-bottom:8px;">
+        <thead>
+        <tr>
+            <th colspan="2" style="width:100%;font-family:Arial, sans-serif;background:#E6F4FB;padding:6.5px 8px;font-size:8px;font-weight:600;color:#171A21;text-align:left;vertical-align:middle;">UW RESULTS <span style="font-size:9px;vertical-align:middle;"> &middot; </span> KICKOUT MESSAGES</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">Proposal Form Kickout</td>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${kickoutProposalForm}">--</td>
+        </tr>
+        <tr>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">Misc. Kickout</td>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${kickoutMisc}">--</td>
+        </tr>
+        <tr>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">URMU Kickout</td>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${kickoutUrmu}">--</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <!-- SERVICES -->
+    <table style="width:100%;border-collapse:collapse;font-size:11pt;border:1px solid #E8EBF1;margin-bottom:8px;">
+        <thead>
+        <tr>
+            <th colspan="2" style="width:100%;font-family:Arial, sans-serif;background:#E6F4FB;padding:6.5px 8px;font-size:8px;font-weight:600;color:#171A21;text-align:left;">SERVICES</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">Persistency Score</td>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${persistencyScore}">--</td>
+        </tr>
+        <tr>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">Persistency Category</td>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${persistencyCategory}">--</td>
+        </tr>
+        <tr>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">Shield Score</td>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#077D3A;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${shieldScoreStatus}">--</td>
+        </tr>
+        <tr>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">Shield Category</td>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${shieldCategory}">--</td>
+        </tr>
+        <tr>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">CIBIL Credit Score</td>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${cibilCreditScore}">--</td>
+        </tr>
+        <tr>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">Is Affluent</td>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${isAffluent}">--</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <!-- FINANCIAL GRID -->
+    <table style="width:100%;border-collapse:collapse;font-size:11pt;border:1px solid #E8EBF1;margin-bottom:8px;">
+        <thead>
+        <tr>
+            <th colspan="6" style="width:100%;font-family:Arial, sans-serif;background:#E6F4FB;padding:6.5px 8px;font-size:8px;font-weight:600;color:#171A21;text-align:left;">FINANCIAL GRID</th>
+        </tr>
+        <tr>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:16.66%;"> </th>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:16.66%;">UW RESULT</th>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:16.66%;">SERVICE CALL 1</th>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:16.66%;">FINAL INCOME</th>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:16.66%;">REQ DOC 3</th>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:16.66%;">REQ DOC 4</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Common Service 1 -->
+        <tr>
+            <td colspan="6" style="font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:700;background-color:#ffffff;font-size:9px;">Common Service 1</td>
+        </tr>
+        <!-- CS1: Account Aggregator -->
+        <tr>
+            <td style="width:16.66%;font-family:Arial, sans-serif;border:none;padding:6px 8px 6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">Account Aggregator</td>
+            <td style="width:16.66%;font-family:Arial, sans-serif;border:none;padding:6px 3px 6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${fgCs1AccountAggregatorUwResult}">--</td>
+            <td style="width:16.66%;font-family:Arial, sans-serif;border:none;padding:6px 3px 6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${fgCs1AccountAggregatorServiceCall1}">--</td>
+            <td style="width:16.66%;font-family:Arial, sans-serif;border:none;padding:6px 3px 6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${fgCs1AccountAggregatorFinalIncome}">--</td>
+            <td style="width:16.66%;font-family:Arial, sans-serif;border:none;padding:6px 3px 6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${fgCs1AccountAggregatorReqDoc3}">--</td>
+            <td style="width:16.66%;font-family:Arial, sans-serif;border:none;padding:6px 3px 6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${fgCs1AccountAggregatorReqDoc4}">--</td>
+        </tr>
+        <!-- CS1: Bank Statement -->
+        <tr>
+            <td style="width:16.66%;font-family:Arial, sans-serif;border:none;padding:6px 8px 6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">Bank Statement</td>
+            <td style="width:16.66%;font-family:Arial, sans-serif;border:none;padding:6px 3px 6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${fgCs1BankStatementUwResult}">--</td>
+            <td style="width:16.66%;font-family:Arial, sans-serif;border:none;padding:6px 3px 6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${fgCs1BankStatementServiceCall1}">--</td>
+            <td style="width:16.66%;font-family:Arial, sans-serif;border:none;padding:6px 3px 6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${fgCs1BankStatementFinalIncome}">--</td>
+            <td style="width:16.66%;font-family:Arial, sans-serif;border:none;padding:6px 3px 6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${fgCs1BankStatementReqDoc3}">--</td>
+            <td style="width:16.66%;font-family:Arial, sans-serif;border:none;padding:6px 3px 6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${fgCs1BankStatementReqDoc4}">--</td>
+        </tr>
+        <!-- CS1: ITR -->
+        <tr>
+            <td style="width:16.66%;font-family:Arial, sans-serif;border:none;padding:6px 8px 6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">ITR</td>
+            <td style="width:16.66%;font-family:Arial, sans-serif;border:none;padding:6px 3px 6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${fgCs1ItrUwResult}">--</td>
+            <td style="width:16.66%;font-family:Arial, sans-serif;border:none;padding:6px 3px 6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${fgCs1ItrServiceCall1}">--</td>
+            <td style="width:16.66%;font-family:Arial, sans-serif;border:none;padding:6px 3px 6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${fgCs1ItrFinalIncome}">--</td>
+            <td style="width:16.66%;font-family:Arial, sans-serif;border:none;padding:6px 3px 6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${fgCs1ItrReqDoc3}">--</td>
+            <td style="width:16.66%;font-family:Arial, sans-serif;border:none;padding:6px 3px 6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${fgCs1ItrReqDoc4}">--</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <!-- CS 2 Service Status -->
+    <table style="width:100%;border-collapse:collapse;font-size:11pt;border:1px solid #E8EBF1;margin-bottom:8px;">
+        <thead>
+        <tr>
+            <th colspan="4" style="width:100%;font-family:Arial, sans-serif;background:#E6F4FB;padding:6.5px 8px;font-size:8px;font-weight:600;color:#171A21;text-align:left;">CS 2 Service Status</th>
+        </tr>
+        <tr>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:25%;"> </th>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:25%;">AA STATUS</th>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:25%;">CONSENT STATUS</th>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:25%;">DATA FETCH STATUS</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="width:25%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">Account Aggregator</td>
+            <td style="width:25%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${cs2AaStatusAccountAggregator}">--</td>
+            <td style="width:25%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${cs2ConsentStatusAccountAggregator}">--</td>
+            <td style="width:25%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${cs2DataFetchStatusAccountAggregator}">--</td>
+        </tr>
+        <tr>
+            <td style="width:25%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">Bank Statement</td>
+            <td style="width:25%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${cs2AaStatusBankStatement}">--</td>
+            <td style="width:25%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${cs2ConsentStatusBankStatement}">--</td>
+            <td style="width:25%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${cs2DataFetchStatusBankStatement}">--</td>
+        </tr>
+        <tr>
+            <td style="width:25%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#7D8699;font-weight:500;background-color:#ffffff;font-size:9px;">ITR</td>
+            <td style="width:25%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${cs2AaStatusItr}">--</td>
+            <td style="width:25%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${cs2ConsentStatusItr}">--</td>
+            <td style="width:25%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;font-weight:500;background-color:#ffffff;font-size:8px;" th:text="${cs2DataFetchStatusItr}">--</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <!-- Document IDs sent in Request for OCR extraction -->
+    <table style="width:100%;border-collapse:collapse;font-size:11pt;border:1px solid #E8EBF1;margin-bottom:8px;">
+        <thead>
+        <tr>
+            <th colspan="2" style="width:100%;font-family:Arial, sans-serif;background:#E6F4FB;padding:6.5px 8px;font-size:8px;font-weight:600;color:#171A21;text-align:left;">Document IDs sent in Request for OCR extraction</th>
+        </tr>
+        <tr>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:50%;">DOCUMENT SELECTED</th>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:50%;">DOCUMENT ID</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;background-color:#ffffff;font-weight:500;font-size:8px;" th:text="${ocrRequestDocAadhaarSelected}">Aadhaar</td>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;background-color:#ffffff;font-weight:500;font-size:8px;" th:text="${ocrRequestDocAadhaarId}">--</td>
+        </tr>
+        <tr>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;background-color:#ffffff;font-weight:500;font-size:8px;" th:text="${ocrRequestDocPanSelected}">Pan</td>
+            <td style="width:50%;font-family:Arial, sans-serif;border:none;padding:6px 8px;color:#171A21;background-color:#ffffff;font-weight:500;font-size:8px;" th:text="${ocrRequestDocPanId}">--</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <!-- OCR Extraction request Initiated -->
+    <table style="width:100%;border-collapse:collapse;font-size:11pt;border:1px solid #E8EBF1;margin-bottom:8px;">
+        <thead>
+        <tr>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:50%;">OCR Extraction request Initiated</th>
+            <th style="text-align:left;background-color:#f2f2f2;font-weight:600;font-size:7px;text-transform:uppercase;color:#505662;padding:5px 8px;width:50%;" th:text="${ocrExtractionRequestInitiated}">--</th>
+        </tr>
+        </thead>
+    </table>
+
+</main>
+</body>
+</html>
